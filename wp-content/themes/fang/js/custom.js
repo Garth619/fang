@@ -261,6 +261,10 @@ $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 // https://medium.com/@PatrykZabielski/how-to-make-multi-layered-parallax-illustration-with-css-javascript-2b56883c3f27
 
+// https://dribbble.com/shots/4585245-Adventure
+
+// https://tympanus.net/Development/SegmentEffect/index6.html
+
 
 /*
 window.addEventListener('scroll', function(event) {
