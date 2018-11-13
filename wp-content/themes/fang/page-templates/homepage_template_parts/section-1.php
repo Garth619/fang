@@ -8,6 +8,8 @@
 			
 			<div class="layer_2 layer" data-depth="0.60" data-type="parallax"></div>
 			
+<!-- 			<div class="layer_2 layer"></div> -->
+			
 		</div><!-- parallax -->
 
 </section><!-- section_one -->
