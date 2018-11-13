@@ -26,11 +26,10 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
-
 
 <style>
 
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700,800,900|Unna:400,700');
 
 <?php the_field( 'review_css','option'); ?>
 
@@ -48,6 +47,28 @@
 	
 	
 	<header>
+		
+		<div class="header_left">
+			
+			<a class="logo" href="<?php bloginfo('url');?>">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/hero_logo-01.svg"/>
+				
+			</a><!-- header_right -->
+			
+		</div><!-- header_left -->
+		
+		<div class="header_right">
+			
+			<div class="free_consult">
+				
+				<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
+				
+				<a class="phone" href="tel:(303) 993-4323">(303) 993-4323</a>
+				
+			</div><!-- free_consult -->
+			
+		</div><!-- header_right -->
 		
 		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 		

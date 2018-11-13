@@ -84,15 +84,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/content01_bottom_img_desktop.png": {
-		"ft": 32768,
+	"/images/content01_bottom_img_desktop.jpg": {
+		"ft": 16384,
 		"iS": 8335539,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/content01_bottom_img_desktop.png",
+		"oAP": "/images/content01_bottom_img_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/images/content01_bottom_img_laptop.png": {
@@ -522,12 +522,12 @@
 		},
 	"/images/hero_img_middleground_desktop.png": {
 		"ft": 32768,
-		"iS": 2517984,
+		"iS": 230143,
 		"oA": 0,
 		"oAP": "/images/hero_img_middleground_desktop.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -801,6 +801,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/intl_header_icon-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/mouse.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/mouse.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
