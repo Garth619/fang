@@ -266,7 +266,7 @@ $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 // https://tympanus.net/Development/SegmentEffect/index6.html
 
 
-/*
+
 window.addEventListener('scroll', function(event) {
   var depth, i, layer, layers, len, movement, topDistance, translate3d;
   topDistance = this.pageYOffset;
@@ -283,7 +283,7 @@ window.addEventListener('scroll', function(event) {
     layer.style.transform = translate3d;
   }
 });
-*/
+
 
 
 

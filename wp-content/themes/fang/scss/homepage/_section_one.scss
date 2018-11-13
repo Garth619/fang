@@ -1,5 +1,39 @@
+#section_one {
+	background: #fff;
+	height:985px;
+}
+
+
 .parallax {
+	overflow: hidden;
+	position: relative;
+	height:985px;
+}
+
+
+.layer {
 	width:100%;
 	height:985px;
-	background: red;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+
+.layer_bg {
+	background: url(#{$themePath}images/hero_img_background_desktop.jpg) bottom center;
+	background-size:cover;
+}
+
+
+.layer_1 {
+	background: url(#{$themePath}images/hero_img_middleground_desktop.png) bottom center;
+	background-size:cover;
+	z-index:1;
+}
+
+.layer_2 {
+	background: url(#{$themePath}images/hero_img_foreground_desktop.png) bottom center;
+	background-size:cover;
+	z-index:2;
 }
