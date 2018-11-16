@@ -6,7 +6,9 @@
 			
 			<span class="large_header">On Your Side</span><!-- large_header -->
 			
-			<a class="button" href="#consultation">Click For a Free Consultation</a>
+			<a class="button desktop" href="#consultation">Click For a Free Consultation</a>
+			
+			<a class="button mobile" href="#consultation">Tap For a Free Consultation</a>
 			
 			<img class="mouse" src="<?php bloginfo('template_directory');?>/images/mouse.svg"/>
 			
@@ -26,7 +28,7 @@
 						
 						<div class="sec_one_single_slide">
 							
-							<span class="sec_one_slide_title">RESPONSE IN 24-HOURS GUARANTEE</span><!-- sec_one_slide_title -->
+							<span class="sec_one_slide_title">RESPONSE IN<br/> 24-HOURS GUARANTEE</span><!-- sec_one_slide_title -->
 							
 							<span class="sec_one_slide_description">Our attorneys will take the time to meet with you personally or over the phone to gather every detail of your case.</span><!-- sec_one_slide_description -->
 							

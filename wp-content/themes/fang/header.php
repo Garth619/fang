@@ -80,6 +80,14 @@
 			
 		</div><!-- header_right -->
 		
+		<div class="mobile_bar">
+				
+			<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
+				
+			<a class="phone" href="tel:(303) 993-4323">(303)993-4323</a>
+			
+		</div><!-- mobile_bar -->
+		
 		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 		
 	</header>
