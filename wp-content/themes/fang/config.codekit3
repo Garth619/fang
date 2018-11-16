@@ -51,6 +51,17 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/images/1200.jpg": {
+		"ft": 16384,
+		"iS": 197178,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/1200.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/AP_img_nicole.jpg": {
 		"ft": 16384,
 		"iS": 107685,
@@ -473,7 +484,7 @@
 		"oAP": "/images/hero_img_background_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/hero_img_foreground_desktop-reduced.png": {
@@ -572,7 +583,7 @@
 		"oAP": "/images/hero_img_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/hero_logo-01.svg": {
@@ -815,6 +826,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/tablet-new.jpg": {
+		"ft": 16384,
+		"iS": 81895,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/tablet-new.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/test_icon-01.svg": {
 		"ft": 2097152,

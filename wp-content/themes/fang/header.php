@@ -64,7 +64,7 @@
 				
 				<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
 				
-				<a class="phone" href="tel:(303) 993-4323">(303) 993-4323</a>
+				<a class="phone" href="tel:(303) 993-4323">(303)993-4323</a>
 				
 			</div><!-- free_consult -->
 			

@@ -42,11 +42,19 @@
 						
 						<a href="">
 						
-						<div class="learn_wrapper">
+						<div class="learn_wrapper desktop">
 							
 							<span class="learn_title">Learn About the Firm</span><!-- learn_title -->
 							
 							<img src="<?php bloginfo('template_directory');?>/images/header_video_icon-01.svg"/>
+							
+						</div><!-- learn_wrapper -->
+						
+						<div class="learn_wrapper mobile one">
+							
+							<span class="learn_title">Learn About</span><!-- learn_title -->
+							
+							<img src="<?php bloginfo('template_directory');?>/images/content03_icon-02.svg"/>
 							
 						</div><!-- learn_wrapper -->
 						
@@ -61,6 +69,14 @@
 							<div class="play_button"></div><!-- play_button -->
 							
 						</div><!-- play_button_wrapper -->
+						
+						<div class="learn_wrapper mobile two">
+							
+							<span class="learn_title">The Firm</span><!-- learn_title -->
+							
+							<img src="<?php bloginfo('template_directory');?>/images/content03_icon-02.svg"/>
+							
+						</div><!-- learn_wrapper -->
 						
 						</a>
 						
@@ -81,6 +97,7 @@
 			<div class="layer_2 layer" data-depth="0.6" data-type="parallax"></div>
 			
 		</div><!-- parallax -->
+	
 
 </section><!-- section_one -->
 
