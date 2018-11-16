@@ -2,6 +2,8 @@
 	background: #fff;
 	height:985px;
 	z-index: 0;
+	padding-left:50px;
+	padding-right:50px;
 }
 
 
@@ -9,7 +11,7 @@
 	text-align: center;
 	position: relative;
 	z-index: 3;
-	padding:170px 0 0;
+	padding: 157px 0 0;
 	span {
 		color:#fff;
 		display: block;
@@ -69,12 +71,6 @@
 	background: url(#{$themePath}images/hero_img_foreground_desktop.png) bottom center;
 	background-size:cover;
 	z-index:2;
-	
-/*
-	position: absolute;
-	bottom:0;
-	left:0;
-*/
 }
 
 
@@ -84,7 +80,7 @@
 	display: flex;
 	justify-content: space-between;
 	max-width:1650px;
-	margin:68px auto 0;
+	margin:70px auto 0;
 }
 
 .sec_one_left {
@@ -110,6 +106,7 @@
 		font-family: $raleway;
 		font-weight:900;
 		font-size: 17px;
+		line-height: 21px;
 		letter-spacing: 0.12em;
 		margin-bottom:30px;
 		
@@ -132,7 +129,6 @@
 }
 
 .play_wrapper {
-	
 	a {
 		display: flex;
 		align-items: center;
@@ -206,5 +202,108 @@
 }
 
 
+@media screen and (max-width: 1540px) {
+	
+	
+	
+.play_wrapper {
+	a {
+		
+	}
+	.learn_wrapper {
+		
+		span.learn_title {
+			
+		}
+	}
+	.play_button_wrapper {
+		width:247px;
+		height:247px;
+		&:before {
+			width:247px;
+			height:247px;
+		}
+		.play_img_overlay {
+			
+			img {
+				width:200px;
+				height:200px;
+			}
+		}
+		.play_button {
+			width:80px;
+			height:80px;
+			top: 87px;
+			left:87px;
+			&:before {
+				
+			}
+		}
+	}
+}
 
+.sec_one_slider {
+	margin-top: 121px;
+}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1450px) {
+	
+	#section_one {
+		
+	}
+	
+	#section_one, .parallax, .layer {
+		height:862px;
+	}
+	
+	
+	
+	.sec_one_inner {
+		padding: 142px 0 0;
+		span.large_header {
+			font-size: 122px;
+			margin: 23px 0 27px;
+		}
+	}
+	
+	
+	.sec_one_bottom {
+		margin: 42px auto 0;
+		padding-left:4%;
+		//max-width:1200px;
+	}
+	
+	.sec_one_left {
+		flex-basis:52%;
+	}
+	
+	
+	.sec_one_slider {
+		justify-content: flex-start;
+	}
+	
+	
+	.sec_one_single_slide {
+		flex-basis: 41%;
+		&:first-of-type {
+			margin-right:10%;
+		}
+		span.sec_one_slide_title {
+			margin-bottom: 16px;
+		}
+		span.sec_one_slide_description {
+			//max-width
+		}
+	}
+	
+	
+
+	
+	
+} /* Media Query */
 
