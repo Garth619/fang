@@ -243,6 +243,27 @@ $('.sec_three_slider').slick({
  
 */
  
+ 
+ 
+ 
+ $('.sec_one_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  mobileFirst: true,
+	arrows:false,
+	dots:true,
+	responsive: [
+    {
+      breakpoint: 767,
+      settings: "unslick",
+    }
+	]
+ });
+ 
+ 
+ 
+ 
 
 	
 
