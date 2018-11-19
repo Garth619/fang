@@ -1,5 +1,6 @@
 #section_two {
 	position: relative;
+	overflow: hidden;
 	.sec_two_bg {
 		position: absolute;
 		top:0;
@@ -9,7 +10,6 @@
 		background: url(#{$themePath}images/hero_img_background_desktop.jpg) top center;
 		background-size: cover;
 		background-attachment: fixed;
-		
 	}
 }
 
@@ -21,3 +21,59 @@
 	position: relative;
 	z-index: 1;
 }
+
+
+.sec_two_content {
+	max-width:1555px;
+	margin:0px auto 0;
+	padding:334px 70px 0;
+	color:#fff;
+	h1 {
+		color:#fff;
+		font-size:102px;
+		line-height: 82px;
+		font-family: $unna;
+		max-width: 760px;
+	}
+	.sec_two_content_svg {
+		margin:40px 0 75px;
+		svg {
+			width:118px;
+			height:23px;
+		}
+	}
+}
+
+.sec_two_inner_content {
+	max-width: 765px;
+}
+
+
+.sec_two_topog {
+	position: absolute;
+	bottom:-300px;
+	right:-300px;
+	z-index: 1;
+	svg {
+		width:900px;
+	}
+}
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	.sec_two_inner {
+		background: url(#{$themePath}images/content01_top_img_laptop.png) top right;
+		background-size: cover;
+		height:1077px;
+	}
+	
+	
+	.sec_two_content {
+    max-width: 1214px;
+   }
+	
+	
+} /* Media Query */
