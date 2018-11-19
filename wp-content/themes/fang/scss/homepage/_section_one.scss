@@ -275,9 +275,6 @@ a.button.mobile {
 
 @media screen and (max-width: 1450px) {
 	
-	#section_one {
-		
-	}
 	
 	#section_one, .parallax, .layer {
 		height:862px;
@@ -511,6 +508,17 @@ a.button.mobile {
 }
 	
 
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1130px) {
+	
+	
+	#section_one {
+		z-index:2;
+	}
+	
 	
 } /* Media Query */
 

@@ -62,6 +62,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/925.png": {
+		"ft": 32768,
+		"iS": 20592,
+		"oA": 0,
+		"oAP": "/images/925.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/AP_img_nicole.jpg": {
 		"ft": 16384,
 		"iS": 107685,
@@ -106,26 +117,26 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/content01_bottom_img_laptop.png": {
-		"ft": 32768,
+	"/images/content01_bottom_img_laptop.jpg": {
+		"ft": 16384,
 		"iS": 526390,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/content01_bottom_img_laptop.png",
+		"oAP": "/images/content01_bottom_img_laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
+		"opt": 1,
 		"q": 100
 		},
-	"/images/content01_bottom_img_tablet.png": {
-		"ft": 32768,
+	"/images/content01_bottom_img_tablet.jpg": {
+		"ft": 16384,
 		"iS": 228973,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/content01_bottom_img_tablet.png",
+		"oAP": "/images/content01_bottom_img_tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/content01_icon-01.svg": {
@@ -165,6 +176,17 @@
 		"iS": 19959,
 		"oA": 0,
 		"oAP": "/images/content01_top_img_tablet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/content01_top_img_tablet_two.png": {
+		"ft": 32768,
+		"iS": 22726,
+		"oA": 0,
+		"oAP": "/images/content01_top_img_tablet_two.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

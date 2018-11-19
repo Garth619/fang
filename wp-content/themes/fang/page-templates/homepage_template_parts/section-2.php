@@ -22,14 +22,16 @@
 			
 		</div><!-- sec_two_content -->
 		
+		<div class="sec_two_topog">
+		
+			<?php echo file_get_contents("wp-content/themes/fang/images/topog.svg"); ?>
+		
+		</div><!-- sec_two_topog -->
+		
 	</div><!-- sec_two_inner -->
 	
 	<div class="sec_two_bg"></div>
 	
-	<div class="sec_two_topog">
-		
-		<?php echo file_get_contents("wp-content/themes/fang/images/topog.svg"); ?>
-		
-	</div><!-- sec_two_topog -->
+	
 	
 </section><!-- section_two -->
