@@ -7,7 +7,7 @@
 		left:0;
 		width:100%;
 		height:100%;
-		background: url(#{$themePath}images/hero_img_background_desktop.jpg) top center;
+		background: url(#{$themePath}images/sec_one_bg.jpg) top center;
 		background-size: cover;
 		background-attachment: fixed;
 	}
@@ -103,16 +103,8 @@
 
 @media screen and (max-width: 1130px) {
 	
-	
-	#section_two {
-		overflow: hidden;
-		.sec_two_bg {
-			background: url(#{$themePath}images/content01_bottom_img_tablet.jpg)  top right no-repeat;
-		}
-	}
-	
-	
-	
+
+
 	.sec_two_inner {
 		background: url(#{$themePath}images/co_tablet.png) top right;
 		background-size: cover;
@@ -126,7 +118,6 @@
 		h1 {
 			font-size:76px;
 			line-height: 61px;
-			//max-width: 670px;
 		}
 		.sec_two_content_svg {
 			margin: 40px 0 23px;
@@ -142,8 +133,8 @@
 	
 	.sec_two_topog {
 	
-		bottom:-275px;
-		right:-290px;
+		bottom:-187px;
+		right:-275px;
 		svg {
 			width:675px;
 			height:675px;
@@ -170,15 +161,30 @@
 
 
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 767px) {
 	
-	
-/*
-	.sec_two_inner {
-		background: url(#{$themePath}images/content01_top_img_tablet.png) top right;
-		background-size: cover;
+	.sec_two_content {
+		padding: 135px 30px 0;
+		max-width:405px;
+		.sec_two_content_svg {
+			margin: 26px 0 16px;
+			svg {
+				width:90px;
+				height:23px;
+			}
+		}
+		h1 {
+			font-size:56px;
+			line-height: 52px;
+			max-width: 365px;
+		}
 	}
-*/
+
+	.sec_two_inner {
+		background: url(#{$themePath}images/co_mobile.png) top center;
+	
+	}
+
 	
 	
 } /* Media Query */

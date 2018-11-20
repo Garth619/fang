@@ -3,3 +3,34 @@
 	height:1000px;
 	background: #fff;
 }
+
+
+
+
+@media screen and (max-width: 1130px) {
+	
+	#section_three {
+		position: relative;
+		z-index: 1;
+		margin-top:-78px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	#section_three {
+		margin-top:-58px;
+	}
+
+	
+	
+} /* Media Query */

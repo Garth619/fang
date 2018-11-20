@@ -117,6 +117,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/co_mobile.png": {
+		"ft": 32768,
+		"iS": 26703,
+		"oA": 0,
+		"oAP": "/images/co_mobile.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/co_tablet.png": {
 		"ft": 32768,
 		"iS": 19950,
