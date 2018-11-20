@@ -42,6 +42,11 @@ section {
 	position: relative;
 }
 
+footer {
+	z-index:1;
+	position: relative;
+}
+
 input, textarea {
 	-webkit-appearance: none;
 	border-radius: 0;

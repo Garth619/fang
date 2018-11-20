@@ -286,16 +286,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/images/footer_icon-02.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/footer_icon-02.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"/images/footer_icon-03.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -344,7 +334,7 @@
 		"oAP": "/images/footer_img_desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/footer_img_laptop.jpg": {
@@ -684,6 +674,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/six_count.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/six_count.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/test_icon-01.svg": {
 		"ft": 2097152,
