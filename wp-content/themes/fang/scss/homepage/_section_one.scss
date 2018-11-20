@@ -57,19 +57,16 @@
 
 .layer_bg {
 	background: url(#{$themePath}images/sec_one_bg.jpg) top center;
-	//background-size:cover;
 }
 
 
 .layer_1 {
 	background: url(#{$themePath}images/sec_one_middle.png) top center;
-	//background-size:cover;
 	z-index:1;
 }
 
 .layer_2 {
 	background: url(#{$themePath}images/sec_one_fore.png) top center;
-	//background-size:cover;
 	z-index:2;
 }
 
@@ -277,29 +274,17 @@ a.button.mobile {
 	
 	
 	#section_one, .parallax, .layer {
-		//height:822px;
+		height:860px;
 	}
 	
 
-	
+	.layer_bg, .layer_1, .layer_2 {
+		background-size:1450px 1300px;
+	}
 	
 
-/*
-	.layer_bg {
-		background: url(#{$themePath}images/laptop-test.jpg) top center;
-		background-size:cover;
-	}
-	
-	.layer_1 {
-		background: url(#{$themePath}images/hero_img_middleground_laptop.png) top center;
-		background-size:cover;
-	}
-	
-	.layer_2 {
-		background: url(#{$themePath}images/hero_img_foreground_laptop.png) top center;
-		background-size:cover;
-	}
-*/
+
+
 	
 
 	
@@ -406,28 +391,15 @@ a.button.mobile {
 		padding-right:0;
 	}
 	
+
 #section_one, .parallax, .layer {
-		height:910px;
-	}
+	height:1000px;
+}
 	
 	
 	
-	.layer_bg {
-		background: url(#{$themePath}images/new-tablet-bg.jpg) top center;
-		background-size:cover;
-		
-	}
-	
-	.layer_1 {
-		background: url(#{$themePath}images/new-tablet-middle.png) top center;
-		background-size:cover;
-	
-	}
-	
-	.layer_2 {
-		background: url(#{$themePath}images/new-tablet-foreground.png) top center;
-		background-size:cover;
-	
+	.layer_bg, .layer_1, .layer_2 {
+		background-size:1200px 1200px;
 	}
 	
 	.sec_one_inner {
@@ -564,12 +536,18 @@ a.button.mobile {
 
 @media screen and (max-width: 1066px) {
 	
+
 	
-	#section_one {
-		background: url(#{$themePath}images/tablet-new.jpg) center center no-repeat;
-		background-size:cover;
-		height:987px;
+
+	#section_one, .parallax, .layer {
+		height: 1020px;
 	}
+	
+
+	.layer_bg, .layer_1, .layer_2 {
+		background-size:1450px 1170px;
+	}
+
 	
 	
 } /* Media Query */
@@ -577,6 +555,21 @@ a.button.mobile {
 
 @media screen and (max-width: 767px) {
 	
+	
+	
+
+	
+	#section_one {
+		background: url(#{$themePath}images/sec_one_bg.jpg) top center;
+		background-size:1250px 950px;
+		height: 860px;
+		
+	}
+	
+
+	.parallax {
+		display: none;
+	}
 	
 	
 	
@@ -743,18 +736,7 @@ a.button.mobile {
 } /* Media Query */
 
 
-@media screen and (max-width: 690px) {
-	
-	
-	#section_one {
-		background: url(#{$themePath}images/mobile-bg.jpg) center center no-repeat;
-		background-size:cover;
-		height:862px;
-	}
-	
-	
-	
-} /* Media Query */
+
 
 
 
@@ -780,6 +762,20 @@ a.button.mobile {
 			display: none;
 		}
 	} 
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (min-width: 1920px) {
+	
+	
+	
+	.layer_bg, .layer_1, .layer_2 {
+		background-size:cover;
+	}
 	
 	
 	

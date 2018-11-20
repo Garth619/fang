@@ -7,10 +7,6 @@ jQuery(document).ready(function($){
 	
 		
 
-		
-				
-		
-		
 	
 	 /* Modernizr - check if browser supports webp. 
      --------------------------------------------------------------------------------------- */
@@ -304,8 +300,6 @@ window.addEventListener('scroll', function(event) {
     layer.style.transform = translate3d;
   }
 });
-
-
 
 
 

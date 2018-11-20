@@ -913,7 +913,7 @@
 		"oAP": "/images/sec_one_bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/sec_one_fore.png": {
@@ -933,8 +933,8 @@
 		"oA": 0,
 		"oAP": "/images/sec_one_fore_no_dither.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
