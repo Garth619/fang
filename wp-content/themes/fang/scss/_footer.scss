@@ -1,7 +1,6 @@
 .footer_form {
 	width:100%;
 	background: url(#{$themePath}images/footer_img_desktop.jpg) top center no-repeat;
-	//background-size:cover;
 	background-color: $greenthree;
 	text-align: center;
 	padding:243px 70px 100px;
@@ -148,11 +147,21 @@ span.required {
 	justify-content: space-between;
 	max-width:1590px;
 	margin:0 auto;
+	padding:28px 0 180px;
 }
 
 
 .footer_col {
 	text-align: center;
+	&:nth-of-type(2) {
+		margin-top:20px;
+		span.location_title {
+			margin-top:13px;
+		}
+	}
+	&:nth-of-type(3) {
+		margin:115px 0 0;
+	}
 	span, img {
 		display: block;
 		margin:0 auto;
@@ -213,6 +222,39 @@ span.required {
 		font-weight: 800;
 		letter-spacing: 0.12em;
 	}
+}
+
+
+.footer_phone_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	span {
+		display: block;
+		margin:0;
+	}
+	span.footer_phone_title {
+		color:$greythree;
+		text-transform: uppercase;
+		font-size:18px;
+		font-family: $raleway;
+		font-weight: 800;
+		letter-spacing: 0.12em;
+	}
+	span.footer_phone {
+		color:#fff;
+		font-family: $unna;
+		font-size:58px;
+	}
+}
+
+
+.footer_phone_row.one {
+	margin-top:35px;
+}
+
+.footer_phone_row.two {
+	margin-top:30px;
 }
 
 

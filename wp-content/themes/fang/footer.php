@@ -61,8 +61,26 @@
 					
 				</div><!-- footer_consult_wrapper -->
 				
+				<div class="footer_phone_row one">
+						
+					<span class="footer_phone_title">Phone</span><!-- footer_phone_title -->
+						
+					<span class="footer_phone">(303)862-8978</span><!-- footer_phone_title -->
+						
+				</div><!-- footer_phone_row -->
+				
+				<div class="footer_phone_row two">
+						
+					<span class="footer_phone_title">Fax</span><!-- footer_phone_title -->
+						
+					<span class="footer_phone">(303)862-8978</span><!-- footer_phone_title -->
+						
+				</div><!-- footer_phone_row -->
+					
+					
+				
 			</div><!-- footer_col -->
-		
+					
 		</div><!-- footter_inner_bottom -->
 		
 	</div><!-- footer_bottom -->
