@@ -16,7 +16,7 @@
 .sec_two_inner {
 	height:1148px;
 	width:100%;
-	background: url(#{$themePath}images/content01_top_img_desktop.png) top center;
+	background: url(#{$themePath}images/co_desktop.png) top center;
 	background-size:cover;
 	position: relative;
 	z-index: 1;
@@ -64,17 +64,10 @@
 
 @media screen and (max-width: 1450px) {
 	
-	
-	
-	
 
 	
-	
-	
-	
-	
 	.sec_two_inner {
-		background: url(#{$themePath}images/content01_top_img_laptop.png) top right;
+		background: url(#{$themePath}images/co_laptop.png) top right;
 		background-size: cover;
 		height:1077px;
 	}
@@ -112,25 +105,23 @@
 	
 	
 	#section_two {
-		//margin-top:-90px;
 		overflow: hidden;
 		.sec_two_bg {
 			background: url(#{$themePath}images/content01_bottom_img_tablet.jpg)  top right no-repeat;
-			//background-attachment: fixed;
 		}
 	}
 	
 	
 	
 	.sec_two_inner {
-		background: url(#{$themePath}images/content01_top_img_tablet_two.png) top right;
+		background: url(#{$themePath}images/co_tablet.png) top right;
 		background-size: cover;
 		height:1003px;
 	}
 	
 	
 	.sec_two_content {
-		padding: 342px 70px 0;
+		padding: 263px 70px 0;
 		max-width:768px;
 		h1 {
 			font-size:76px;
@@ -164,12 +155,13 @@
 
 
 
-@media screen and (max-width: 925px) {
+
+@media screen and (max-width: 975px) {
 	
 	
 	
 	.sec_two_inner {
-		background: url(#{$themePath}images/925.png) top right;
+		background: url(#{$themePath}images/co_975.png) top right;
 	}
 	
 	
@@ -181,10 +173,12 @@
 @media screen and (max-width: 815px) {
 	
 	
+/*
 	.sec_two_inner {
 		background: url(#{$themePath}images/content01_top_img_tablet.png) top right;
 		background-size: cover;
 	}
+*/
 	
 	
 } /* Media Query */

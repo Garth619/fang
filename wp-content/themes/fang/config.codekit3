@@ -51,28 +51,6 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
-	"/images/1200.jpg": {
-		"ft": 16384,
-		"iS": 197178,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/1200.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/925.png": {
-		"ft": 32768,
-		"iS": 20592,
-		"oA": 0,
-		"oAP": "/images/925.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/AP_img_nicole.jpg": {
 		"ft": 16384,
 		"iS": 107685,
@@ -106,37 +84,48 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/content01_bottom_img_desktop.jpg": {
-		"ft": 16384,
-		"iS": 8335539,
-		"jF": 0,
+	"/images/co_975.png": {
+		"ft": 32768,
+		"iS": 20804,
 		"oA": 0,
-		"oAP": "/images/content01_bottom_img_desktop.jpg",
+		"oAP": "/images/co_975.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/images/content01_bottom_img_laptop.jpg": {
-		"ft": 16384,
-		"iS": 526390,
-		"jF": 0,
+	"/images/co_desktop.png": {
+		"ft": 32768,
+		"iS": 40427,
 		"oA": 0,
-		"oAP": "/images/content01_bottom_img_laptop.jpg",
+		"oAP": "/images/co_desktop.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/images/content01_bottom_img_tablet.jpg": {
-		"ft": 16384,
-		"iS": 228973,
-		"jF": 0,
+	"/images/co_laptop.png": {
+		"ft": 32768,
+		"iS": 37498,
 		"oA": 0,
-		"oAP": "/images/content01_bottom_img_tablet.jpg",
+		"oAP": "/images/co_laptop.png",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/co_tablet.png": {
+		"ft": 32768,
+		"iS": 19950,
+		"oA": 0,
+		"oAP": "/images/co_tablet.png",
+		"oF": 0,
+		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/content01_icon-01.svg": {
@@ -148,50 +137,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/images/content01_top_img_desktop.png": {
-		"ft": 32768,
-		"iS": 40427,
-		"oA": 0,
-		"oAP": "/images/content01_top_img_desktop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/content01_top_img_laptop.png": {
-		"ft": 32768,
-		"iS": 37498,
-		"oA": 0,
-		"oAP": "/images/content01_top_img_laptop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/content01_top_img_tablet.png": {
-		"ft": 32768,
-		"iS": 19959,
-		"oA": 0,
-		"oAP": "/images/content01_top_img_tablet.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/content01_top_img_tablet_two.png": {
-		"ft": 32768,
-		"iS": 22726,
-		"oA": 0,
-		"oAP": "/images/content01_top_img_tablet_two.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/images/content02_icon-01.svg": {
 		"ft": 2097152,
@@ -423,17 +368,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/images/header_video_img_01.jpg": {
-		"ft": 16384,
-		"iS": 53672,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/header_video_img_01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/header_video_img_02.jpg": {
 		"ft": 16384,
 		"iS": 61048,
@@ -464,149 +398,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/images/hero_img_background_desktop.png": {
-		"ft": 32768,
-		"iS": 2111941,
-		"oA": 0,
-		"oAP": "/images/hero_img_background_desktop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/hero_img_background_laptop.jpg": {
-		"ft": 16384,
-		"iS": 631838,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/hero_img_background_laptop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/images/hero_img_background_tablet.jpg": {
-		"ft": 16384,
-		"iS": 266485,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/hero_img_background_tablet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/images/hero_img_foreground_desktop-reduced.png": {
-		"ft": 32768,
-		"iS": 523022,
-		"oA": 0,
-		"oAP": "/images/hero_img_foreground_desktop-reduced.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/hero_img_foreground_desktop.png": {
-		"ft": 32768,
-		"iS": 2232460,
-		"oA": 0,
-		"oAP": "/images/hero_img_foreground_desktop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/hero_img_foreground_laptop.png": {
-		"ft": 32768,
-		"iS": 1357122,
-		"oA": 0,
-		"oAP": "/images/hero_img_foreground_laptop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/hero_img_foreground_tablet.png": {
-		"ft": 32768,
-		"iS": 617857,
-		"oA": 0,
-		"oAP": "/images/hero_img_foreground_tablet.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/hero_img_middleground_desktop.png": {
-		"ft": 32768,
-		"iS": 230143,
-		"oA": 0,
-		"oAP": "/images/hero_img_middleground_desktop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/hero_img_middleground_laptop.png": {
-		"ft": 32768,
-		"iS": 231017,
-		"oA": 0,
-		"oAP": "/images/hero_img_middleground_laptop.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/hero_img_middleground_tablet.png": {
-		"ft": 32768,
-		"iS": 683046,
-		"oA": 0,
-		"oAP": "/images/hero_img_middleground_tablet.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/hero_img_mobile.jpg": {
-		"ft": 16384,
-		"iS": 110412,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/hero_img_mobile.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/hero_img_tablet.jpg": {
-		"ft": 16384,
-		"iS": 212375,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/hero_img_tablet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/images/hero_img_tablet.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "/images/hero_img_tablet.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"/images/hero_logo-01.svg": {
@@ -840,28 +631,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/images/laptop-test.jpg": {
-		"ft": 16384,
-		"iS": 114213,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/laptop-test.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/mobile-bg.jpg": {
-		"ft": 16384,
-		"iS": 32264,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/mobile-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/mouse.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -871,39 +640,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/images/new-tablet-bg.jpg": {
-		"ft": 16384,
-		"iS": 69738,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/new-tablet-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/new-tablet-foreground.png": {
-		"ft": 32768,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "/images/new-tablet-foreground.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/new-tablet-middle.png": {
-		"ft": 32768,
-		"iS": 131212,
-		"oA": 0,
-		"oAP": "/images/new-tablet-middle.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/images/sec_one_bg.jpg": {
 		"ft": 16384,
@@ -927,37 +663,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/sec_one_fore_no_dither.png": {
-		"ft": 32768,
-		"iS": 539544,
-		"oA": 0,
-		"oAP": "/images/sec_one_fore_no_dither.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/sec_one_middle.png": {
 		"ft": 32768,
-		"iS": 175913,
+		"iS": 178800,
 		"oA": 0,
 		"oAP": "/images/sec_one_middle.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/images/tablet-new.jpg": {
-		"ft": 16384,
-		"iS": 81895,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/tablet-new.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/images/test_icon-01.svg": {
