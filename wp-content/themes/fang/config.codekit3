@@ -84,26 +84,26 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/co_414.png": {
-		"ft": 32768,
-		"iS": 18315,
+	"/images/co_414.jpg": {
+		"ft": 16384,
+		"iS": 20464,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/co_414.png",
+		"oAP": "/images/co_414.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"/images/co_975.png": {
-		"ft": 32768,
-		"iS": 20804,
+	"/images/co_975.jpg": {
+		"ft": 16384,
+		"iS": 37973,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/co_975.png",
+		"oAP": "/images/co_975.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/images/co_desktop.png": {
@@ -128,26 +128,26 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/co_mobile.png": {
-		"ft": 32768,
-		"iS": 26703,
+	"/images/co_mobile.jpg": {
+		"ft": 16384,
+		"iS": 25128,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/co_mobile.png",
+		"oAP": "/images/co_mobile.jpg",
 		"oF": 0,
-		"oIPL": 1,
+		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
-	"/images/co_tablet.png": {
-		"ft": 32768,
-		"iS": 19950,
+	"/images/co_tablet.jpg": {
+		"ft": 16384,
+		"iS": 39897,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/co_tablet.png",
+		"oAP": "/images/co_tablet.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/content01_icon-01.svg": {
@@ -410,17 +410,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"/images/hero_img_background_desktop.jpg": {
-		"ft": 16384,
-		"iS": 177212,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/hero_img_background_desktop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/images/hero_logo-01.svg": {
 		"ft": 2097152,
@@ -694,17 +683,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"/images/sec_two_mobile_bg.jpg": {
-		"ft": 16384,
-		"iS": 41746,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/sec_two_mobile_bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"/images/test_icon-01.svg": {
