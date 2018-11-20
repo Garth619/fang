@@ -112,11 +112,11 @@
 	
 	
 	#section_two {
-		margin-top:-90px;
+		//margin-top:-90px;
 		overflow: hidden;
 		.sec_two_bg {
 			background: url(#{$themePath}images/content01_bottom_img_tablet.jpg)  top right no-repeat;
-		
+			//background-attachment: fixed;
 		}
 	}
 	

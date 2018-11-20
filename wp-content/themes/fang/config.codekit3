@@ -485,7 +485,7 @@
 		"oAP": "/images/hero_img_background_laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/hero_img_background_tablet.jpg": {
@@ -556,7 +556,7 @@
 		},
 	"/images/hero_img_middleground_laptop.png": {
 		"ft": 32768,
-		"iS": 1519553,
+		"iS": 231017,
 		"oA": 0,
 		"oAP": "/images/hero_img_middleground_laptop.png",
 		"oF": 0,
@@ -596,6 +596,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/images/hero_img_tablet.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/hero_img_tablet.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/hero_logo-01.svg": {
@@ -829,6 +840,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/laptop-test.jpg": {
+		"ft": 16384,
+		"iS": 114213,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/laptop-test.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/mobile-bg.jpg": {
 		"ft": 16384,
 		"iS": 32264,
@@ -849,6 +871,83 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/new-tablet-bg.jpg": {
+		"ft": 16384,
+		"iS": 69738,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/new-tablet-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/new-tablet-foreground.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/new-tablet-foreground.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/new-tablet-middle.png": {
+		"ft": 32768,
+		"iS": 131212,
+		"oA": 0,
+		"oAP": "/images/new-tablet-middle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sec_one_bg.jpg": {
+		"ft": 16384,
+		"iS": 183697,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sec_one_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/sec_one_fore.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/sec_one_fore.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sec_one_fore_no_dither.png": {
+		"ft": 32768,
+		"iS": 539544,
+		"oA": 0,
+		"oAP": "/images/sec_one_fore_no_dither.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sec_one_middle.png": {
+		"ft": 32768,
+		"iS": 175913,
+		"oA": 0,
+		"oAP": "/images/sec_one_middle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/tablet-new.jpg": {
 		"ft": 16384,
@@ -1371,6 +1470,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/homepage/_section_one copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/homepage/_section_one copy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
