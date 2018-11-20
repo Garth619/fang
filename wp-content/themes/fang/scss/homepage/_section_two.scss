@@ -165,8 +165,10 @@
 	
 	#section_two {
 		.sec_two_bg {
+			background: url(#{$themePath}images/sec_two_mobile_bg.jpg);
 			background-size:767px;
 			background-position: 76% top;
+			background-attachment: fixed;
 		}
 	}
 	

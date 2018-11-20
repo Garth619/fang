@@ -696,6 +696,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/sec_two_mobile_bg.jpg": {
+		"ft": 16384,
+		"iS": 41746,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sec_two_mobile_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/images/test_icon-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
