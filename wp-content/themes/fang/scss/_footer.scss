@@ -535,13 +535,41 @@ span.required {
 } /* Media Query */
 
 
+@media screen and (max-width: 776px) {
+	
+	
+	
+	.copyright {
+		.copyright_inner {
+			flex-direction: column;
+			height:auto;
+			padding:35px 20px 35px;
+			.copright_col {
+				line-height: 18px;
+				&:first-of-type {
+					margin-right:0;
+					margin-bottom: 25px;
+				}
+				&:last-of-type {
+					margin-top:15px;
+				}
+			}
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 767px) {
 	
 	
 	.footer_form {
-		padding:169px 20px 0;
+		padding:169px 19px 0;
 		span.small_header {
 			font-size:22px;
+			letter-spacing: 0.05em;
 		}
 		span.large_header {
 			font-size:36px;
@@ -626,9 +654,9 @@ span.required {
 
 .footer_topog {
 	bottom: -110px;
-  right: -141px;
+  right: -135px;
 	svg {
-		width:530px;
+		width:520px;
 		height:560px;
 	}
 }
