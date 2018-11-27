@@ -80,11 +80,54 @@
 					
 				
 			</div><!-- footer_col -->
+			
+			<div class="footer_topog">
+	
+		<?php echo file_get_contents("wp-content/themes/fang/images/topog.svg"); ?>
+	
+	</div><!-- footer_topog -->
 					
 		</div><!-- footter_inner_bottom -->
 		
 	</div><!-- footer_bottom -->
 	
+	<div class="copyright">
+		
+		<div class="copyright_inner">
+		
+			<div class="copright_col">
+			
+				<a href="" target="_blank" rel="noopener">
+				
+					<?php echo file_get_contents("wp-content/themes/fang/images/footer_icon-04.svg"); ?>
+				
+				</a>
+			
+			</div><!-- copright_col -->
+		
+			<div class="copright_col">
+			
+				<ul>
+					<li>The Fang Law Firm © 2018</li>
+					<li>All Rights Reserved</li>
+					<li><a href="">Disclaimer</a></li>
+				</ul>
+			
+			</div><!-- copright_col -->
+		
+			<div class="copright_col">
+				
+				<a class="" href="" target="_blank" rel="noopener">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/footer_icon-05.svg"/>
+					
+				</a>
+				
+			</div><!-- copright_col -->
+		
+			</div><!-- copyright_inner -->
+		
+		</div><!-- copyright -->
 		
 </footer>
 

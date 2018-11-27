@@ -315,5 +315,22 @@ function wpbeginner_numeric_posts_nav() {
 
 
 
+function getVimeoId($url)
+{
+    if (preg_match('#(?:https?://)?(?:www.)?(?:player.)?vimeo.com/(?:[a-z]*/)*([0-9]{6,11})[?]?.*#', $url, $m)) {
+        return $m[1];
+    }
+    return false;
+}
+ 
+function getVimeoThumb($id)
+{
+    $arr_vimeo = unserialize(file_get_contents("http://vimeo.com/api/v2/video/$id.php"));
+    return $arr_vimeo[0]['thumbnail_small']; // returns small thumbnail
+    // return $arr_vimeo[0]['thumbnail_medium']; // returns medium thumbnail
+    // return $arr_vimeo[0]['thumbnail_large']; // returns large thumbnail
+}
+ 
+
 
 
