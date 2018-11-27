@@ -671,3 +671,25 @@ span.required {
 } /* Media Query */
 
 
+@media screen and (max-width: 377px) {
+	
+	
+	.footer_phone_row {
+		display: block;
+	}
+	
+	.footer_consult_wrapper {
+		text-align: center;
+		display: block;
+		span {
+			
+		}
+		img.three_count {
+			display: none;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
