@@ -51,11 +51,13 @@
 				
 			</div><!-- footer_col -->
 			
-			<div class="footer_col">
+			<div class="footer_col last_col">
 				
 				<div class="footer_consult_wrapper">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+					<img class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+					
+					<img class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
 					
 					<span>GEt YOUR FREE CASE EVALUATION</span><!-- footer_consult_title -->
 					
@@ -65,7 +67,7 @@
 						
 					<span class="footer_phone_title">Phone</span><!-- footer_phone_title -->
 						
-					<span class="footer_phone">(303)862-8978</span><!-- footer_phone_title -->
+					<span class="footer_phone">(303)993-4323</span><!-- footer_phone_title -->
 						
 				</div><!-- footer_phone_row -->
 				
@@ -76,9 +78,7 @@
 					<span class="footer_phone">(303)862-8978</span><!-- footer_phone_title -->
 						
 				</div><!-- footer_phone_row -->
-					
-					
-				
+
 			</div><!-- footer_col -->
 			
 			<div class="footer_topog">
