@@ -54,7 +54,7 @@
 				
 				<img src="<?php bloginfo('template_directory');?>/images/hero_logo-01.svg"/>
 				
-			</a><!-- header_right -->
+			</a><!-- logo -->
 			
 		</div><!-- header_left -->
 		
@@ -91,7 +91,40 @@
 		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 		
 	</header>
-				
-
-
+	
+	<div class="sticky_header">
+		
+		<div class="header_left">
 			
+			<a class="logo" href="<?php bloginfo('url');?>">
+				
+				<img src="<?php bloginfo('template_directory');?>/images/hero_logo-01.svg"/>
+				
+			</a><!-- logo -->
+			
+		</div><!-- header_left -->
+		
+		<div class="header_right">
+			
+			<div class="free_consult">
+				
+				<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
+				
+				<a class="phone" href="tel:(303) 993-4323">(303)993-4323</a>
+				
+			</div><!-- free_consult -->
+			
+			<div class="menu_wrapper">
+				
+				<span class="menu_bar"></span><!-- menu_bar -->
+				<span class="menu_bar"></span><!-- menu_bar -->
+				<span class="menu_bar"></span><!-- menu_bar -->
+				
+				<span class="menu_title">Menu</span><!-- menu_title -->
+				
+			</div><!-- menu_wrapper -->
+			
+		</div><!-- header_right -->
+		
+	</div><!-- sticky_header -->
+							

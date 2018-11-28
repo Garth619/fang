@@ -281,11 +281,6 @@ img.sidebar_accent {
 			}
 		> li {
 				font-weight: 800;
-				&:last-of-type {
-					> a {
-							border-bottom:1px solid #d9dedc;
-					}
-				}
 				> a.active {
 						border-bottom:1px solid #d9dedc;
 						color:$greytwo;
@@ -317,9 +312,185 @@ img.sidebar_accent {
 	}
 	
 	
+		
+	
 	img.internal_img_three {
 		right:0;
 		left:auto;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1675px) {
+	
+	
+	
+	img.internal_bg {
+		width:1675px;
+		height:auto;
+	}
+	
+	img.internal_img_one {
+		width: 415px;
+    top: 213px;
+	}
+
+	
+	
+	img.internal_img_two {
+    top: 324px;
+    left: 383px;
+    width: 281px;
+	}
+	
+	
+	img.internal_img_three {
+		left: 1375px;
+		top:215px;
+		width:297px;
+	}
+	
+	
+	
+	.sidebar_wrapper {
+		flex-basis: 664px;
+	}
+	
+	
+	.internal_banner_inner {
+    height: 598px;
+  }
+  
+  
+  .content_wrapper {
+	  padding:0 5%;
+  }
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	img.internal_bg {
+		width:1550px;
+		height:auto;
+	}
+	
+	img.internal_img_one {
+		width: 385px;
+    top: 202px;
+	}
+
+	
+	
+	img.internal_img_two {
+    top: 300px;
+    left: 353px;
+    width: 264px;
+	}
+	
+	
+	img.internal_img_three {
+		left: 1271px;
+	}
+	
+	
+	
+	.sidebar_wrapper {
+		flex-basis: 617px;
+	}
+	
+	
+	.internal_banner_inner {
+    height: 569px;
+  }
+  
+  
+  .sidebar_form_inner {
+	  padding: 109px 0 0;
+	  max-width: 486px;
+	  span.large_header {
+		  font-size:43px;
+	  }
+  }
+  
+  
+  .sidebar_pa_wrapper {
+    padding-left: 5%;
+   }
+  
+
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	.internal_banner {
+		display: none;
+	}
+	
+	
+	
+	.two_col {
+		display: block;
+	}
+	
+	
+	.sidebar_wrapper {
+		display: none;
+	}
+	
+	
+	.content_wrapper {
+		margin-top:0;
+		padding:0 70px 60px;
+	}
+	
+	
+	.internal_main {
+		padding: 141px 0 0;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.internal_main {
+   	padding: 120px 0 0;
+	}
+	
+	
+	.content_wrapper {
+		padding-left:40px;
+		padding-right:40px;
 	}
 	
 	
