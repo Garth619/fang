@@ -96,6 +96,19 @@ header {
 }
 
 
+// internal header with banners
+
+body:not(.page-template-template-home) {
+	.header_right {
+		.free_consult {
+			span.free_consult_title {
+				color:#fff;
+			}
+		}
+	}
+}
+
+
 @media screen and (max-width: 1450px) {
 	
 	header {

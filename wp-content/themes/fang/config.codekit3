@@ -576,7 +576,7 @@
 		"oAP": "/images/intl_blog_header_img_01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/intl_blog_header_img_02.jpg": {
@@ -587,7 +587,7 @@
 		"oAP": "/images/intl_blog_header_img_02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/intl_blog_header_img_03.jpg": {
@@ -720,6 +720,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/test_icon-04_right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/three_count.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/three_count.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
