@@ -259,7 +259,16 @@ $('.sec_three_slider').slick({
  
  
  
+ // sidebar
  
+ 
+ $('.sidebar_wrapper ul.menu > li.menu-item-has-children > a').on('click', function(e) {
+	 
+	 $(this).next('ul.sub-menu').slideToggle(300);
+	 
+	 $(this).toggleClass('active');
+   
+ });
 
 	
 
