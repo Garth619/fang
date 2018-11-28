@@ -106,12 +106,70 @@ h1,h2,h3,h4 {
 		 line-height: 32px;
 		 margin-bottom:32px;
 	  }
+	  ul,ol {
+		  list-style: none;
+		  li {
+			  margin-bottom:10px;
+		  }
+	  }
+	  ul {
+		  li {
+			  position: relative;
+			  padding-left:20px;
+			  &:before {
+				  content:"";
+				  width:5px;
+				  height:5px;
+				  display: block;
+				  border-radius: 50%;
+				  background: $orange;
+				  position: absolute;
+				  top:13px;
+				  left:0;
+			  }
+		  }
+	  }
+	  ol {
+	  		list-style: none;
+	  		counter-reset: item;
+	  		> li {
+	  			counter-increment: item;
+	  			position: relative;
+	  			padding-left:20px;
+	   		}
+	   		> li:before {
+	   				content: counter(item)".";
+	   				color: $orange;
+	   				font-weight: 700;
+	   				display: block;
+	   				position: absolute;
+	   				top:0;
+	   				left:0;
+	   				font-size: 19px;
+	   			}
+	  	}
 	  a {
 		  color:$orange;
 		  text-decoration: none;
 		  transition: all 200ms ease-in-out;
 		  &:hover {
 			  color:$greenone;
+		  }
+	  }
+	  blockquote {
+		  font-family: $raleway;
+		  font-weight: 200;
+		  color:$greenthree;
+		  font-size:45px;
+		  line-height: 61px;
+		  margin:86px 0 0;
+		  &:after {
+			  content:"";
+			  display: block;
+			  background: url(#{$themePath}images/content03_icon-01.svg) top left no-repeat;
+			  width:118px;
+			  height:39px;
+			  margin:20px 0 57px;
 		  }
 	  }
 	 }
