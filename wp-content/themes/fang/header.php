@@ -29,7 +29,7 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700,800,900|Unna:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,700,800,900|Unna:400,700');
 
 <?php the_field( 'review_css','option'); ?>
 
