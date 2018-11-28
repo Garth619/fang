@@ -83,9 +83,9 @@
 			
 			<div class="footer_topog">
 	
-		<?php echo file_get_contents("wp-content/themes/fang/images/topog.svg"); ?>
+				<?php echo file_get_contents("wp-content/themes/fang/images/topog.svg"); ?>
 	
-	</div><!-- footer_topog -->
+			</div><!-- footer_topog -->
 					
 		</div><!-- footter_inner_bottom -->
 		

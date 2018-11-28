@@ -70,12 +70,51 @@ h1,h2,h3,h4 {
   .content {
 	  font-family: $unna;
 	  font-size:21px;
+	  color:#000;
+	  font-family: $unna;
+	  font-size:21px;
+	  line-height: 32px;
+	  h1.page_title {
+		  font-size: 92px;
+		  line-height: 88px;
+		  color:$greenone;
+		  &:after {
+			  content:"";
+			  display: block;
+			  background: url(#{$themePath}images/six_count.svg) top left no-repeat;
+			  width:135px;
+			  height:19px;
+			  margin:18px 0 43px;
+		  }
+	  }
+	  h2 {
+		  font-family: $raleway;
+		  font-weight: 800;
+		  color:$greythree;
+		  font-size:37px;
+		  line-height: 46px;
+		  padding:11px 0 32px;
+	  }
+	  h3 {
+		  font-family: $unna;
+		  color:$greenone;
+		  font-size: 28px;
+		  font-weight: 700;
+		  padding:16px 0 11px;
+	  }
 	  p, ul, ol {
 		 line-height: 32px;
 		 margin-bottom:32px;
 	  }
-	  
-  }
+	  a {
+		  color:$orange;
+		  text-decoration: none;
+		  transition: all 200ms ease-in-out;
+		  &:hover {
+			  color:$greenone;
+		  }
+	  }
+	 }
  
  
  @media screen and (max-width: 1200px) {
