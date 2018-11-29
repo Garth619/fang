@@ -576,6 +576,11 @@ img.sidebar_accent {
 	}
 	
 	
+	.one_col {
+		padding-left:40px;
+		padding-right:40px;
+	}
+	
 	
 	.sidebar_wrapper {
 		padding-left:40px;
@@ -610,6 +615,16 @@ img.sidebar_accent {
 			font-size: 50px;
 			order:1;
 			text-align: center;
+		}
+	}
+	
+	
+	.grey_topog {
+		top: -492px;
+    left: -314px;
+		svg#topog {
+      width: 655px;
+			height: 769px;
 		}
 	}
 	

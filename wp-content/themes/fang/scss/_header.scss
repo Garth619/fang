@@ -351,6 +351,8 @@ header.no-banner {
 		justify-content: center;
 		align-items: center;
 		padding:0 10px;
+		position: relative;
+    z-index: 1;
 		span.free_consult_title {
 			text-transform: uppercase;
 			color:$greenone;
