@@ -1,0 +1,91 @@
+.testimonial_wrapper {
+	max-width:1150px;
+	margin:107px auto 117px;
+}
+
+
+.single_test {
+	text-align: center;
+	border-bottom:1px solid #d9dedc;
+	padding-bottom:93px;
+	margin-bottom:83px;
+	img.star {
+		width:215px;
+		height:27px;
+	}
+	span {
+		display: block;
+	}
+	span.test_title {
+		font-family: $unna;
+		font-size:45px;
+		line-height: 49px;
+		color:$greenone;
+		margin:30px auto 0;
+		max-width:760px;
+	}
+	span.test_description {
+		color:$greenthree;
+		font-size:22px;
+		font-family: $raleway;
+		line-height: 36px;
+		margin:5px auto 0;
+		max-width:900px;
+	}
+	img.test_accent {
+		width:117px;
+		height:6px;
+		margin-top:25px;
+	}
+	span.test_name {
+		text-transform: uppercase;
+		font-size:15px;
+		color:$greythree;
+		font-family: $raleway;
+		font-weight:800;
+		letter-spacing: 0.18em;
+		margin:42px 0 0;
+	}
+}
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+.testimonial_wrapper {
+   margin: 58px auto 84px;
+}
+
+
+.single_test {
+	padding-bottom: 64px;
+  margin-bottom: 58px;
+	img.star {
+		
+	}
+	span {
+		
+	}
+	span.test_title {
+		margin: 16px auto 0;
+		font-size: 34px;
+    line-height: 40px;
+	}
+	span.test_description {
+		font-size: 21px;
+		line-height: 33px;
+	}
+	img.test_accent {
+		
+	}
+	span.test_name {
+		
+	}
+}
+
+	
+	
+	
+	
+} /* Media Query */
