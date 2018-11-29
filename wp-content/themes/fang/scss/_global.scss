@@ -166,10 +166,15 @@ h1,h2,h3,h4 {
 		  &:after {
 			  content:"";
 			  display: block;
-			  background: url(#{$themePath}images/content03_icon-01.svg) top left no-repeat;
+			  background: url(#{$themePath}images/content01_icon-01.svg) top left no-repeat;
 			  width:118px;
 			  height:39px;
 			  margin:20px 0 57px;
+		  }
+		  p {
+			  font-size:45px;
+				line-height: 61px;
+				margin-bottom: 0;
 		  }
 	  }
 	 }
@@ -205,11 +210,15 @@ h1,h2,h3,h4 {
 		  	line-height: 45px;
 	  	}
 	  	blockquote {
-		  	margin: 40px 0 0;
+		  	margin: 55px 0 0;
 		  	font-size:30px;
 		  	line-height: 45px;
 		  	&:after {
-			  	margin: 20px 0 23px;
+			  	margin: 20px 0 49px;
+		  	}
+		  	p {
+			  	font-size:30px;
+					line-height: 45px;
 		  	}
 	  	}
 	 	}
@@ -255,9 +264,16 @@ img.aligncenter {
 	  	blockquote {
 		  	margin: 33px 0 0;
 		  	font-size: 26px;
-		  	line-height: 36px;
+		  	line-height: 41px;
 		  	&:after {
-			  	margin: 20px 0 29px;
+			  	margin: 30px 0 50px;
+			  	width:89px;
+			  	height:18px;
+			  	background-size:89px 18px;
+		  	}
+		  	p {
+			  	font-size: 26px;
+					line-height: 41px;
 		  	}
 	  	}
 	 	}
