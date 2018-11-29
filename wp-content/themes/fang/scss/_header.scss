@@ -117,6 +117,19 @@ body:not(.page-template-template-home) {
 	}
 }
 
+// internals with no banners
+
+header.no-banner {
+	background: $greenthree;
+	height: 104px;
+	position: static;
+	.header_right {
+		.menu_wrapper {
+			margin-top: 5px;
+		}
+	}
+}
+
 
 @media screen and (max-width: 1450px) {
 	
@@ -132,6 +145,14 @@ body:not(.page-template-template-home) {
 		img {
 			
 		}
+	}
+}
+
+
+
+header.no-banner {
+	a.logo {
+		margin-top:0;
 	}
 }
 	

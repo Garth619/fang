@@ -1,5 +1,22 @@
 .internal_main {
 	padding-bottom:90px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.grey_topog {
+	position: absolute;
+	top: -567px;
+  left: -314px;
+	svg#topog {
+		transform: rotate(73deg);
+    width: 925px;
+    height: 890px;
+		path {
+			fill:#f4f4f4;
+		}
+	}
 }
 
 
@@ -55,6 +72,14 @@ img.internal_img_three {
 
 .two_col {
 	display: flex;
+}
+
+.one_col {
+	position: relative;
+	z-index: 1;
+	max-width:1710px;
+	margin:0 auto;
+	padding:102px 70px 0;
 }
 
 
@@ -188,9 +213,12 @@ img.sidebar_accent {
 	position: absolute;
 	top:-80px;
 	right:-453px;
-	svg {
+	svg#topog {
 		width:970px;
 		height:970px;
+		path {
+			
+		}
 	}
 }
 
@@ -476,12 +504,20 @@ img.sidebar_accent {
 	
 	
 	.internal_main {
-		padding: 111px 0 0;
+		padding: 102px 0 0;
+	}
+	
+	.one_col {
+		padding-top:0;
 	}
 	
 	
 	
+	
 } /* Media Query */
+
+
+
 
 
 @media screen and (max-width: 1066px) {

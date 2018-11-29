@@ -265,6 +265,23 @@ $('.sec_three_slider').slick({
 	 $(this).toggleClass('active');
    
  });
+ 
+ 
+ 
+ // banner class check
+ 
+ 
+ 	if (!$('.internal_banner')[0]){
+   	
+   	$('header').addClass('no-banner');
+   	
+   	$('body.page-template-template-home header').removeClass('no-banner');
+   
+  }
+  
+
+ 
+ 
 
 	
 

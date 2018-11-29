@@ -178,6 +178,27 @@ h1,h2,h3,h4 {
 		  }
 	  }
 	 }
+	 
+	 
+	 
+	 h1.internal_title {
+		 font-family: $unna;
+		 font-size:110px;
+		 color:$greenone;
+		 &:after {
+			 content:"";
+			 display: inline-block;
+			 width:136px;
+			 height:8px;
+			 background: url(#{$themePath}images/six_count.svg) top left no-repeat;
+			 vertical-align: top;
+			 margin-top:64px;
+			 margin-left:20px;
+		 }
+	 }
+	 
+	 
+	 
  
  
  @media screen and (max-width: 1200px) {
