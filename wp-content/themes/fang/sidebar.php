@@ -28,7 +28,9 @@
 		
 		<div class="sidebar_pa_title_wrapper">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+			<img class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+			
+			<img class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
 			
 			<span>Practice Areas</span>
 			
