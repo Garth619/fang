@@ -28,6 +28,11 @@ img.aligncenter {
 }
 
 
+ span.yellow {
+	color:$yellow;
+ }
+ 
+
 
 h1,h2,h3,h4 {
 	font-style: normal;
@@ -198,8 +203,7 @@ h1,h2,h3,h4 {
 	 }
 	 
 	 
-	 
- 
+	
  
  @media screen and (max-width: 1200px) {
 	 

@@ -1,0 +1,86 @@
+
+
+
+.not_found_wrapper {
+	text-align: center;
+	margin:100px 0 0;
+	h1.not_found {
+		font-family: $unna;
+		font-size:110px;
+		color:$greenone;
+	}
+	img {
+		width:118px;
+		height:23px;
+		display: block;
+		margin:30px auto 0;
+	}
+	span {
+	  
+  }
+  span.error_code {
+	  font-family: $raleway;
+	  font-weight:800;
+	  font-size: 37px;
+	  color:$greythree;
+	  margin:40px 0 0;
+	  display: block;
+  }
+  span.not_found_description {
+	  font-size: 21px;
+	  font-family: $unna;
+	  line-height: 32px;
+	  color:$greenthree;
+	  max-width:715px;
+	  display: block;
+	  margin:17px auto 0;
+  }
+  span.go_back {
+	 color:$yellow;
+	 cursor: pointer;
+  }
+}
+
+body.error404 {
+	.container {
+		min-height: 600px;
+	}
+	.grey_topog {
+  	top: -510px;
+    left: -454px;
+    svg#topog {
+	    transform: rotate(310deg);
+	    width: 1000px;
+			height: 1000px;
+    }
+   }
+}
+
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	.not_found_wrapper {
+		padding-bottom:50px;
+		h1.not_found {
+			font-size:76px;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	.not_found_wrapper {
+		margin-top:58px;
+		h1.not_found {
+			font-size:56px;
+		}
+	}
+	
+
+	
+} /* Media Query */
