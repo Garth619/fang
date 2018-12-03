@@ -1,0 +1,47 @@
+.contact {
+	max-width:910px;
+	margin-bottom:45px;
+}
+
+
+
+body.page-template-template-contact {
+	.container {
+		min-height:auto;
+	}
+	.content {
+		h2 {
+			padding:0px 0 10px;
+		}
+		a.button {
+			color:#fff;
+			padding: 25px 43px;
+		}
+	}
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+	.footer_bottom {
+		order:1;
+	}
+	.footer_form {
+		order:3;
+	}
+	.copyright {
+		order:4;
+	}
+}
+
+
+.location_map_wrapper {
+	width:100%;
+	order:2;
+}
+
+.location_button_wrapper {
+	
+}
+
+
+

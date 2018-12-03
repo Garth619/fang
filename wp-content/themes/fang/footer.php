@@ -1,6 +1,6 @@
 <footer id="footer_trigger">
 	
-	<div class="footer_form">
+	<div id="consultation" class="footer_form">
 		
 		<div class="footer_form_inner">
 		
@@ -17,6 +17,28 @@
 		</div><!--footer_form_inner -->
 		
 	</div><!-- footer_form -->
+	
+	<?php if(is_page_template( 'page-templates/template-contact.php' ) ) { ?>
+	
+		<div class="location_map_wrapper">
+			
+			<div class="location_button_wrapper">
+				
+				<div class="map_left">View Denver Map</div><!-- map_left -->
+				
+				<div class="map_right">View Boulder Map</div><!-- map_right -->
+				
+			</div><!-- location_button_wrapper -->
+			
+			<div class="location_maps">
+				
+				<iframe></iframe>
+				
+			</div><!-- location_maps -->
+			
+		</div><!-- location_map_wrapper -->
+	
+	<?php } ?>
 	
 	<div class="footer_bottom">
 		

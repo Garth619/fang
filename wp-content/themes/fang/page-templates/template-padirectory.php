@@ -11,7 +11,7 @@ get_header(); ?>
 	
 	<div class="container one_col">
 		
-		<h1 class="internal_title"><?php the_title();?></h1><!-- internal_title -->
+		<h1 class="internal_title centered"><?php the_title();?></h1><!-- internal_title -->
 		
 		<div class="pa_wrapper">
 		
