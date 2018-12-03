@@ -14,103 +14,57 @@ get_header(); ?>
 		
 		<div class="meet_team_wrapper">
 			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="att_img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/ap_img_remington.jpg"/>
-					
-						<div class="att_img_overlay">
-						
-							<span>View Profile</span>
-						
-						</div><!-- att_img_overlay -->
-					
-					</div><!-- att_img_wrapper -->
-				
-					<span class="att_name">Remington Fang</span><!-- att_name -->
-				
-					<span class="att_position">Attorney</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
 			
-			<div class="single_att">
-				
-				<a href="">
-				
-					<div class="att_img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/ap_img_remington.jpg"/>
-					
-						<div class="att_img_overlay">
-						
-							<span>View Profile</span>
-						
-						</div><!-- att_img_overlay -->
-					
-					</div><!-- att_img_wrapper -->
-				
-					<span class="att_name">Remington Fang</span><!-- att_name -->
-				
-					<span class="att_position">Attorney</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
+			<?php $meet_the_team = get_field( 'meet_the_team' ); ?>
 			
-			<div class="single_att">
+			<?php if ( $meet_the_team ): ?>
 				
-				<a href="">
+				<?php foreach ( $meet_the_team as $post ):  ?>
 				
-					<div class="att_img_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/ap_img_remington.jpg"/>
-					
-						<div class="att_img_overlay">
-						
-							<span>View Profile</span>
-						
-						</div><!-- att_img_overlay -->
-					
-					</div><!-- att_img_wrapper -->
-				
-					<span class="att_name">Susan Chadderdon</span><!-- att_name -->
-				
-					<span class="att_position">Attorney</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
+				<?php setup_postdata ( $post ); ?>
 			
-			<div class="single_att">
+					<div class="single_att">
 				
-				<a href="">
+						<a href="<?php the_permalink();?>">
 				
-					<div class="att_img_wrapper">
+							<div class="att_img_wrapper">
+								
+								<?php $att_image = get_field( 'att_image' ); ?>
 					
-						<img src="<?php bloginfo('template_directory');?>/images/placeholder.jpg"/>
-					
-						<div class="att_img_overlay">
-						
-							<span>View Profile</span>
-						
-						</div><!-- att_img_overlay -->
-					
-					</div><!-- att_img_wrapper -->
-				
-					<span class="att_name">Remington Fang</span><!-- att_name -->
-				
-					<span class="att_position">Attorney</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
+								<?php if ( $att_image ) : ?>
 			
+									<img src="<?php echo $att_image['url']; ?>" alt="<?php echo $att_image['alt']; ?>" />
+				
+									<?php else : ?>
+			
+									<img src="<?php bloginfo('template_directory') ?>/images/placeholder.jpg" alt="<?php the_title();?> Placeholder Image" />
+			
+								<?php endif;?>
+
 					
+								<div class="att_img_overlay">
+						
+									<span>View Profile</span>
+						
+								</div><!-- att_img_overlay -->
+					
+							</div><!-- att_img_wrapper -->
+				
+							<span class="att_name"><?php the_title();?></span><!-- att_name -->
+				
+							<span class="att_position"><?php the_field( 'attorney_position_title' ); ?></span><!-- att_position -->
+				
+						</a>
+				
+					</div><!-- single_att -->
+			
+			
+				<?php endforeach; ?>
+				
+				<?php wp_reset_postdata(); ?>
+				
+			<?php endif; ?>
+								
 		</div><!-- meet_team_wrapper -->
 				
 	</div><!-- container -->
