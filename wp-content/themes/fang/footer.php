@@ -24,15 +24,17 @@
 			
 			<div class="location_button_wrapper">
 				
-				<div class="map_left">View Denver Map</div><!-- map_left -->
+				<div class="map_button map_left active">View Denver Map</div><!-- map_left -->
 				
-				<div class="map_right">View Boulder Map</div><!-- map_right -->
+				<div class="map_button map_right">View Boulder Map</div><!-- map_right -->
 				
 			</div><!-- location_button_wrapper -->
 			
 			<div class="location_maps">
 				
-				<iframe></iframe>
+					<iframe id="denver" class="fadein" src="https://snazzymaps.com/embed/117756" width="100%" height="600px" style="border:none;"></iframe>
+
+					<iframe id="boulder"  src="https://snazzymaps.com/embed/117758" width="100%" height="600px" style="border:none;"></iframe>
 				
 			</div><!-- location_maps -->
 			

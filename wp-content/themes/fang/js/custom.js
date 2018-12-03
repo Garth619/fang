@@ -280,7 +280,36 @@ $('.sec_three_slider').slick({
   }
   
 
+ /* Contact Page Iframe toggle
+--------------------------------------------------------------------------------------- */
  
+ 
+ 
+ $('.map_button').on('click', function(e) {
+	 
+	 $('.map_button').removeClass('active');
+	 
+	 $(this).addClass('active');
+   
+ });
+ 
+ 
+  $('.map_left').on('click', function(e) {
+	 
+	 $('iframe#boulder').removeClass('fadein');
+	 
+	 $('iframe#denver').addClass('fadein');
+   
+ 	});
+ 	
+ 	
+ 	$('.map_right').on('click', function(e) {
+	 
+	 $('iframe#boulder').addClass('fadein');
+	 
+	 $('iframe#denver').removeClass('fadein');
+   
+ 	});
  
 
 	

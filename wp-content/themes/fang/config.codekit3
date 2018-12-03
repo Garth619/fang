@@ -67,7 +67,7 @@
 		"iS": 116576,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/AP_img_remington.jpg",
+		"oAP": "/images/ap_img_remington.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -631,6 +631,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/marker.png": {
+		"ft": 32768,
+		"iS": 6792,
+		"oA": 0,
+		"oAP": "/images/marker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/mouse.svg": {
 		"ft": 2097152,
