@@ -1,0 +1,26 @@
+.att_col {
+	max-width:1685px;
+	position: relative;
+	z-index: 1;
+	margin:125px auto;
+	display: flex;
+	padding-left:70px;
+	padding-right:70px;
+}
+
+
+.att_bio_left {
+	flex-basis:490px;
+}
+
+.att_bio_right {
+	flex-grow:1;
+	margin:25px 0 0;
+	padding-left:6.5%;
+	h1.internal_title {
+		&:after {
+			display: block;
+			margin:52px 0 31px;
+		}
+	}
+}

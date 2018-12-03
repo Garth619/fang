@@ -189,6 +189,7 @@ h1,h2,h3,h4 {
 	 h1.internal_title {
 		 font-family: $unna;
 		 font-size:110px;
+		 line-height: 90px;
 		 color:$greenone;
 		 &:after {
 			 content:"";
