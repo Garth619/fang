@@ -1,0 +1,313 @@
+.meet_team_wrapper {
+	margin:145px auto 70px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&:after {
+		content:"";
+		display: block;
+		flex-basis: 29%;
+	}
+}
+
+
+.single_att {
+	max-width:494px;
+	text-align: center;
+	flex-basis:29%;
+	margin-bottom:115px;
+	&:nth-last-of-type(-n + 3) {
+		margin-bottom:0;
+	}
+	a {
+		text-decoration: none;
+	}
+	span {
+		display: block;
+	}
+	.att_img_wrapper {
+		position: relative;
+		img {
+			display: block;
+			width:100%;
+			height:auto;
+		}
+		.att_img_overlay {
+			position: absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			background:rgba(0,31,31,0.81);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			opacity: 0;
+			transition: all 200ms ease-in-out;
+			span {
+				color:#fff;
+				text-transform: uppercase;
+				font-family: $raleway;
+				font-weight:800;
+				letter-spacing: 0.12em;
+				font-size:21px;
+				&:before {
+					content:"";
+					display: inline-block;
+					vertical-align: top;
+					margin-top:8px;
+					width: 57px;
+					height: 7px;
+					background: url(#{$themePath}images/three_count.svg) top left no-repeat;
+				}
+			}
+		}
+	}
+	span.att_name {
+		display: block;
+		font-family: $unna;
+		font-size: 55px;
+		line-height: 57px;
+		letter-spacing: 0.02em;
+		color:$greythree;
+		margin:25px 0 0;
+	}
+	span.att_position {
+		font-family: $raleway;
+		font-weight: 800;
+		font-size:15px;
+		color:$greenone;
+		margin-top:18px;
+		letter-spacing: 0.18em;
+		text-transform: uppercase;
+		transition: all 200ms ease-in-out;
+	}
+}
+
+
+.single_att {
+	&:hover {
+		.att_img_wrapper {
+			.att_img_overlay {
+				opacity: 1;
+			}
+		}
+		span.att_position {
+			color: $yellow;
+		}
+	}
+}
+
+
+@media screen and (max-width: 1635px) {
+	
+	
+	
+.single_att {
+	flex-basis: 31%;
+	&:nth-last-of-type(-n + 3) {
+		margin-bottom: 115px;
+	}
+	&:nth-last-of-type(-n + 2) {
+		margin-bottom: 0px;
+	}
+	a {
+		
+	}
+	span {
+		
+	}
+	.att_img_wrapper {
+		
+		img {
+			
+		}
+		.att_img_overlay {
+			
+			span {
+				
+				&:before {
+					
+				}
+			}
+		}
+	}
+	span.att_name {
+		
+	}
+	span.att_position {
+		
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1540px) {
+	
+	
+	
+	.single_att {
+		span.att_name {
+			font-size: 48px;
+		}
+		span.att_position {
+			margin-top: 10px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1360px) {
+	
+	
+	.meet_team_wrapper {
+		max-width: 1050px;
+		&:after {
+			display: none;
+		}
+	}
+	
+	.single_att {
+		flex-basis: 47%;
+		span.att_name {
+			
+		}
+		span.att_position {
+			
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+	.meet_team_wrapper {
+		margin:145px auto 120px;
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	
+	.meet_team_wrapper {
+	 margin: 110px auto 30px;
+	}
+	
+	.single_att {
+		margin-bottom: 83px;
+		&:nth-last-of-type(-n + 3) {
+			margin-bottom: 83px;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 945px) {
+	
+	
+	
+	
+	.single_att {
+		span.att_name {
+			font-size: 42px;
+			margin: 10px 0 0;
+		}
+		span.att_position {
+			margin-top: 10px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 865px) {
+	
+	
+	
+	.single_att {
+		span.att_name {
+			font-size: 38px;
+			margin: 5px 0 0;
+		}
+		span.att_position {
+			margin-top: 5px;
+		}
+	}
+
+	
+	    
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 830px) {
+	
+	
+	
+	.meet_team_wrapper {
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+		max-width:494px;
+	}
+	
+	.single_att {
+		span.att_name {
+			
+		}
+		span.att_position {
+			
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.meet_team_wrapper {
+		margin:58px auto 70px;
+	}
+	
+	.single_att {
+		margin-bottom:50px;
+		&:nth-last-of-type(-n + 3) {
+			margin-bottom: 50px;
+		}
+		&:nth-last-of-type(-n + 2) {
+			margin-bottom: 50px;
+		}
+		&:last-of-type {
+			margin-bottom:0;
+		}
+	}
+	
+	
+} /* Media Query */
