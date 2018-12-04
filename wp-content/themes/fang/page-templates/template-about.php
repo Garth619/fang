@@ -7,6 +7,8 @@ get_header(); ?>
 
 <div id="internal_trigger" class="internal_main">
 	
+	<div class="grey_topog"><?php echo file_get_contents("wp-content/themes/fang/images/topog.svg"); ?></div><!-- grey_topog -->
+	
 	<div class="about_banner">
 		
 		<div class="about_banner_inner">
