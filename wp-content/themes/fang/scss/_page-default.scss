@@ -228,10 +228,14 @@ img.sidebar_accent {
 
 
 
+
+
 .content_wrapper {
 	flex-grow:1;
 	padding:0 8% 0 7.5%;
 	margin: -140px 0 0;
+	position: relative;
+	z-index: 1;
 }
 
 
@@ -327,6 +331,7 @@ img.sidebar_accent {
 						padding:24px 10px 20px 20px;
 						cursor: pointer;
 						transition: all 200ms ease-in-out;
+						position: relative;
 						&:hover {
 							color:$greytwo;
 						}
@@ -334,6 +339,10 @@ img.sidebar_accent {
 			}
 		}
 	}
+
+
+
+
 
 
 

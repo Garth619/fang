@@ -21,7 +21,7 @@
 	
 	<div class="container two_col">
 		
-		<?php get_sidebar(); ?>
+		<?php get_sidebar('blog'); ?>
 		
 		<div class="content_wrapper content">
 			
