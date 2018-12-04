@@ -52,7 +52,13 @@
 			
 			<a class="logo" href="<?php bloginfo('url');?>">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/hero_logo-01.svg"/>
+				<?php $logo = get_field( 'logo','option'); ?>
+				
+				<?php if ( $logo ) { ?>
+				
+					<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+				
+				<?php } ?>
 				
 			</a><!-- logo -->
 			
@@ -64,7 +70,7 @@
 				
 				<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
 				
-				<a class="phone" href="tel:(303) 993-4323">(303)993-4323</a>
+				<a class="phone" href="tel:<?php the_field( 'phone' ,'option'); ?>"><?php the_field( 'phone' ,'option'); ?></a>
 				
 			</div><!-- free_consult -->
 			
@@ -84,7 +90,7 @@
 				
 			<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
 				
-			<a class="phone" href="tel:(303) 993-4323">(303)993-4323</a>
+			<a class="phone" href="tel:<?php the_field( 'phone' ,'option'); ?>"><?php the_field( 'phone' ,'option'); ?></a>
 			
 		</div><!-- mobile_bar -->
 		
@@ -98,7 +104,11 @@
 			
 			<a class="logo" href="<?php bloginfo('url');?>">
 				
-				<img src="<?php bloginfo('template_directory');?>/images/hero_logo-01.svg"/>
+				<?php if ( $logo ) { ?>
+				
+					<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+				
+				<?php } ?>
 				
 			</a><!-- logo -->
 			
@@ -110,7 +120,7 @@
 				
 				<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
 				
-				<a class="phone" href="tel:(303) 993-4323">(303)993-4323</a>
+				<a class="phone" href="tel:<?php the_field( 'phone' ,'option'); ?>"><?php the_field( 'phone' ,'option'); ?></a>
 				
 			</div><!-- free_consult -->
 			

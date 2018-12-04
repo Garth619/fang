@@ -146,7 +146,7 @@
 		
 			<div class="copright_col">
 				
-				<a class="" href="//ilawyermarketing.com" target="_blank" rel="noopener">
+				<a class="" href="//ilawyermarketing.com" target="_blank" rel="noopener" alt="ilawyermarketing">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/footer_icon-05.svg"/>
 					
