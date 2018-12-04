@@ -273,7 +273,7 @@ $('.sec_three_slider').slick({
  
  	if (!$('.internal_banner')[0]){
    	
-   	$('header').addClass('no-banner');
+   	$('header').addClass('no-banner'); // except about page has a banner but its using the "no-banner" header. so i said add "no-banner" to that template as an exception
    	
    	$('body.page-template-template-home header').removeClass('no-banner');
    
