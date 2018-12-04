@@ -212,7 +212,22 @@ h1,h2,h3,h4 {
 		 }
 	 }
 	 
-	 
+	
+@media screen and (max-width: 1250px) {
+	
+	
+	
+	h1.internal_title.centered {
+		&:after {
+			margin: 19px auto 23px;
+		}
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
 	
  
  @media screen and (max-width: 1200px) {

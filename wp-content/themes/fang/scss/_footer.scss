@@ -253,10 +253,11 @@ span.required {
 		font-weight: 800;
 		letter-spacing: 0.12em;
 	}
-	span.footer_phone {
+	.footer_phone {
 		color:#fff;
 		font-family: $unna;
 		font-size:58px;
+		text-decoration: none;
 	}
 }
 
@@ -637,7 +638,7 @@ span.required {
 	
 	
 	.footer_phone_row {
-		span.footer_phone {
+		.footer_phone {
 			font-size:42px;
 		}
 	}

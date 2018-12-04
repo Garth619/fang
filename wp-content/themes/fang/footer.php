@@ -32,9 +32,9 @@
 			
 			<div class="location_maps">
 				
-					<iframe id="denver" class="fadein" src="https://snazzymaps.com/embed/117756" width="100%" height="600px" style="border:none;"></iframe>
+					<iframe id="denver" class="fadein" src="<?php the_field( 'denver_map_embed','option'); ?>" width="100%" height="600px" style="border:none;"></iframe>
 
-					<iframe id="boulder"  src="https://snazzymaps.com/embed/117758" width="100%" height="600px" style="border:none;"></iframe>
+					<iframe id="boulder"  src="<?php the_field( 'boulder_map_embed','option'); ?>" width="100%" height="600px" style="border:none;"></iframe>
 				
 			</div><!-- location_maps -->
 			
@@ -50,13 +50,13 @@
 				
 				<img class="location_svg" src="<?php bloginfo('template_directory');?>/images/footer_icon-06.svg"/>
 				
-				<span class="location_title">Denver</span><!-- location_title -->
+				<span class="location_title"><?php the_field( 'denver_title','option'); ?></span><!-- location_title -->
 				
 				<img class="title_accent" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 				
-				<span class="address">1515 Wynkoop Street, Suite 360<br/> Denver, CO 80202</span><!-- address -->
+				<span class="address"><?php the_field( 'denver_street_address','option'); ?></span><!-- address -->
 				
-				<a class="get_directions" href="https://www.google.com/maps/place/1515+Wynkoop+St+%23360,+Denver,+CO+80202/@39.7514238,-105.0042689,17z/data=!4m13!1m7!3m6!1s0x876c78c3f5e2b409:0x33791d9202f38ac9!2s1515+Wynkoop+St+%23360,+Denver,+CO+80202!3b1!8m2!3d39.7514238!4d-105.0020802!3m4!1s0x876c78c3f5e2b409:0x33791d9202f38ac9!8m2!3d39.7514238!4d-105.0020802" target="_blank" rel="noopener">Get Directions</a><!-- get_directions -->
+				<a class="get_directions" href="<?php the_field( 'denver_directions_link','option'); ?>" target="_blank" rel="noopener">Get Directions</a><!-- get_directions -->
 				
 			</div><!-- footer_col -->
 			
@@ -64,13 +64,13 @@
 				
 					<img src="<?php bloginfo('template_directory');?>/images/footer_icon-01.svg"/>
 					
-					<span class="location_title">Boulder</span><!-- location_title -->
+					<span class="location_title"><?php the_field( 'boulder_title','option'); ?></span><!-- location_title -->
 				
 					<img class="title_accent" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 				
-					<span class="address">4450 Arapahoe Avenue, Suite 100<br/> Boulder, Colorado 80303</span><!-- address -->
+					<span class="address"><?php the_field( 'boulder_street_address','option'); ?></span><!-- address -->
 				
-					<a class="get_directions" href="https://www.google.com/maps/place/4450+Arapahoe+Ave+%23100,+Boulder,+CO+80303/@40.0143472,-105.2410943,17z/data=!3m1!4b1!4m5!3m4!1s0x876bede8e42082b7:0x63b45bc381088edf!8m2!3d40.0143431!4d-105.2389056" target="_blank" rel="noopener">Get Directions</a><!-- get_directions -->
+					<a class="get_directions" href="<?php the_field( 'boulder_directions_link','option'); ?>" target="_blank" rel="noopener">Get Directions</a><!-- get_directions -->
 
 				
 			</div><!-- footer_col -->
@@ -91,7 +91,7 @@
 						
 					<span class="footer_phone_title">Phone</span><!-- footer_phone_title -->
 						
-					<span class="footer_phone">(303)993-4323</span><!-- footer_phone_title -->
+					<a class="footer_phone" href="tel:<?php the_field( 'phone','option'); ?>"><?php the_field( 'phone','option'); ?></a><!-- footer_phone_title -->
 						
 				</div><!-- footer_phone_row -->
 				
@@ -99,7 +99,7 @@
 						
 					<span class="footer_phone_title">Fax</span><!-- footer_phone_title -->
 						
-					<span class="footer_phone">(303)862-8978</span><!-- footer_phone_title -->
+					<span class="footer_phone"><?php the_field( 'fax','option'); ?></span><!-- footer_phone_title -->
 						
 				</div><!-- footer_phone_row -->
 
@@ -121,7 +121,7 @@
 		
 			<div class="copright_col">
 			
-				<a href="" target="_blank" rel="noopener">
+				<a href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank" rel="noopener">
 				
 					<?php echo file_get_contents("wp-content/themes/fang/images/footer_icon-04.svg"); ?>
 				
@@ -132,16 +132,21 @@
 			<div class="copright_col">
 			
 				<ul>
-					<li>The Fang Law Firm © 2018</li>
-					<li>All Rights Reserved</li>
-					<li><a href="">Disclaimer</a></li>
+					<li><?php the_field( 'copyright','option'); ?></li>
+					<li><?php the_field( 'all_rights_reserved','option'); ?></li>
+					
+					<?php if(get_field('disclaimer','option')) { ?>
+						
+						<li><a href="<?php the_field( 'disclaimer','option'); ?>">Disclaimer</a></li>
+					
+					<?php } ?>
 				</ul>
 			
 			</div><!-- copright_col -->
 		
 			<div class="copright_col">
 				
-				<a class="" href="" target="_blank" rel="noopener">
+				<a class="" href="//ilawyermarketing.com" target="_blank" rel="noopener">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/footer_icon-05.svg"/>
 					
