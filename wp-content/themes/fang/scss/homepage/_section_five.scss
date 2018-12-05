@@ -1,0 +1,112 @@
+#section_five {
+	width:100%;
+	height:997px;
+	background:$greenthree;
+	overflow: hidden;
+}
+
+.sec_five_inner {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	z-index:1;
+	align-items: center;
+	height:100%;
+}
+
+.sec_five_button {
+	width:68px;
+	height:92px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	&:hover {
+		&:before {
+			border-right:12px solid $orange; 
+		}
+	}
+	&:before {
+		content:"";
+		display: block;
+		width: 0; 
+		height: 0;
+		border-top: 8px solid transparent;
+		border-bottom: 8px solid transparent; 
+		border-right:12px solid $greenthree; 
+		transition: border 200ms ease-in-out;
+	}
+}
+
+
+.sec_five_button_right {
+	&:before {
+		transform: rotate(180deg);
+	}
+}
+
+.sec_five_slider {
+	max-width: 860px;
+}
+
+.sec_five_single_slide {
+	text-align: center;
+	img.sec_five_stars {
+		display: block;
+		margin:0 auto;
+	}
+	span {
+		display: block;
+		color:#fff;
+	}
+	span.sec_five_intro {
+		font-family: $unna;
+		font-size: 65px;
+		line-height: 72px;
+		margin:25px 0 0;
+		&:after {
+			content:"";
+			display: block;
+			width: 135px;
+			height:7px;
+			background: url(#{$themePath}images/six_count.svg) top left no-repeat;
+			margin:30px auto 0;
+		}
+	}
+	span.sec_five_description {
+		font-size:22px;
+		line-height: 36px;
+		font-family: $raleway;
+		margin:30px 0 40px;
+	}
+	a.button {
+		padding: 32px 57px;
+	}
+}
+
+
+
+
+.sec_five_topog {
+	transform: rotate(-50deg);
+	position: absolute;
+	bottom: -93px;
+  left: -220px;;
+	svg#topog {
+		width:750px;
+		height:750px;
+	}
+}
+
+.sec_five_topog_two {
+	transform: rotate(-35deg);
+	position: absolute;
+	top: -250px;
+  right: -225px;
+	svg#topog {
+		width:750px;
+		height:750px;
+	}
+}
+

@@ -23,15 +23,16 @@
  
 			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		
-			<img class="ram" src="<?php bloginfo('template_directory');?>/images/goat.svg"/>
+			<img class="ram desktop" src="<?php bloginfo('template_directory');?>/images/goat.svg"/>
 		
 			<h3>Nemo enim ipsam voluptatem quia voluptas sit que enim quia aut sed</h3>
 		
 			<p>Sed ut perspiciatis unde omnis iste natus error sit nemo ips voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
 		
 		</div><!-- col -->
- 
 		
 	</div><!-- sec_four_inner -->
+	
+	<img class="ram mobile" src="<?php bloginfo('template_directory');?>/images/goat.svg"/>
 	
 </section><!-- section_four -->
