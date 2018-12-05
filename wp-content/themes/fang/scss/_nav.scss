@@ -11,12 +11,12 @@ nav {
 	align-items: center;
 	padding-left:70px;
 	padding-right:70px;
+	overflow-y: scroll;
 	.nav_inner {
 		display: flex;
 		width:100%;
 		max-width:1470px;
 		justify-content: space-between;
-		
 	}
 	ul {
 		list-style: none;
@@ -51,7 +51,8 @@ nav {
 			font-family: $raleway;
 			font-weight:800;
 			font-size:16px;
-			margin-bottom:23px;
+			line-height: 20px;
+			margin-bottom:20px;
 			a {
 				letter-spacing: 0.18em;
 				text-transform: uppercase;
@@ -65,6 +66,11 @@ nav {
 	}
 }
 
+
+.nav_col {
+	flex-basis: 22%;
+	flex-shrink: 0;
+}
 
 .nav_col.two, .nav_col.three, .nav_col.four {
 	ul.menu {
@@ -109,3 +115,220 @@ nav {
 		}
 	}
 }
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+nav {
+	display: block;
+	padding:253px 70px 100px;
+	.nav_inner {
+		
+	}
+	ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li.menu-item-has-children {
+			
+		}
+		> li {
+				font-size: 35px;
+				margin-bottom: 25px;
+			> a {
+					
+			}
+		}
+	}
+	ul.sub-menu {
+		
+		li.current-menu-item {
+			a {
+				
+			}
+		}
+		li {
+			font-size: 15px;
+			margin-bottom: 16px;
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+.nav_col {
+	
+}
+
+.nav_col.two, .nav_col.three, .nav_col.four {
+	ul.menu {
+		
+		>li.menu-item-has-children {
+			
+		}
+	}
+}
+
+
+.nav_close {
+	top: 52px;
+	right: 58px;
+	img {
+		
+	}
+	.close {
+		
+		&:before, &:after {
+			
+		}
+		&:before {
+			
+		}
+		&:after {
+			
+		}
+	}
+}
+
+
+.nav_close {
+	
+}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1100px) {
+	
+	.nav_col:not(.one) {
+		display: none;
+	}
+	
+	
+
+	
+	
+nav {
+	padding: 184px 70px 100px;
+	.nav_inner {
+		display: block;
+		text-align: center;
+	}
+	ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li.menu-item-has-children {
+			display: block;
+		}
+		> li {
+				font-size: 30px;
+				margin-bottom: 24px;
+			> a {
+					
+			}
+		}
+	}
+	ul.sub-menu {
+		margin-top: 16px;
+		li.current-menu-item {
+			a {
+				
+			}
+		}
+		li {
+			font-size: 14px;
+			margin-bottom: 11px;
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+	.nav_col {
+		
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+nav {
+	.nav_inner {
+	
+	}
+	ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li.menu-item-has-children {
+			
+		}
+		> li {
+				
+			> a {
+					
+			}
+		}
+	}
+	ul.sub-menu {
+		
+		li.current-menu-item {
+			a {
+				
+			}
+		}
+		li {
+			
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+	
+	
+	
+	
+} /* Media Query */

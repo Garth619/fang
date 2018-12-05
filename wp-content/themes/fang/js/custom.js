@@ -62,7 +62,7 @@ jQuery(document).ready(function($){
      
      	function checkWidthcase() {
          
-         if (windowWidth > 1066) {
+         if (windowWidth > 1100) {
              
            
            	// these classes are added to the menu dahsboard under CSS Classes for each menu item
