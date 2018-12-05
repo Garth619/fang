@@ -308,6 +308,18 @@ $('.sec_three_slider').slick({
 	fade:true,
 	prevArrow:".sec_five_button_left",
 	nextArrow:".sec_five_button_right",
+	responsive: [
+    {
+      breakpoint: 1066,
+      settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows:false,
+      adaptiveHeight: true,
+      dots:true,
+     }
+   }
+	]
  });
  
  
