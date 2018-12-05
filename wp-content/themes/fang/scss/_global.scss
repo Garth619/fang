@@ -214,7 +214,18 @@ h1,h2,h3,h4 {
 			 margin: 31px auto 23px;
 		 }
 	 }
-	 
+
+@media screen and (max-width: 1450px) {
+	
+	.content {
+		h3 {
+			font-size: 26px;
+			line-height: 32px;
+		}
+	}
+	
+	
+} /* Media Query */ 
 	
 @media screen and (max-width: 1250px) {
 	
