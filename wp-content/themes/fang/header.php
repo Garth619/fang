@@ -94,7 +94,6 @@
 			
 		</div><!-- mobile_bar -->
 		
-		<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 		
 	</header>
 	
@@ -137,4 +136,49 @@
 		</div><!-- header_right -->
 		
 	</div><!-- sticky_header -->
+	
+	
+	<nav>
+		
+		<div class="nav_close">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+			
+			<div class="close"></div><!-- close -->
+			
+		</div><!-- nav_close -->
+		
+		<div class="nav_inner">
+			
+			<div class="nav_col one">
+		
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+			
+			</div><!-- nav_col -->
+			
+			<div class="nav_col two">
+		
+				<ul class="menu"></ul><!-- menu -->
+			
+			</div><!-- nav_col -->
+			
+			<div class="nav_col three">
+		
+					<ul class="menu"></ul><!-- menu -->
+			
+			</div><!-- nav_col -->
+			
+			<div class="nav_col four">
+		
+					<ul class="menu"></ul><!-- menu -->
+			
+			</div><!-- nav_col -->
+		
+		</div><!-- nav_inner -->
+		
+	</nav>
+
+
+
+
 							

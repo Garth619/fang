@@ -50,7 +50,35 @@ jQuery(document).ready(function($){
 		});
 
 
-
+		 /* Nav
+     --------------------------------------------------------------------------------------- */
+     
+     
+     
+     	
+     	var windowWidth = $(window).width();
+     
+     
+     
+     	function checkWidthcase() {
+         
+         if (windowWidth > 1066) {
+             
+           
+           	// these classes are added to the menu dahsboard under CSS Classes for each menu item
+           
+         		$('.about_nav').clone().appendTo('.nav_col.two ul.menu');
+         		$('.att_nav').clone().appendTo('.nav_col.three ul.menu');
+         		$('.pa_nav').clone().appendTo('.nav_col.four ul.menu');
+         	   		
+         		
+         }       
+         
+  		};
+     	
+     
+     checkWidthcase();
+     
 
 
     /* Waypoints
