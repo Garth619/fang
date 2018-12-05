@@ -79,6 +79,21 @@ jQuery(document).ready(function($){
      
      checkWidthcase();
      
+     
+     
+     $('.menu_wrapper').on('click', function(e) {
+	     
+	     	$('nav').addClass('open');
+       
+     });
+     
+     
+     $('.close').on('click', function(e) {
+       
+     	$('nav').removeClass('open');
+     
+     });
+     
 
 
     /* Waypoints
