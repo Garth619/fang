@@ -298,6 +298,20 @@ $('.sec_three_slider').slick({
  
  
  
+ 
+ 
+ $('.sec_five_slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+	arrows:true,
+	fade:true,
+	prevArrow:".sec_five_button_left",
+	nextArrow:".sec_five_button_right",
+ });
+ 
+ 
+ 
  // sidebar
  
  
