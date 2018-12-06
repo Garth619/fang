@@ -40,7 +40,7 @@ get_header(); ?>
 					
 							</div><!-- wistia_wrapper -->
 				
-						<span class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html"><?php the_sub_field( 'video_title' ); ?></span><!-- video_title -->
+						<span class="video_title wistia_embed wistia_async_<?php the_sub_field( 'wistia_id' ); ?> popover=true popoverContent=html"><?php the_sub_field( 'video_title' ); ?></span><!-- video_title -->
 				
 				</div><!-- single_video -->
 			    

@@ -39,6 +39,10 @@
 	 color:$yellow;
 	 cursor: pointer;
   }
+  a {
+	  color:$yellow;
+	  text-decoration: none;
+  }
 }
 
 body.error404 {

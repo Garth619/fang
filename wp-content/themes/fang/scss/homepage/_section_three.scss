@@ -44,6 +44,7 @@
 	flex-shrink: 0;
 	background:red;
 	height:880px;
+	margin-top:65px;
 }
 
 
@@ -97,7 +98,19 @@
 .sec_three_left {
 	padding-left:100px;
 }
-	
+
+
+	.sec_three_right {
+		margin-top: 8px;
+	}
+ 	
+ 	
+ 	
+ 	.sec_three_content {
+	 	a.button {
+		 	padding: 23px 40px;
+	 	}
+ 	}
 	
 	
 } /* Media Query */
@@ -124,7 +137,7 @@
 	
 	
 	#section_three {
-		padding: 89px 0 120px;
+		padding: 89px 0 126px;
 	}
 	
 	

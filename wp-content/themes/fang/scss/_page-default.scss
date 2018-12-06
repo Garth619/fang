@@ -81,9 +81,9 @@ img.internal_img_three {
 .one_col {
 	position: relative;
 	z-index: 1;
-	max-width:1710px;
+	max-width:1770px;
 	margin:0 auto;
-	padding:112px 70px 0;
+	padding:112px 100px 0;
 }
 
 
@@ -301,6 +301,19 @@ img.sidebar_accent {
 		}
 	}
 	ul.menu {
+		>li.current-menu-ancestor {
+			> a {
+					border-bottom:1px solid #d9dedc;
+			}
+			ul.sub-menu {
+				display: block;
+				li.current-menu-item {
+					a {
+						color:$greytwo;
+					}
+				}
+			}
+		}
 		> li.menu-item-has-children {
 				> a {
 					position: relative;
@@ -569,6 +582,12 @@ img.sidebar_accent {
 		.menu-header {
     	padding-left: 71px;
 		}
+	}
+	
+	
+	.one_col {
+		padding-left:70px;
+		padding-right:70px;
 	}
 	
 	

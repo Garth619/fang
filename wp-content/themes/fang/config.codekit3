@@ -788,6 +788,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/vid-thumb.jpg": {
+		"ft": 16384,
+		"iS": 24784,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/vid-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -841,6 +852,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/js/lity-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/local_wistia_script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/local_wistia_script-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

@@ -1,11 +1,11 @@
 .att_col {
-	max-width:1685px;
+	max-width:1745px;
 	position: relative;
 	z-index: 1;
 	margin:125px auto 0;
 	display: flex;
-	padding-left:70px;
-	padding-right:70px;
+	padding-left:100px;
+	padding-right:100px;
 }
 
 
@@ -72,6 +72,8 @@
 	
 	.att_col {
 		display: block;
+		padding-left:70px;
+		padding-right:70px;
 		margin: 0 auto 90px;
 	}
 	

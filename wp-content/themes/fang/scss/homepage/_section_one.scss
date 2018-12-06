@@ -128,11 +128,16 @@
 }
 
 .play_wrapper {
-	
-	a {
-		display: flex;
-		align-items: center;
-		text-decoration: none;
+	display: flex;
+	align-items: center;
+	position: relative;
+	.wistia_click {
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index: 3;
 	}
 	.learn_wrapper {
 		margin-right:-20px;
@@ -461,9 +466,6 @@ a.button.mobile {
 	
 	
 .play_wrapper {
-	a {
-		position: relative;
-	}
 	.learn_wrapper.desktop {
 		display: none;
 		span.learn_title {
@@ -492,8 +494,7 @@ a.button.mobile {
 		left:-121px;
 	}
 	.learn_wrapper.mobile.two {
-		
-		right:-79px;
+		right: -58px;
 		img {
 			left:-24px;
 		}
@@ -605,7 +606,6 @@ a.button.mobile {
 	
 	
 .play_wrapper {
-	position: relative;
 	right:-11px;
 	a {
 		

@@ -165,7 +165,7 @@ img.about_img_three {
 .about_bottom_content {
 	background:#f0f1f0;
 	width:100%;
-	padding:230px 70px 212px;
+	padding:230px 100px 212px;
 	position: relative;
 	overflow: hidden;
 	.about_bottom_inner {
@@ -236,6 +236,11 @@ img.about_img_three {
 	h1 {
 		font-size: 96px;
 	}
+}
+
+
+.about_right {
+	padding-right:100px;
 }
 
 	
@@ -390,7 +395,7 @@ body.page-template-template-about {
 	}
 	
 	.about_wrapper {
-		padding: 51px  0;
+		padding: 51px  0 0;
 	}
 	
 	

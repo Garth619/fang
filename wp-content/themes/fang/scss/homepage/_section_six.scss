@@ -5,7 +5,7 @@
 
 .sec_six_inner {
 	display: flex;
-	padding:150px 0 165px;
+	padding: 150px 0 145px;
 }
 
 .sec_six_right.content {
@@ -13,7 +13,7 @@
 	blockquote {
 		margin: 55px 0 0;
 		&:after {
-			margin: 27px 0 39px;
+			margin: 32px 0 35px;
 		}
 	}
 	ul {
@@ -141,6 +141,18 @@
 } /* Media Query */
 
 
+@media screen and (max-width: 1450px) {
+	
+	.sec_six_inner {
+		padding: 150px 0 126px;
+	}
+	   
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1230px) {
 	
 
@@ -151,6 +163,7 @@
 	
 .sec_six_left {
 	order:2;
+	flex-basis: 100%;
 	.sec_six_img {
 		display: none;
 	}

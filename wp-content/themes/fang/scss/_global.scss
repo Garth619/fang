@@ -28,12 +28,6 @@ img.aligncenter {
 }
 
 
- span.yellow {
-	color:$yellow;
- }
- 
-
-
 h1,h2,h3,h4 {
 	font-style: normal;
 	font-weight: 300;
@@ -74,7 +68,6 @@ h1,h2,h3,h4 {
   
   .content {
 	  font-family: $unna;
-	  font-size:21px;
 	  color:#000;
 	  font-family: $unna;
 	  font-size:21px;
@@ -106,7 +99,7 @@ h1,h2,h3,h4 {
 	  h3 {
 		  font-family: $unna;
 		  color:$greenone;
-		  font-size: 28px;
+		  font-size: 26px;
 		  font-weight: 700;
 		  padding:16px 0 11px;
 	  }
