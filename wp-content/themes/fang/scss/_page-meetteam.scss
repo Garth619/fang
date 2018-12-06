@@ -1,5 +1,5 @@
 .meet_team_wrapper {
-	margin:145px auto 70px;
+	margin:160px auto 70px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -160,6 +160,23 @@
 	}
 	
 	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	.meet_team_wrapper {
+		&:after {
+			flex-basis: 32%;
+		}
+	}
+	
+	.single_att {
+    flex-basis: 32%;
+	}
 	
 } /* Media Query */
 

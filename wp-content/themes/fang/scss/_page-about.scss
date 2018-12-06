@@ -179,7 +179,7 @@ img.about_img_three {
 .about_topog {
 	position: absolute;
 	top:-260px;
-	right:-210px;
+	right: -249px;
 	svg#topog {
 	  transform: rotate(310deg);
 	  width: 750px;
@@ -192,8 +192,8 @@ img.about_img_three {
 
 .about_topog_bottom {
 	position: absolute;
-	bottom:-290px;
-	left:-210px;
+	bottom: -300px;
+  left: -277px;
 	svg#topog {
 	  transform: rotate(310deg);
 	  width: 750px;
@@ -414,8 +414,8 @@ body.page-template-template-about {
 	
 	
 	.about_banner_inner {
-		padding-left:20px;
-		padding-right:20px;
+		padding-left:40px;
+		padding-right:40px;
 	}
 	
 	.blockquote_wrapper {

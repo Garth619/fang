@@ -73,6 +73,24 @@ body.error404 {
 	}
 	
 	
+body.error404 {
+	.container {
+		
+	}
+	.grey_topog {
+  	top: -350px;
+    left: -394px;
+    svg#topog {
+	    
+	    width: 700px;
+			height: 700px;
+    }
+   }
+}
+	
+	
+	
+	
 } /* Media Query */
 
 
@@ -84,6 +102,22 @@ body.error404 {
 			font-size:56px;
 		}
 	}
+	
+	
+body.error404 {
+	.container {
+		
+	}
+	.grey_topog {
+  	top: -400px;
+    left: -414px;
+    svg#topog {
+	    width: 650px;
+			height: 650px;
+    }
+   }
+}
+
 	
 
 	
