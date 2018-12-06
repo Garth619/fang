@@ -5,29 +5,24 @@
 		
 		<div class="col">
 		
-			<h2>Lorem ipsum dolor sit amet, cons ecter adipisicing elitoe sed do eius mod amet dolore&nbsp;eli</h2>
+			<h2>Why Choose The Fang Law Firm in Denver?</h2>
 		
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat perspiciatis unde omnis iste natus error sit.</p>
+			<p>At the Fang Law Firm, we are driven by a single guiding principle: Our injured clients deserve personal representation and communication at every step of a personal injury case. We believe in hands-on case management – your injury case will not be turned over to a case manager or paralegal who has little to no legal knowledge or experience, but will be handled personally by our lawyers, from start to finish.</p> 
 
-			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo eiusmod tempor incididunt ut labore et dolore magna.</p>
+			<h3>Why You Need a Lawyer</h3>
+ 
+			<p>In a perfect world, after suffering a serious injury, the victim would be treated with honesty, compassion, and fairness. When an injury case involves serious or life-changing injuries, insurance companies typically engage in various legal strategies in the attempt to deny or reduce the value of a settlement. Without the assistance of an attorney who has extensive experience in personal injury law, both in negotiating settlements and achieving justice in court, you and your case are at risk.</p>
 
-			<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neq</p>
 		
 		</div><!-- col -->
 		
 		<div class="col">
-		
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat perspiciatis unde omnis iste natus error&nbsp;sit.</p>
-
-			<h3>Nemo enim ipsam voluptatem quia voluptas sit</h3>
- 
-			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		
+			
+			<p>At the Fang Law Firm, our attorneys are experienced, professional, and personally dedicated to pursuing full compensation for the people we represent. The Colorado statute of limitations restricts the time in which you have the right to file a personal injury lawsuit, and we urge you to contact us as soon as possible after a serious injury accident.</p>
+			
 			<img class="ram desktop" src="<?php bloginfo('template_directory');?>/images/goat.svg"/>
-		
-			<h3>Nemo enim ipsam voluptatem quia voluptas sit que enim quia aut sed</h3>
-		
-			<p>Sed ut perspiciatis unde omnis iste natus error sit nemo ips voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut</p>
+
+			<p>Insurance companies are not concerned with protecting your right and interests – the goal is to pay out as little as can be negotiated. Sadly, many seriously injured persons are end up having claims denied the financial value greatly diminished. While an insurance company representative may be friendly when speaking to you, he or she is often busy employing a specific set of tactics designed to make it possible to limit the value of your claim. At The Fang Law Firm, we will not allow you to fall victim to such strategies and will zealously protect your rights and interests. </p>
 		
 		</div><!-- col -->
 		

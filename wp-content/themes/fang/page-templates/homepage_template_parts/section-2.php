@@ -4,7 +4,7 @@
 		
 		<div class="sec_two_content content">
 			
-			<h1>Colorado Personal Injury Attorneys</h1>
+			<h1>Denver Personal Injury Attorneys</h1>
 			
 			<div class="sec_two_content_svg">
 				
@@ -14,9 +14,7 @@
 			
 			<div class="sec_two_inner_content">
 			
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sed ut unde omnis iste cilllum duis aute coluptate.</p>
-
-				<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste </p>
+				<p>If you or a loved one has been harmed by the negligent or reckless act of another, your life may be forever changed. After suffering a serious injury, you will likely face physical, emotional, and financial challenges. It is critical that you are represented by legal counsel who genuinely cares about you and your future, and who is personally dedicated to pursuing the maximum in financial damages.</p>
 			
 			</div><!-- sec_two_inner_content -->
 			

@@ -5,7 +5,7 @@
 		
 		<img src="<?php bloginfo('template_directory');?>/images/content02_icon-01.svg"/>
 		
-		<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</blockquote>
+		<blockquote>At The Fang Law Firm, we take on a limited number of cases, allowing our personal injury lawyers to provide ongoing, personalized legal service.</blockquote>
 		
 	</div><!-- sec_three_blockquote_wrapper -->
 	
@@ -13,13 +13,26 @@
 		
 		<div class="sec_three_left">
 			
-			<h2>Lorem ipsum dolor sit amet, consecter adipisicing elit sed do eiusmod tempor</h2>
+			<h2>The Fang Law Firm: Who We Are.</h2>
 
-			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-			
-			<h3>Nemo enim ipsam voluptatem quia voluptas sit aspernat</h3>
+			<p>Our team of personal injury lawyers have worked in large law firms where we were required to handle hundreds of injury cases. While we were able to help many of our clients achieve justice, it was clear that it is impossible for a single attorney, even with exceptional legal talents, to provide each client with the attention and focus they deserved.</p>
 
-			<p>sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non</p>
+			<p>We then established a law firm built around providing a far superior client experience. At The Fang Law Firm, we take on a limited number of cases, allowing our personal injury lawyers to provide ongoing, personalized legal service. We are not your average, everyday personal injury law firm, or one of the large, impersonal law firms you see advertised on TV. We are a team of experienced litigators who provide dedicated personal attention to the people we represent. Why should you call The Fang Law Firm for help?</p>
+
+		<ul>
+			<li>Our legal team has over a decade of experience in personal injury law and has   
+     litigated more than 10,000 combined cases.</li>
+		 <li>We get proven results with a 98% success rate.</li>
+		 <li> We do not employ legal assistants or paralegals to handle our clients. Our 
+     cases are handled directly by our attorneys who will give you undivided  
+     attention.</li>
+		 <li>We maintain a direct, open line of communication with our clients, available 
+     for any questions or concerns at any time of the day. We have a phone call      
+     guarantee policy: we promise to return your call within 24 hours.</li>
+		 <li> We operate on a contingency fee basis – you do not pay any legal fees until we 
+     reach a settlement or win your case.</li>
+		</ul>
+
 			
 			<a class="button desktop" href="#consultation">Click For a Free Consultation</a>
 			

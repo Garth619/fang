@@ -32,6 +32,14 @@ nav {
 		}
 	}
 	ul.menu {
+/*
+		> li.current-menu-item {
+				> a {
+						color:#fdb629;
+				}
+				
+		}
+*/
 		>li.menu-item-has-children {
 			display: none;
 		}
@@ -42,6 +50,12 @@ nav {
 				margin-bottom:30px;
 			> a {
 					color:#fff;
+					transition: all 200ms ease-in-out;
+/*
+					&:hover {
+						color:#fdb629;
+					}
+*/
 			}
 		}
 	}
@@ -121,12 +135,18 @@ nav.open {
 		height:55px;
 		position: relative;
 		cursor: pointer;
+		&:hover {
+			&:before, &:after {
+				background:$yellow;
+			}
+		}
 		&:before, &:after {
 			content:"";
 			display: block;
 			width:65px;
 			height:3px;
 			background: #fff;
+			transition: background 200ms ease-in-out;
 			position: absolute;
 			top:25px;
 			left:-5px;
