@@ -245,6 +245,10 @@ span.required {
 		display: block;
 		margin:0;
 	}
+	a {
+		color:#fff;
+		text-decoration: none;
+	}
 	span.footer_phone_title {
 		color:$greythree;
 		text-transform: uppercase;
@@ -258,6 +262,7 @@ span.required {
 		font-family: $unna;
 		font-size:58px;
 		text-decoration: none;
+		
 	}
 }
 
