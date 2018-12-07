@@ -21,7 +21,31 @@
 			
 			</div><!-- sec_three_left -->
 		
-		<div class="sec_three_right"></div><!-- sec_three_right -->
+		<div id="sec_three_trigger" class="sec_three_right">
+			
+			<div class="sec_three_image_wrapper">
+				
+				<div class="sec_three_img_bg sec_three_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content02_img_01_desktop.jpg"/>
+					
+				</div><!-- sec_three_img_bg -->
+				
+				<div class="sec_three_img_one sec_three_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/sec_three_img_one.jpg"/>
+					
+				</div><!-- sec_three_img_one -->
+				
+				<div class="sec_three_img_two sec_three_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/sec_three_img_two.jpg"/>
+					
+				</div><!-- sec_three_img_two -->
+				
+			</div><!-- sec_three_image_wrapper -->
+			
+		</div><!-- sec_three_right -->
 		
 	</div><!-- sec_three_content -->
 

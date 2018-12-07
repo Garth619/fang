@@ -132,6 +132,9 @@ jQuery(document).ready(function($){
     createWaypoint('section_one', '.sticky_header', 'visible', -300, null, true);
 		
 		createWaypoint('internal_trigger', '.sticky_header', 'visible', -300, null, true);
+		
+		
+		 createWaypoint('sec_three_trigger', '.sec_three_right', 'visible', 300, null, true);
 
 
 
