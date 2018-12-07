@@ -345,6 +345,21 @@ body.page-template-template-about {
 
 
 
+
+@media screen and (max-width: 1200px) {
+	
+	body.page-template-template-about {
+		a.button {
+			font-size: 15px;
+			letter-spacing: 0.12em;
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+
 @media screen and (max-width: 1066px) {
 	
 	body.page-template-template-about {
@@ -456,7 +471,9 @@ body.page-template-template-about {
 	
 	body.page-template-template-about {
 		a.button.mobile {
-			padding: 31px 27px;
+			max-width: 335px;
+			width:100%;
+			padding: 31px 0px;
 		}
 	}
 	
@@ -483,6 +500,10 @@ body.page-template-template-about {
 			height: 550px;
 		}
 	}
+	
+	
+	
+	
 	
 	
 	
