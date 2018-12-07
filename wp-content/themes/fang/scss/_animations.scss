@@ -1,8 +1,63 @@
 @media screen and (min-width: 1399px) {
+
+
+// section three	
 	
+
+
+.sec_three_img {
 	
+	img {
 	
-	
+	}
+}
+
+
+
+
+.sec_three_img_bg {
+	transform: translate(60px, -50px) scale(1.1); 
+	transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+	img {
+		//transform: scale(1.25);  
+		//transition: all 1500ms cubic-bezier(.17,.66,.34,.98);
+	}
+}
+
+.sec_three_img_one {
+	transform: translate(60px, 100px) scale(1.2); 
+	transition: all 1600ms cubic-bezier(.17,.66,.34,.98);
+	img {
+		//transform: scale(1.25);  
+		//transition: all 1500ms cubic-bezier(.17,.66,.34,.98);
+	}
+}
+
+.sec_three_img_two {
+	transform: translate(-60px, -100px) scale(1.2); 
+	transition: all 1600ms cubic-bezier(.17,.66,.34,.98);
+	img {
+		//transform: scale(1.25);  
+		//transition: all 1500ms cubic-bezier(.17,.66,.34,.98);
+	}
+}
+
+
+
+
+
+
+.sec_three_right.visible {
+	.sec_three_img_bg, .sec_three_img_one, .sec_three_img_two {
+		transform: translate(0px, 0px) scale(1);  
+		img {
+			transform: scale(1);  
+		}
+	}
+}
+
+
+
 	
 	
 } /* Media Query */

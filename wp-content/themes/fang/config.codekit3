@@ -256,7 +256,7 @@
 		},
 	"/images/content03_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 478143,
+		"iS": 108830,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/content03_img_01_desktop.jpg",
@@ -716,6 +716,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/sec_six_img_one.jpg": {
+		"ft": 16384,
+		"iS": 11771,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sec_six_img_one.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/sec_six_img_two.jpg": {
+		"ft": 16384,
+		"iS": 26001,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sec_six_img_two.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/sec_three_img_one.jpg": {

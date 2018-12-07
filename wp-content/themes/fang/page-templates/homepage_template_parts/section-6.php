@@ -4,7 +4,29 @@
 		
 		<div class="sec_six_left">
 			
-			<div class="sec_six_img"></div><!-- sec_six_img -->
+			<div class="sec_six_img_wrapper">
+				
+				<div class="sec_six_img_bg sec_six_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/content03_img_01_desktop.jpg"/>
+					
+				</div><!-- sec_six_img_bg -->
+				
+				<div class="sec_six_img_one sec_six_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/sec_six_img_one.jpg"/>
+					
+				</div><!-- sec_six_img_one -->
+				
+				
+				<div class="sec_six_img_two sec_six_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/sec_six_img_two.jpg"/>
+					
+				</div><!-- sec_six_img_two -->
+
+				
+			</div><!-- sec_six_img_wrapper -->
 			
 			<div class="sec_six_sidebar">
 				
