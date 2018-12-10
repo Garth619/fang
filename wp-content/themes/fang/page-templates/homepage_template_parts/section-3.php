@@ -39,7 +39,7 @@
 				
 				<div class="sec_three_img_two sec_three_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/sec_three_img_two.jpg"/>
+					<img src="<?php bloginfo('template_directory');?>/images/sec_three_img_three.jpg"/>
 					
 				</div><!-- sec_three_img_two -->
 				

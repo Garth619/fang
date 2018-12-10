@@ -573,6 +573,11 @@ a.button.mobile {
 	.layer_bg, .layer_1, .layer_2 {
 		background-size:1450px 1170px;
 	}
+	
+	
+	.layer {
+		transform:translate3d(0,0,0) !important;
+	}
 
 	
 	

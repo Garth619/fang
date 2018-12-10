@@ -84,6 +84,8 @@ jQuery(document).ready(function($){
      $('.menu_wrapper').on('click', function(e) {
 	     
 	     	$('nav').addClass('open');
+	     	
+	     	$('html, body').addClass('fixed');
        
      });
      
@@ -91,6 +93,8 @@ jQuery(document).ready(function($){
      $('.close').on('click', function(e) {
        
      	$('nav').removeClass('open');
+     	
+     	$('html, body').removeClass('fixed');
      
      });
      
@@ -348,8 +352,10 @@ $('.sec_three_slider').slick({
  });
  
  
- 
- // banner class check
+ $('.sidebar_wrapper ul.menu > li.current-menu-ancestor > a').addClass('active');
+   
+
+ 	// banner class check
  
  
  	if (!$('.internal_banner')[0]){

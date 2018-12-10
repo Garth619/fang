@@ -14,14 +14,14 @@
 				
 				<div class="sec_six_img_one sec_six_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/sec_six_img_one.jpg"/>
+					<img src="<?php bloginfo('template_directory');?>/images/sec_six_img_one.png"/>
 					
 				</div><!-- sec_six_img_one -->
 				
 				
 				<div class="sec_six_img_two sec_six_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/sec_six_img_two.jpg"/>
+					<img src="<?php bloginfo('template_directory');?>/images/sec_six_img_two.png"/>
 					
 				</div><!-- sec_six_img_two -->
 

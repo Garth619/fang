@@ -486,13 +486,42 @@ img.about_img_three {
 
 
 img.internal_bg {
-	transform: scale(1);
+	transform: scale(1.2);
 	transition: all 1900ms cubic-bezier(.17,.66,.34,.98);
 }
 
 
+img.internal_img_one {
+	transform: translateY(35px) scale(1.1);
+	transition: transform 1900ms cubic-bezier(.17,.66,.34,.98);
+}
+
+img.internal_img_two {
+	transform: translateY(35px) scale(1.1);
+	transition: transform 1900ms cubic-bezier(.17,.66,.34,.98);
+}
+
 img.internal_img_three {
 	z-index:5;
+	transform: translateY(35px) scale(1.1);
+	transition: transform 1900ms cubic-bezier(.17,.66,.34,.98);
+}
+
+
+
+#internal_trigger.visible {
+	img.internal_bg {
+		transform: translate(0px, 0px) scale(1);  
+	}
+	img.internal_img_one {
+		transform: translate(0px, 0px) scale(1); 
+	}
+	img.internal_img_two {
+		transform: translate(0px, 0px) scale(1); 
+	}
+	img.internal_img_three {
+		transform: translate(0px, 0px) scale(1); 
+	}
 }
 
 

@@ -301,7 +301,7 @@ img.sidebar_accent {
 	}
 	ul.menu {
 		>li.current-menu-ancestor {
-			> a {
+			> a.active {
 					border-bottom:1px solid #d9dedc;
 			}
 			ul.sub-menu {
