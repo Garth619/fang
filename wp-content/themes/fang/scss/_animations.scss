@@ -482,6 +482,20 @@ img.about_img_three {
 	}
 }
 
+// PA and Blog Headers
+
+
+img.internal_bg {
+	transform: scale(1);
+	transition: all 1900ms cubic-bezier(.17,.66,.34,.98);
+}
+
+
+img.internal_img_three {
+	z-index:5;
+}
+
+
 
 // internal headers
 
