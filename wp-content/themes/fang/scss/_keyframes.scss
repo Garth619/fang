@@ -1,11 +1,32 @@
-img.mouse {
-	animation-name: mouse_move;
-  animation-duration: 1800ms;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-delay: 1400ms;
-  
-  
+
+@keyframes mouse_move {
+  0% {
+    transform: translateY(-4px);
+ 	}
+  50% {
+	  transform: translateY(4px);
+  }
+	100% {
+    transform: translateY(-4px);
+   }
 }
+
+
+@keyframes play_border_move {
+  0% {
+    transform: scale(0.7);
+ 	}
+  50% {
+	  transform: scale(1.03);
+  }
+	100% {
+    transform: scale(1);
+   }
+}
+
+
+
+
+
+
 
