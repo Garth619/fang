@@ -635,18 +635,18 @@
 		},
 	"/images/intl_blog_header_img_02.jpg": {
 		"ft": 16384,
-		"iS": 103138,
+		"iS": 15230,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/intl_blog_header_img_02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/intl_blog_header_img_03.jpg": {
 		"ft": 16384,
-		"iS": 49755,
+		"iS": 13747,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/intl_blog_header_img_03.jpg",
@@ -657,7 +657,7 @@
 		},
 	"/images/intl_blog_header_img_04.jpg": {
 		"ft": 16384,
-		"iS": 32426,
+		"iS": 3467,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/intl_blog_header_img_04.jpg",
@@ -706,6 +706,50 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/images/pa_img_bg.jpg": {
+		"ft": 16384,
+		"iS": 95924,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/pa_img_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/pa_img_one.png": {
+		"ft": 32768,
+		"iS": 194937,
+		"oA": 0,
+		"oAP": "/images/pa_img_one.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/pa_img_three.png": {
+		"ft": 32768,
+		"iS": 33832,
+		"oA": 0,
+		"oAP": "/images/pa_img_three.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/pa_imge_two.png": {
+		"ft": 32768,
+		"iS": 111441,
+		"oA": 0,
+		"oAP": "/images/pa_imge_two.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/placeholder.jpg": {
 		"ft": 16384,
