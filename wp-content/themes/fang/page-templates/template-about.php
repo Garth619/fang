@@ -57,9 +57,29 @@ get_header(); ?>
 		
 		<div class="about_content">
 			
-			<div class="about_left">
+			<div id="about_img_trigger" class="about_left">
 				
+				<div class="about_page_image_wrapper">
 				
+				<div class="about_page_img_bg about_page_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/about_bg.jpg"/>
+					
+				</div><!-- about_page_img_bg -->
+				
+				<div class="about_page_img_one about_page_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/about_img_one.jpg"/>
+					
+				</div><!-- about_page_img_one -->
+				
+				<div class="about_page_img_two about_page_img">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/about_img_two.png"/>
+					
+				</div><!-- about_page_img_two -->
+				
+			</div><!-- sec_three_image_wrapper -->
 				
 			</div><!-- about_left -->
 			

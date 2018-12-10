@@ -129,14 +129,21 @@ jQuery(document).ready(function($){
     }
 		
 		
-		$('body').addClass('visible');
+		$('body, #internal_trigger').addClass('visible');
 
     createWaypoint('section_one', '.sticky_header', 'visible', -300, null, true);
+    
+    createWaypoint('section_two', '#section_two', 'visible', 100, null, false);
 		
 		createWaypoint('internal_trigger', '.sticky_header', 'visible', -300, null, true);
 		
+		createWaypoint('sec_three_trigger', '.sec_three_right', 'visible', 300, null, false);
 		
-		createWaypoint('sec_three_trigger', '.sec_three_right', 'visible', 300, null, true);
+		createWaypoint('section_five', '#section_five', 'visible', 200, null, true);
+		
+		createWaypoint('section_six', '#section_six', 'visible', 100, null, false);
+		
+		createWaypoint('about_img_trigger', '#about_img_trigger', 'visible', 250, null, false);
 
 
 

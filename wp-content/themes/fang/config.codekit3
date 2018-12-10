@@ -51,6 +51,39 @@
 		"oAP": "/header.php",
 		"oF": 0
 		},
+	"/images/about_bg.jpg": {
+		"ft": 16384,
+		"iS": 147244,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/about_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/about_img_one.jpg": {
+		"ft": 16384,
+		"iS": 8773,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/about_img_one.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/about_img_two.png": {
+		"ft": 32768,
+		"iS": 122924,
+		"oA": 0,
+		"oAP": "/images/about_img_two.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/AP_img_nicole.jpg": {
 		"ft": 16384,
 		"iS": 107685,
@@ -203,7 +236,7 @@
 		},
 	"/images/content02_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 506041,
+		"iS": 123850,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/content02_img_01_desktop.jpg",
@@ -256,7 +289,7 @@
 		},
 	"/images/content03_img_01_desktop.jpg": {
 		"ft": 16384,
-		"iS": 478143,
+		"iS": 108830,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/content03_img_01_desktop.jpg",
