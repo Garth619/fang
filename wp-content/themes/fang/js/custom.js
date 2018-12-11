@@ -249,6 +249,8 @@ jQuery(document).ready(function($){
 
     createWaypoint('section_two', null, null, '100%', loadImages, false);
     
+    createWaypoint('internal_trigger', null, null, '100%', loadImages, false);
+    
     
 
 

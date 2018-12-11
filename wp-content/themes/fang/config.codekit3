@@ -256,17 +256,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/content02_img_03_desktop.jpg": {
-		"ft": 16384,
-		"iS": 83817,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/content02_img_03_desktop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/images/content03_icon-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -891,7 +880,7 @@
 		},
 	"/images/sec_three_img_one.jpg": {
 		"ft": 16384,
-		"iS": 27621,
+		"iS": 19712,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/sec_three_img_one.jpg",
