@@ -28,8 +28,16 @@ get_header(); ?>
 						<span class="test_description"><?php the_sub_field( 'testimonial_description' ); ?></span><!-- test_description -->
 				
 						<img class="test_accent" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+						
+						<?php if(get_sub_field('testimonial_name')) : ?>
 				
-						<span class="test_name"><?php the_sub_field( 'testimonial_name' ); ?></span><!-- test_name -->
+							<span class="test_name"><?php the_sub_field( 'testimonial_name' ); ?></span><!-- test_name -->
+						
+							<?php else : ?> 
+							
+							<span class="test_name">anonymous</span><!-- test_name -->
+							
+						<?php endif; ?>
 				
 					</div><!-- single_test -->
 			    

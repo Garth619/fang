@@ -15,46 +15,15 @@ jQuery(document).ready(function($){
     
      Modernizr.on('webp', function (result) {
 	    
-	    $('#section_one img').each(function () {
-	    
-				if (result) {
-    
-					if ($(this).attr('data-webp')) {
-          
-          	var img = $(this).data('webp');
-          
-						$(this).attr('src', img);
-        	
-        	}
-        	
-        }
-  
-	 			else {
-		 			
-		 			if ($(this).attr('data-jpg')) {
-          
-          	var img = $(this).data('jpg');
-          
-						$(this).attr('src', img);
-        	
-        	}
-    
-    		}
-  		
-  		});
-  		
-  		
-  		// background images (one time load, does not reflect media queries or window width..yet)
+		 // background images (one time load, does not reflect media queries or window width..yet)
   		
   		if (result) {
 	  		
-	  		var sectionOne = '#section_one';
-	  		
-	  		if ($(sectionOne).attr('data-webpbg')) {
+	  		if ($('#section_one').attr('data-webpbg')) {
 		  		
-		  		var imgBg = $(sectionOne).data('webpbg');
+		  		var imgBg = $('#section_one').data('webpbg');
 		  		
-		  		$(sectionOne).css('background-image', 'url(' + imgBg + ')');
+		  		$('#section_one').css('background-image', 'url(' + imgBg + ')');
 		  		
 	  		}
 	  		
@@ -76,6 +45,79 @@ jQuery(document).ready(function($){
 			// console.log(result);
 	
 		});
+		
+		
+		// only load section one parallax images when page load is bigger than 767 px wide (to save on lighthouse audit)
+		
+			
+			var windowWidthbg = $(window).width();
+		
+			function checkWidthbg() {
+				
+				if (windowWidthbg > 767) {
+		        
+		      	$('.layer').each(function () {
+	  		
+							if ($(this).attr('data-bg')) {
+		  		
+								var mybackground = $(this).data('bg');
+		  		
+								$(this).css('background-image', 'url(' + mybackground + ')');
+		  		
+	  					}
+	  				
+	  				});
+		      	
+		    	}
+			
+			};
+			
+		
+		checkWidthbg();
+		
+		
+		
+		/* Load Images - Call function when you reach the a section with images using waypoints
+       BG image - <div data-src=""></div>   ,   Image - <img data-src="">
+      --------------------------------------------------------------------------------------- */
+
+    function loadImages() {
+      
+      // images
+      
+      jQuery('img').each(function () {
+        
+        if (jQuery(this).attr('data-src')) {
+          
+          var img = jQuery(this).data('src');
+          
+          jQuery(this).attr('src', img);
+        
+        }
+      
+      });
+
+      // background images
+      
+      jQuery('div, section').each(function () {
+       
+        if (jQuery(this).attr('data-src')) {
+          
+          var backgroundImg = jQuery(this).data('src');
+          
+          jQuery(this).css('background-image', 'url(' + backgroundImg + ')');
+        
+        }
+      
+      });
+
+      console.log('images loaded');
+    }
+
+    createWaypoint('section_two', null, null, '100%', loadImages, false);
+    
+    createWaypoint('internal_trigger', null, null, '100%', loadImages, false);
+
 
 
 		 /* Nav
@@ -169,11 +211,11 @@ jQuery(document).ready(function($){
 		
 		createWaypoint('internal_trigger', '.sticky_header', 'visible', -300, null, true);
 		
-		createWaypoint('sec_three_trigger', '.sec_three_right', 'visible', 300, null, false);
+		createWaypoint('sec_three_trigger', '.sec_three_right', 'visible', 400, null, false);
 		
 		createWaypoint('section_five', '#section_five', 'visible', 200, null, true);
 		
-		createWaypoint('section_six', '#section_six', 'visible', 100, null, true);
+		createWaypoint('section_six', '#section_six', 'visible', 200, null, false);
 		
 		createWaypoint('about_img_trigger', '#about_img_trigger', 'visible', 250, null, false);
 
@@ -238,47 +280,7 @@ jQuery(document).ready(function($){
 
 
 
-    /* Load Images - Call function when you reach the a section with images using waypoints
-       BG image - <div data-src=""></div>   ,   Image - <img data-src="">
-      --------------------------------------------------------------------------------------- */
-
-    function loadImages() {
-      
-      // images
-      
-      jQuery('img').each(function () {
         
-        if (jQuery(this).attr('data-src')) {
-          
-          var img = jQuery(this).data('src');
-          
-          jQuery(this).attr('src', img);
-        
-        }
-      
-      });
-
-      // background images
-      
-      jQuery('div, section').each(function () {
-       
-        if (jQuery(this).attr('data-src')) {
-          
-          var backgroundImg = jQuery(this).data('src');
-          
-          jQuery(this).css('background-image', 'url(' + backgroundImg + ')');
-        
-        }
-      
-      });
-
-      console.log('images loaded');
-    }
-
-    createWaypoint('section_two', null, null, '100%', loadImages, false);
-    
-    createWaypoint('internal_trigger', null, null, '100%', loadImages, false);
-    
     
 
 
@@ -361,6 +363,7 @@ $('.sec_three_slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows:false,
+      fade:false,
       adaptiveHeight: true,
       dots:true,
      }

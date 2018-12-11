@@ -1,6 +1,6 @@
 <footer id="footer_trigger">
 	
-	<div id="consultation" class="footer_form">
+	<div id="consultation" class="footer_form" data-src="<?php bloginfo('template_directory');?>/images/footer_img_desktop.jpg" style="background-position: top center;background-repeat:no-repeat">
 		
 		<div class="footer_form_inner">
 		
@@ -200,7 +200,7 @@
 <?php if(is_page_template('page-templates/template-home.php') || is_page_template('page-templates/template-video.php') ) { ?>
 
 
-<!-- <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script> -->
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
 
 
 <?php } ?>

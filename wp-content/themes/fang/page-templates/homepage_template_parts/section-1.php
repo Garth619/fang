@@ -1,4 +1,4 @@
-<section id="section_one" data-webpbg="http://fang-demo.com/wp-content/themes/fang/images/sec_one_bg.webp" data-jpgbg="http://fang-demo.com/wp-content/themes/fang/images/sec_one_bg.jpg" style="background-size:1250px 950px;background-position:top center;">
+<section id="section_one" data-webpbg="<?php bloginfo('template_directory');?>/images/sec_one_bg.webp" data-jpgbg="<?php bloginfo('template_directory');?>/images/sec_one_bg.jpg" style="background-size:1250px 950px;background-position:top center;">
 	
 		<div class="sec_one_inner">
 			
@@ -94,11 +94,11 @@
 	
 		<div class="parallax">
 			
-			<div class="layer_bg layer" data-depth="0.10" data-type="parallax"></div>
+			<div class="layer_bg layer" data-bg="<?php bloginfo('template_directory');?>/images/sec_one_bg.jpg" data-depth="0.10" data-type="parallax" style="background-position:top center"></div>
 			
-			<div class="layer_1 layer" data-depth="0.20" data-type="parallax"></div>
+			<div class="layer_1 layer" data-bg="<?php bloginfo('template_directory');?>/images/sec_one_middle.png" data-depth="0.20" data-type="parallax" style="background-position:top center"></div>
 			
-			<div class="layer_2 layer" data-depth="0.6" data-type="parallax"></div>
+			<div class="layer_2 layer" data-bg="<?php bloginfo('template_directory');?>/images/sec_one_fore.png" data-depth="0.6" data-type="parallax" style="background-position:top center"></div>
 			
 		</div><!-- parallax -->
 	

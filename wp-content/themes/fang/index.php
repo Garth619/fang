@@ -13,7 +13,7 @@
 			
 			<img class="internal_img_two" src="<?php bloginfo('template_directory');?>/images/pa_imge_two.png"/><!-- internal_img_two -->
 			
-			<img class="internal_img_three" src="<?php bloginfo('template_directory');?>/images/pa_img_three.png"/><!-- internal_img_two -->
+			<img class="internal_img_three" src="<?php bloginfo('template_directory');?>/images/pa_img_three.png"/><!-- internal_img_three -->
 		
 		</div><!-- internal_banner_inner -->
 		
