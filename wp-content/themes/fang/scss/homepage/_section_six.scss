@@ -137,6 +137,60 @@
 }
 
 
+
+@media screen and (max-width: 1700px) {
+	
+
+.sec_six_left {
+	
+}
+
+	
+.sec_six_img_wrapper {
+	
+}
+
+
+.sec_six_img {
+
+	img {
+		
+	}
+}
+
+
+.sec_six_img_bg {
+	width:560px;
+	img {
+		max-width:100%;
+		height:auto;
+	}
+}
+
+
+.sec_six_img_one {
+	top: 9px;
+  left: -1px;
+	img {
+		width: 202px;
+	}
+}
+
+
+.sec_six_img_two {
+	right: 21px;
+  bottom: 222px;
+	img {
+		width:320px;
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1590px) {
 	
 	
@@ -212,9 +266,19 @@
 }
 
 
+.sec_six_img_wrapper {
+	display: none;
+}
+
+
 .sec_six_right {
 	order:1;
 	padding:0;
+}
+
+
+.sec_six_sidebar {
+	margin: 63px 20px 0 50px;
 }
 
 	

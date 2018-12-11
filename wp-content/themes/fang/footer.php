@@ -48,11 +48,11 @@
 		
 			<div class="footer_col">
 				
-				<img class="location_svg" src="<?php bloginfo('template_directory');?>/images/footer_icon-06.svg"/>
+				<img class="location_svg" data-src="<?php bloginfo('template_directory');?>/images/footer_icon-06.svg"/>
 				
 				<span class="location_title"><?php the_field( 'denver_title','option'); ?></span><!-- location_title -->
 				
-				<img class="title_accent" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+				<img class="title_accent" data-src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 				
 				<span class="address"><?php the_field( 'denver_street_address','option'); ?></span><!-- address -->
 				
@@ -62,11 +62,11 @@
 			
 			<div class="footer_col">
 				
-					<img src="<?php bloginfo('template_directory');?>/images/footer_icon-01.svg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/footer_icon-01.svg"/>
 					
 					<span class="location_title"><?php the_field( 'boulder_title','option'); ?></span><!-- location_title -->
 				
-					<img class="title_accent" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+					<img class="title_accent" data-src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 				
 					<span class="address"><?php the_field( 'boulder_street_address','option'); ?></span><!-- address -->
 				
@@ -79,9 +79,9 @@
 				
 				<div class="footer_consult_wrapper">
 					
-					<img class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+					<img class="six_count" data-src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 					
-					<img class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
+					<img class="three_count" data-src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
 					
 					<span>GEt YOUR FREE CASE EVALUATION</span><!-- footer_consult_title -->
 					
@@ -183,7 +183,7 @@
 				
 				<a class="" href="//ilawyermarketing.com" target="_blank" rel="noopener" alt="ilawyermarketing">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/footer_icon-05.svg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/footer_icon-05.svg"/>
 					
 				</a>
 				
@@ -200,7 +200,7 @@
 <?php if(is_page_template('page-templates/template-home.php') || is_page_template('page-templates/template-video.php') ) { ?>
 
 
-<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<!-- <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script> -->
 
 
 <?php } ?>

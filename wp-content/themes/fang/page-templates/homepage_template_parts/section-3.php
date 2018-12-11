@@ -3,7 +3,7 @@
 	
 	<div class="sec_three_blockquote_wrapper">
 		
-		<img src="<?php bloginfo('template_directory');?>/images/content02_icon-01.svg"/>
+		<img data-src="<?php bloginfo('template_directory');?>/images/content02_icon-01.svg"/>
 		
 		<blockquote><?php the_field( 'section_three_blockquote' ); ?></blockquote>
 		
@@ -27,19 +27,19 @@
 				
 				<div class="sec_three_img_bg sec_three_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/content02_img_01_desktop.jpg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/content02_img_01_desktop.jpg"/>
 					
 				</div><!-- sec_three_img_bg -->
 				
 				<div class="sec_three_img_one sec_three_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/sec_three_img_one.jpg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/sec_three_img_one.jpg"/>
 					
 				</div><!-- sec_three_img_one -->
 				
 				<div class="sec_three_img_two sec_three_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/sec_three_img_three.jpg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/sec_three_img_three.jpg"/>
 					
 				</div><!-- sec_three_img_two -->
 				

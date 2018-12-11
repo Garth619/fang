@@ -8,20 +8,20 @@
 				
 				<div class="sec_six_img_bg sec_six_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/content03_img_01_desktop.jpg"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/content03_img_01_desktop.jpg"/>
 					
 				</div><!-- sec_six_img_bg -->
 				
 				<div class="sec_six_img_one sec_six_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/sec_six_img_one.png"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/sec_six_img_one.png"/>
 					
 				</div><!-- sec_six_img_one -->
 				
 				
 				<div class="sec_six_img_two sec_six_img">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/sec_six_img_two.png"/>
+					<img data-src="<?php bloginfo('template_directory');?>/images/sec_six_img_two.png"/>
 					
 				</div><!-- sec_six_img_two -->
 
@@ -32,9 +32,9 @@
 				
 				<div class="sec_six_sidebar_title_wrapper">
 			
-					<img class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+					<img class="six_count" data-src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 			
-					<img class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
+					<img class="three_count" data-src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
 			
 					<span><?php the_field( 'section_six_sidebar_title' ); ?></span>
 					

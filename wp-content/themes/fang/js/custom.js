@@ -145,7 +145,7 @@ jQuery(document).ready(function($){
 		
 		createWaypoint('section_five', '#section_five', 'visible', 200, null, true);
 		
-		createWaypoint('section_six', '#section_six', 'visible', 100, null, false);
+		createWaypoint('section_six', '#section_six', 'visible', 100, null, true);
 		
 		createWaypoint('about_img_trigger', '#about_img_trigger', 'visible', 250, null, false);
 
@@ -247,7 +247,7 @@ jQuery(document).ready(function($){
       console.log('images loaded');
     }
 
-    // createWaypoint('section_two', null, null, '100%', loadImages, false);
+    createWaypoint('section_two', null, null, '100%', loadImages, false);
     
     
 
