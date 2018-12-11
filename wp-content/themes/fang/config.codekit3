@@ -812,6 +812,13 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/sec_one_bg.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/sec_one_bg.webp",
+		"oF": 0
+		},
 	"/images/sec_one_fore.png": {
 		"ft": 32768,
 		"iS": 0,

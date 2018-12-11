@@ -1,4 +1,4 @@
-<section id="section_one">
+<section id="section_one" data-webpbg="http://fang-demo.com/wp-content/themes/fang/images/sec_one_bg.webp" data-jpgbg="http://fang-demo.com/wp-content/themes/fang/images/sec_one_bg.jpg" style="background-size:1250px 950px;background-position:top center;">
 	
 		<div class="sec_one_inner">
 			

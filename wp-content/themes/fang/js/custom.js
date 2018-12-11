@@ -15,37 +15,65 @@ jQuery(document).ready(function($){
     
      Modernizr.on('webp', function (result) {
 	    
-	    jQuery('#section_one img').each(function () {
+	    $('#section_one img').each(function () {
 	    
 				if (result) {
     
-					if (jQuery(this).attr('data-webp')) {
+					if ($(this).attr('data-webp')) {
           
-          	var img = jQuery(this).data('webp');
+          	var img = $(this).data('webp');
           
-						jQuery(this).attr('src', img);
+						$(this).attr('src', img);
         	
         	}
-      
-   			}
+        	
+        }
   
 	 			else {
 		 			
-		 			if (jQuery(this).attr('data-jpg')) {
+		 			if ($(this).attr('data-jpg')) {
           
-          	var img = jQuery(this).data('jpg');
+          	var img = $(this).data('jpg');
           
-						jQuery(this).attr('src', img);
+						$(this).attr('src', img);
         	
         	}
     
-    		
-  	
-  			}
+    		}
   		
   		});
   		
-  		console.log(result);
+  		
+  		// background images (one time load, does not reflect media queries or window width..yet)
+  		
+  		if (result) {
+	  		
+	  		var sectionOne = '#section_one';
+	  		
+	  		if ($(sectionOne).attr('data-webpbg')) {
+		  		
+		  		var imgBg = $(sectionOne).data('webpbg');
+		  		
+		  		$(sectionOne).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  		}
+	  		
+	  	}
+	  	
+	  	
+	  	else {
+		  	
+		  	if ($('#section_one').attr('data-jpgbg')) {
+		  		
+		  		var imgBg = $('#section_one').data('jpgbg');
+		  		
+		  		$('#section_one').css('background-image', 'url(' + imgBg + ')');
+		  		
+	  		}
+		  	
+	  	}
+  		
+			// console.log(result);
 	
 		});
 
