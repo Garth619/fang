@@ -320,6 +320,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/footer_icon-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -413,6 +423,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/footer_logo-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/footer_logo-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/footer_logo-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/footer_logo-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/footer_logo-03.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/footer_logo-03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/images/goat.svg": {
 		"ft": 2097152,
@@ -686,6 +726,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/images/marker.png": {
 		"ft": 32768,
 		"iS": 6792,
@@ -937,6 +987,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/topog.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/images/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

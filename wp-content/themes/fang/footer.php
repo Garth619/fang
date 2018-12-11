@@ -120,12 +120,47 @@
 		<div class="copyright_inner">
 		
 			<div class="copright_col">
-			
-				<a href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank" rel="noopener">
 				
-					<?php echo file_get_contents("wp-content/themes/fang/images/footer_icon-04.svg"); ?>
+				<?php if(get_field('google_plus_link','option')) { ?>
 				
-				</a>
+					<a href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank" rel="noopener">
+				
+						<?php echo file_get_contents("wp-content/themes/fang/images/footer_icon-04.svg"); ?>
+				
+					</a>
+				
+				<?php } ?>
+				
+				<?php if(get_field('linkedin_link','option')) { ?>
+				
+					<a href="<?php the_field( 'linkedin_link','option'); ?>" target="_blank" rel="noopener">
+				
+						<?php echo file_get_contents("wp-content/themes/fang/images/linkedin.svg"); ?>
+				
+					</a>
+				
+				<?php } ?>
+				
+				<?php if(get_field('facebook_link','option')) { ?>
+				
+					<a href="<?php the_field( 'facebook_link','option'); ?>" target="_blank" rel="noopener">
+				
+						<?php echo file_get_contents("wp-content/themes/fang/images/facebook.svg"); ?>
+				
+					</a>
+					
+				<?php } ?>
+				
+				<?php if(get_field('twitter_link','option')) { ?>
+
+					<a href="<?php the_field( 'twitter_link','option'); ?>" target="_blank" rel="noopener">
+				
+						<?php echo file_get_contents("wp-content/themes/fang/images/twitter.svg"); ?>
+				
+					</a>
+				
+				<?php } ?>
+
 			
 			</div><!-- copright_col -->
 		
