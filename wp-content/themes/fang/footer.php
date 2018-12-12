@@ -197,15 +197,5 @@
 
 <?php wp_footer();?>
 
-<?php if(is_page_template('page-templates/template-home.php') || is_page_template('page-templates/template-video.php') ) { ?>
-
-
-<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-
-
-<?php } ?>
-
-
-
 </body>
 </html>

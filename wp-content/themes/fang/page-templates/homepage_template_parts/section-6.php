@@ -40,27 +40,21 @@
 					
 				</div><!-- sidebar_pa_title_wrapper -->
 					
-				<ul>
+					<?php if(get_field('section_six_sidebar')): ?>
 					
-					<?php $section_six_sidebar_list_items = get_field( 'section_six_sidebar_list_items' ); ?>
-					
-					<?php if ( $section_six_sidebar_list_items ): ?>
-					
-						<?php foreach ( $section_six_sidebar_list_items as $post ):  ?>
-							
-						<?php setup_postdata ( $post ); ?>
-								
-							<li><a href="<?php the_permalink();?>"><?php the_title();?></a></li>
-							
-						<?php endforeach; ?>
-
-						<?php wp_reset_postdata(); ?>
-
+						<ul>
+					 
+						<?php while(has_sub_field('section_six_sidebar')): ?>
+					 
+							<li><a href="<?php the_sub_field( 'pa_page_link' ); ?>"><?php the_sub_field( 'pa_page_title' ); ?></a></li>
+					    
+						<?php endwhile; ?>
+						
+						</ul>
+					 
 					<?php endif; ?>
 					
-				</ul>
-			
-			</div><!-- sec_six_sidebar -->
+				</div><!-- sec_six_sidebar -->
 			
 		</div><!-- sec_six_left -->
 		

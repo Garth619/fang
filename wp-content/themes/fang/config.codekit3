@@ -128,6 +128,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/co_414.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/co_414.webp",
+		"oF": 0
+		},
 	"/images/co_975.jpg": {
 		"ft": 16384,
 		"iS": 37973,
@@ -138,6 +145,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/co_975.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/co_975.webp",
+		"oF": 0
 		},
 	"/images/co_desktop.png": {
 		"ft": 32768,
@@ -172,6 +186,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/co_laptop.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/co_laptop.webp",
+		"oF": 0
+		},
 	"/images/co_mobile.jpg": {
 		"ft": 16384,
 		"iS": 25128,
@@ -183,6 +204,13 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/co_mobile.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/co_mobile.webp",
+		"oF": 0
+		},
 	"/images/co_tablet.jpg": {
 		"ft": 16384,
 		"iS": 39897,
@@ -193,6 +221,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/co_tablet.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/co_tablet.webp",
+		"oF": 0
 		},
 	"/images/content01_icon-01.svg": {
 		"ft": 2097152,
@@ -746,6 +781,13 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/images/myvideo.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/myvideo.mp4",
+		"oF": 0
+		},
 	"/images/pa_img_bg.jpg": {
 		"ft": 16384,
 		"iS": 95924,
@@ -818,6 +860,17 @@
 		"oA": 0,
 		"oAP": "/images/sec_one_bg.webp",
 		"oF": 0
+		},
+	"/images/sec_one_bg_test.jpg": {
+		"ft": 16384,
+		"iS": 187525,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/sec_one_bg_test.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/sec_one_fore.png": {
 		"ft": 32768,

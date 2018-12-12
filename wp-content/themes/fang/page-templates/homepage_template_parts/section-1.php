@@ -1,4 +1,4 @@
-<section id="section_one" data-webpbg="<?php bloginfo('template_directory');?>/images/sec_one_bg.webp" data-jpgbg="<?php bloginfo('template_directory');?>/images/sec_one_bg.jpg" style="background-size:1250px 950px;background-position:top center;">
+<section id="section_one" class="webp_bg_compression" data-webpbgmobile="<?php bloginfo('template_directory');?>/images/sec_one_bg.webp" data-jpgbgmobile="<?php bloginfo('template_directory');?>/images/sec_one_bg_test.jpg" style="background-position:top center;">
 	
 		<div class="sec_one_inner">
 			
@@ -42,7 +42,11 @@
 					
 					<div class="play_wrapper">
 						
-						<div class="wistia_click wistia_embed wistia_async_<?php the_field( 'section_one_vimeo_id' ); ?> popover=true popoverContent=html"></div><!-- wistia_click -->
+						<div class="wistia_click">
+							
+							<a href="<?php bloginfo('template_directory');?>/images/myvideo.mp4" data-lity></a>
+							
+						</div><!-- wistia_click -->
 						
 						<div class="learn_wrapper desktop">
 							

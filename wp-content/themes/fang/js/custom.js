@@ -11,50 +11,55 @@ jQuery(document).ready(function($){
 	 /* Modernizr - check if browser supports webp. 
      --------------------------------------------------------------------------------------- */
     
-    // add data-webp and data-jpg to images in section one and you're gucci
+ 
     
+/*
      Modernizr.on('webp', function (result) {
+
+
+	   $('img.webp_compression').each(function () {
 	    
-		 // background images (one time load, does not reflect media queries or window width..yet)
-  		
-  		if (result) {
-	  		
-	  		if ($('#section_one').attr('data-webpbg')) {
-		  		
-		  		var imgBg = $('#section_one').data('webpbg');
-		  		
-		  		$('#section_one').css('background-image', 'url(' + imgBg + ')');
-		  		
-	  		}
-	  		
-	  	}
-	  	
-	  	
-	  	else {
-		  	
-		  	if ($('#section_one').attr('data-jpgbg')) {
-		  		
-		  		var imgBg = $('#section_one').data('jpgbg');
-		  		
-		  		$('#section_one').css('background-image', 'url(' + imgBg + ')');
-		  		
-	  		}
-		  	
-	  	}
-  		
+				if (result) {
+    
+					if ($(this).attr('data-webp')) {
+          
+          	var img = $(this).data('webp');
+          
+						$(this).attr('src', img);
+        	
+        	}
+        	
+        }
+        
+        else {
+		 			
+		 			if ($(this).attr('data-jpg')) {
+          
+          	var img = $(this).data('jpg');
+          
+						$(this).attr('src', img);
+        	
+        	}
+    
+    		}
+        
+      });
+
+  		 
 			// console.log(result);
 	
 		});
+*/
 		
-		
-		// only load section one parallax images when page load is bigger than 767 px wide (to save on lighthouse audit)
-		
+
 			
-			var windowWidthbg = $(window).width();
-		
 			function checkWidthbg() {
 				
+				var windowWidthbg = $(window).width();
+				
 				if (windowWidthbg > 767) {
+					
+						// only load section one parallax images when page load is bigger than 767 px wide (to save on lighthouse audit)
 		        
 		      	$('.layer').each(function () {
 	  		
@@ -67,10 +72,151 @@ jQuery(document).ready(function($){
 	  					}
 	  				
 	  				});
-		      	
-		    	}
+	  				
+	  		}
+	  		
+	  		// loads webp versions of bgs if the browser supports it
+	  		
+	  		Modernizr.on('webp', function (result) {
+		  		
+		  		
+		  		$('.webp_bg_compression').each(function () {
+			  		
+			  		
+			  		
+			  		if(windowWidthbg < 1130) {
+				  		
+				  		if (result) {
+	  		
+								if ($(this).attr('data-webpbgtablet')) {
+		  		
+									var imgBg = $(this).data('webpbgtablet');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgbgtablet')) {
+		  		
+									var imgBg = $(this).data('jpgbgtablet');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+		  	
+	  					}
+				  		
+				  		
+			  		} // 1130
+			  		
+			  		
+			  		if(windowWidthbg < 975) {
+				  		
+				  		if (result) {
+	  		
+								if ($(this).attr('data-webpbgsmalltablet')) {
+		  		
+									var imgBg = $(this).data('webpbgsmalltablet');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgbgsmalltablet')) {
+		  		
+									var imgBg = $(this).data('jpgbgsmalltablet');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+		  	
+	  					}
+				  		
+				  		
+			  		} // 975
+			  		
+			  	
+			  		if(windowWidthbg < 767) {
+					
+					
+							if (result) {
+	  		
+								if ($(this).attr('data-webpbgmobile')) {
+		  		
+									var imgBg = $(this).data('webpbgmobile');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgbgmobile')) {
+		  		
+									var imgBg = $(this).data('jpgbgmobile');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+		  	
+	  					}
+					
+						} //767
+				
+				
+				
+						if(windowWidthbg < 414) {
+		  		
+						
+							if (result) {
+	  		
+								if ($(this).attr('data-webpbgsmall')) {
+		  		
+									var imgBg = $(this).data('webpbgsmall');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgbgsmall')) {
+		  		
+									var imgBg = $(this).data('jpgbgsmall');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+		  	
+	  					}
+						
+	  				} // 414
+
+			  	
+			  	}); // each '.webp_bg_compression'
+		  		
+		  		
+		  }); // modernizr
+	  			  		
+	  		
 			
-			};
+		}; // checkWidthbg
 			
 		
 		checkWidthbg();
