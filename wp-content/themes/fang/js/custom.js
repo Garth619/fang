@@ -75,13 +75,106 @@ jQuery(document).ready(function($){
 	  				
 	  		}
 	  		
-	  		// loads webp versions of bgs if the browser supports it
+	  		// loads webp versions of bgs if the browser supports it. unfortunately each image below was getting erros on lighthouse bc there were so many media queries calling these images in the stylesheet...
 	  		
 	  		Modernizr.on('webp', function (result) {
 		  		
 		  		
 		  		$('.webp_bg_compression').each(function () {
 			  		
+			  		
+			  		if(windowWidthbg > 1450) {
+				  		
+				  		if (result) {
+	  		
+								if ($(this).attr('data-webpbgdesktop')) {
+		  		
+									var imgBg = $(this).data('webpbgdesktop');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-pngbgdesktop')) {
+		  		
+									var imgBg = $(this).data('pngbgdesktop');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+		  	
+	  					}
+				  		
+				  		
+			  		}
+			  		
+			  		
+			  		if(windowWidthbg < 1450) {
+				  		
+				  		
+				  		if (result) {
+	  		
+								if ($(this).attr('data-webpbglaptop')) {
+		  		
+									var imgBg = $(this).data('webpbglaptop');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-pngbglaptop')) {
+		  		
+									var imgBg = $(this).data('pngbglaptop');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+		  	
+	  					}
+				  		
+			  		} // 1450
+			  		
+			  		
+			  		if(windowWidthbg > 1130) {
+				  		
+				  		
+				  		if (result) {
+	  		
+								if ($(this).attr('data-webpbgsectwo')) {
+		  		
+									var imgBg = $(this).data('webpbgsectwo');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgbgsectwo')) {
+		  		
+									var imgBg = $(this).data('jpgbgsectwo');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+		  	
+	  					}
+				  		
+				  		
+			  		}
 			  		
 			  		
 			  		if(windowWidthbg < 1130) {

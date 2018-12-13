@@ -44,7 +44,7 @@
 						
 						<div class="wistia_click">
 							
-							<a href="<?php bloginfo('template_directory');?>/images/myvideo.mp4" data-lity></a>
+							<a href="<?php the_field( 'section_one_video_file' ); ?>" data-lity></a>
 							
 						</div><!-- wistia_click -->
 						

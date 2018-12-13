@@ -164,6 +164,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/co_desktop.webp": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/images/co_desktop.webp",
+		"oF": 0
+		},
 	"/images/co_desktop_two.png": {
 		"ft": 32768,
 		"iS": 39432,
@@ -1241,6 +1248,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/page-templates/template-blog.php",
+		"oF": 0
+		},
+	"/page-templates/template-blogbanner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-templates/template-blogbanner.php",
 		"oF": 0
 		},
 	"/page-templates/template-caseresults.php": {
