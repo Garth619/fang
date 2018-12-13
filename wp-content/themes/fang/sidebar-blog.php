@@ -8,7 +8,7 @@
 			
 			<span class="large_header">Free Consultation</span><!-- large_header -->
 			
-			<img class="sidebar_accent" src="<?php bloginfo('template_directory');?>/images/content03_icon-01.svg"/>
+			<img alt="sidebar accent icon" class="sidebar_accent" src="<?php bloginfo('template_directory');?>/images/content03_icon-01.svg"/>
 			
 			<?php gravity_form(1, false, false, false, '', true, 189); ?>
 			
@@ -30,9 +30,9 @@
 		
 		<div class="sidebar_pa_title_wrapper">
 			
-			<img class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+			<img alt="sixcount line svg" class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 			
-			<img class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
+			<img alt="threecount line svg" class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
 			
 			<span>Recent Posts</span>
 			
@@ -46,9 +46,9 @@
 		
 		<div class="sidebar_pa_title_wrapper">
 			
-			<img class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+			<img alt="sixcount line svg" class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 			
-			<img class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
+			<img alt="threecount line svg" class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
 			
 			<span>Categories</span>
 			
@@ -62,9 +62,9 @@
 		
 		<div class="sidebar_pa_title_wrapper">
 			
-			<img class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+			<img alt="sixcount line svg" class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 			
-			<img class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
+			<img alt="threecount line svg" class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
 			
 			<span>Archive</span>
 			

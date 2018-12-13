@@ -1236,6 +1236,13 @@
 		"oAP": "/page-templates/template-about.php",
 		"oF": 0
 		},
+	"/page-templates/template-banner.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-templates/template-banner.php",
+		"oF": 0
+		},
 	"/page-templates/template-bio.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1248,13 +1255,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/page-templates/template-blog.php",
-		"oF": 0
-		},
-	"/page-templates/template-blogbanner.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/page-templates/template-blogbanner.php",
 		"oF": 0
 		},
 	"/page-templates/template-caseresults.php": {

@@ -2,7 +2,7 @@
 
 <div id="internal_trigger" class="internal_main">
 	
-	<?php get_template_part( 'page-templates/template', 'blogbanner' );?>
+	<?php get_template_part( 'page-templates/template', 'banner' );?>
 	
 	<div class="container two_col">
 		
