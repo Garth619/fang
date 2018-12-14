@@ -27,19 +27,27 @@
 				
 				<div class="sec_three_img_bg sec_three_img">
 					
-					<img data-src="<?php bloginfo('template_directory');?>/images/content02_img_01_desktop.jpg"/>
+					
+					<?php $section_three_image_bg = get_field( 'section_three_image_bg' ); ?>
+
+					<img data-src="<?php echo $section_three_image_bg['url']; ?>" alt="<?php echo $section_three_image_bg['alt']; ?>" />
+					
 					
 				</div><!-- sec_three_img_bg -->
 				
 				<div class="sec_three_img_one sec_three_img">
 					
-					<img data-src="<?php bloginfo('template_directory');?>/images/sec_three_img_one.jpg"/>
+					<?php $section_three_image_one = get_field( 'section_three_image_one' ); ?>
+
+					<img data-src="<?php echo $section_three_image_one['url']; ?>" alt="<?php echo $section_three_image_bg['alt']; ?> Image One" />
 					
 				</div><!-- sec_three_img_one -->
 				
 				<div class="sec_three_img_two sec_three_img">
 					
-					<img data-src="<?php bloginfo('template_directory');?>/images/sec_three_img_three.jpg"/>
+					<?php $section_three_image_two = get_field( 'section_three_image_two' ); ?>
+
+					<img data-src="<?php echo $section_three_image_two['url']; ?>" alt="<?php echo $section_three_image_bg['alt']; ?> Image Two" />
 					
 				</div><!-- sec_three_img_two -->
 				

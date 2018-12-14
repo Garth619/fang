@@ -8,20 +8,26 @@
 				
 				<div class="sec_six_img_bg sec_six_img">
 					
-					<img data-src="<?php bloginfo('template_directory');?>/images/content03_img_01_desktop.jpg"/>
+					<?php $section_six_image_bg = get_field( 'section_six_image_bg' ); ?>
+
+					<img data-src="<?php echo $section_six_image_bg['url']; ?>" alt="<?php echo $section_six_image_bg['alt']; ?>" />
 					
 				</div><!-- sec_six_img_bg -->
 				
 				<div class="sec_six_img_one sec_six_img">
 					
-					<img data-src="<?php bloginfo('template_directory');?>/images/sec_six_img_one.png"/>
+					<?php $section_six_image_one = get_field( 'section_six_image_one' ); ?>
+
+					<img data-src="<?php echo $section_six_image_one['url']; ?>" alt="<?php echo $section_six_image_bg['alt']; ?> Image One" />
 					
 				</div><!-- sec_six_img_one -->
 				
 				
 				<div class="sec_six_img_two sec_six_img">
 					
-					<img data-src="<?php bloginfo('template_directory');?>/images/sec_six_img_two.png"/>
+					<?php $section_six_image_two = get_field( 'section_six_image_two' ); ?>
+
+					<img data-src="<?php echo $section_six_image_two['url']; ?>" alt="<?php echo $section_six_image_bg['alt']; ?> Image Two" />
 					
 				</div><!-- sec_six_img_two -->
 

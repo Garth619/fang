@@ -22,7 +22,7 @@ function load_my_styles_scripts() {
 
 		// custom js to fall uner jquery in footer
 		    
-    wp_register_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js' );
+    wp_register_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', '', 1 );
 
 		
 		// Localized PHP Data that needs to be passed onto my custom-min.js file, this grabs the live chat script acf and applies to my lazyload "getScript" function
@@ -49,10 +49,60 @@ function load_my_styles_scripts() {
 		    
     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', 'jquery', '', true );
     
-
- }
+    wp_enqueue_script( 'jquery-mygravity', get_template_directory_uri() . '/js/gravityforms-min.js', 'jquery', '', true );
+    
+}
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
+ 
+ 
+ //
+ 
+ 
+ function add_defer_attribute($tag, $handle) {
+   // add script handles to the array below
+   $scripts_to_defer = array('jquery', 'jquery-addon', 'jquery-mygravity');
+   
+   foreach($scripts_to_defer as $defer_script) {
+      if ($defer_script === $handle) {
+         return str_replace(' src', ' defer="defer" src', $tag);
+      }
+   }
+   return $tag;
+}
+
+
+add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
+ 
+ 
+ 
+ // dequeue embed for lighthouse
+ 
+ 
+ function my_deregister_scripts(){
+  
+  wp_deregister_script( 'wp-embed' );
+
+	}
+
+	add_action( 'wp_footer', 'my_deregister_scripts' );
+	
+	
+	
+// dequeue gravity form files that effect critical chain page speed and defer them later in a combined file
+
+
+function deregister_scripts(){
+			
+  wp_deregister_script("gform_placeholder");
+  wp_deregister_script("gform_masked_input");
+  wp_deregister_script("gform_json");
+  wp_deregister_script("gform_gravityforms");
+  
+ }
+	
+	
+add_action("gform_enqueue_scripts", "deregister_scripts");
 
  
 
