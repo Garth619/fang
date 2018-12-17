@@ -1,4 +1,4 @@
-<section id="section_one" class="webp_bg_compression" data-webpbgmobile="<?php bloginfo('template_directory');?>/images/sec_one_bg.webp" data-jpgbgmobile="<?php bloginfo('template_directory');?>/images/sec_one_bg_test.jpg" style="background-position:top center;">
+<section id="section_one" class="webp_bg_compression" data-webpsecone="<?php bloginfo('template_directory');?>/images/sec_one_bg.webp" data-jpgsecone="<?php bloginfo('template_directory');?>/images/sec_one_bg_test.jpg" style="background-position:top center;">
 	
 		<div class="sec_one_inner">
 			
@@ -95,7 +95,21 @@
 			</div><!-- sec_one_bottom -->
 			
 		</div><!-- sec_one_inner -->
+		
+		
+		
+		<div class="updated_parallax">
+			
+			<img id="para_one" class="para_bg updated_layer" data-updated="<?php bloginfo('template_directory');?>/images/sec_one_bg.jpg"/>
+			
+			<img id="para_two" class="updated_layer" data-updated="<?php bloginfo('template_directory');?>/images/sec_one_middle.png"/>
+			
+			<img id="para_three" class="updated_layer" data-updated="<?php bloginfo('template_directory');?>/images/sec_one_fore.png"/>
+			
+		</div><!-- updated_parallax -->
+		
 	
+<!--
 		<div class="parallax">
 			
 			<div class="layer_bg layer" data-bg="<?php bloginfo('template_directory');?>/images/sec_one_bg.jpg" data-depth="0.10" data-type="parallax" style="background-position:top center"></div>
@@ -104,7 +118,8 @@
 			
 			<div class="layer_2 layer" data-bg="<?php bloginfo('template_directory');?>/images/sec_one_fore.png" data-depth="0.6" data-type="parallax" style="background-position:top center"></div>
 			
-		</div><!-- parallax -->
+		</div>
+-->
 	
 
 </section><!-- section_one -->

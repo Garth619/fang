@@ -61,6 +61,7 @@ jQuery(document).ready(function($){
 					
 						// only load section one parallax images when page load is bigger than 767 px wide (to save on lighthouse audit)
 		        
+/*
 		      	$('.layer').each(function () {
 	  		
 							if ($(this).attr('data-bg')) {
@@ -72,10 +73,24 @@ jQuery(document).ready(function($){
 	  					}
 	  				
 	  				});
+*/
+	  				
+	  				
+	  				$('.updated_layer').each(function () {
+	  		
+							if ($(this).attr('data-updated')) {
+		  		
+								var updatedimg = $(this).data('updated');
+		  		
+								$(this).attr('src', updatedimg);
+		  		
+	  					}
+	  				
+	  				});
 	  				
 	  		}
 	  		
-	  		// loads webp versions of bgs if the browser supports it. unfortunately each image below was getting erros on lighthouse bc there were so many media queries calling these images in the stylesheet...
+
 	  		
 	  		Modernizr.on('webp', function (result) {
 		  		
@@ -83,170 +98,16 @@ jQuery(document).ready(function($){
 		  		$('.webp_bg_compression').each(function () {
 			  		
 			  		
-			  		if(windowWidthbg > 1450) {
-				  		
-				  		if (result) {
-	  		
-								if ($(this).attr('data-webpbgdesktop')) {
-		  		
-									var imgBg = $(this).data('webpbgdesktop');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-	  		
-	  					}
-	  	
-	  	
-							else {
-		  	
-								if ($(this).attr('data-pngbgdesktop')) {
-		  		
-									var imgBg = $(this).data('pngbgdesktop');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-		  	
-	  					}
-				  		
-				  		
-			  		}
-			  		
-			  		
-			  		if(windowWidthbg < 1450) {
-				  		
-				  		
-				  		if (result) {
-	  		
-								if ($(this).attr('data-webpbglaptop')) {
-		  		
-									var imgBg = $(this).data('webpbglaptop');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-	  		
-	  					}
-	  	
-	  	
-							else {
-		  	
-								if ($(this).attr('data-pngbglaptop')) {
-		  		
-									var imgBg = $(this).data('pngbglaptop');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-		  	
-	  					}
-				  		
-			  		} // 1450
-			  		
-			  		
-			  		if(windowWidthbg > 1130) {
-				  		
-				  		
-				  		if (result) {
-	  		
-								if ($(this).attr('data-webpbgsectwo')) {
-		  		
-									var imgBg = $(this).data('webpbgsectwo');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-	  		
-	  					}
-	  	
-	  	
-							else {
-		  	
-								if ($(this).attr('data-jpgbgsectwo')) {
-		  		
-									var imgBg = $(this).data('jpgbgsectwo');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-		  	
-	  					}
-				  		
-				  		
-			  		}
-			  		
-			  		
-			  		if(windowWidthbg < 1130) {
-				  		
-				  		if (result) {
-	  		
-								if ($(this).attr('data-webpbgtablet')) {
-		  		
-									var imgBg = $(this).data('webpbgtablet');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-	  		
-	  					}
-	  	
-	  	
-							else {
-		  	
-								if ($(this).attr('data-jpgbgtablet')) {
-		  		
-									var imgBg = $(this).data('jpgbgtablet');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-		  	
-	  					}
-				  		
-				  		
-			  		} // 1130
-			  		
-			  		
-			  		if(windowWidthbg < 975) {
-				  		
-				  		if (result) {
-	  		
-								if ($(this).attr('data-webpbgsmalltablet')) {
-		  		
-									var imgBg = $(this).data('webpbgsmalltablet');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-	  		
-	  					}
-	  	
-	  	
-							else {
-		  	
-								if ($(this).attr('data-jpgbgsmalltablet')) {
-		  		
-									var imgBg = $(this).data('jpgbgsmalltablet');
-		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
-		  		
-	  						}
-		  	
-	  					}
-				  		
-				  		
-			  		} // 975
-			  		
-			  	
 			  		if(windowWidthbg < 767) {
 					
 					
+							// background images
+							
 							if (result) {
 	  		
-								if ($(this).attr('data-webpbgmobile')) {
+								if ($(this).attr('data-webpsecone')) {
 		  		
-									var imgBg = $(this).data('webpbgmobile');
+									var imgBg = $(this).data('webpsecone');
 		  		
 									$(this).css('background-image', 'url(' + imgBg + ')');
 		  		
@@ -257,30 +118,42 @@ jQuery(document).ready(function($){
 	  	
 							else {
 		  	
-								if ($(this).attr('data-jpgbgmobile')) {
+								if ($(this).attr('data-jpgsecone')) {
 		  		
-									var imgBg = $(this).data('jpgbgmobile');
+									var imgBg = $(this).data('jpgsecone');
 		  		
 									$(this).css('background-image', 'url(' + imgBg + ')');
 		  		
 	  						}
 		  	
 	  					}
+	  						  					
 					
 						} //767
 				
 				
 				
-						if(windowWidthbg < 414) {
-		  		
 						
-							if (result) {
+			  	
+			  	}); // each '.webp_bg_compression'
+			  	
+			  	
+			  	
+			  	
+			  	//images
+			  	
+			  	if(windowWidthbg < 767) {
+			  	
+			  		$('img.co').each(function () {
+	  					
+	  					
+	  					if (result) {
 	  		
-								if ($(this).attr('data-webpbgsmall')) {
+								if ($(this).attr('data-webpcomobile')) {
 		  		
-									var imgBg = $(this).data('webpbgsmall');
+									var mobileco = $(this).data('webpcomobile');
 		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
+									$(this).attr('src', mobileco);
 		  		
 	  						}
 	  		
@@ -289,20 +162,57 @@ jQuery(document).ready(function($){
 	  	
 							else {
 		  	
-								if ($(this).attr('data-jpgbgsmall')) {
+								if ($(this).attr('data-jpgcomobile')) {
 		  		
-									var imgBg = $(this).data('jpgbgsmall');
+									var mobileco = $(this).data('jpgcomobile');
 		  		
-									$(this).css('background-image', 'url(' + imgBg + ')');
+									$(this).attr('src', mobileco);
 		  		
 	  						}
 		  	
 	  					}
-						
-	  				} // 414
-
+	  					
+	  					
+	  					}); // each 
+	  					
+	  					} // 767
+	  					
+	  					
+	  					
+	  					if(windowWidthbg < 414) {
 			  	
-			  	}); // each '.webp_bg_compression'
+			  		$('img.co').each(function () {
+	  					
+	  					
+	  					if (result) {
+	  		
+								if ($(this).attr('data-webpcosmall')) {
+		  		
+									var mobileco = $(this).data('webpcosmall');
+		  		
+									$(this).attr('src', mobileco);
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgcosmall')) {
+		  		
+									var mobileco = $(this).data('jpgcosmall');
+		  		
+									$(this).attr('src', mobileco);
+		  		
+	  						}
+		  	
+	  					}
+	  					
+	  					
+	  					}); // each 
+	  					
+	  					} // 414
 		  		
 		  		
 		  }); // modernizr
@@ -694,6 +604,12 @@ $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
 
+
+
+	
+/*
+
+
 window.addEventListener('scroll', function(event) {
   var depth, i, layer, layers, len, movement, topDistance, translate3d;
   topDistance = this.pageYOffset;
@@ -709,7 +625,95 @@ window.addEventListener('scroll', function(event) {
     layer.style['-o-transform'] = translate3d;
     layer.style.transform = translate3d;
   }
-});
+	});
+*/
+
+
+
+
+
+
+window.requestAnimFrame = (function(){
+  return  window.requestAnimationFrame       ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame    ||
+          window.oRequestAnimationFrame      ||
+          window.msRequestAnimationFrame     ||
+          function( callback ){
+            window.setTimeout(callback, 1000 / 60);
+          };
+})();
+
+(function(win, d) {
+
+  var $ = d.querySelector.bind(d);
+
+ 
+  var blob2 = $('#para_two');
+  var blob3 = $('#para_three');
+
+
+  //var mainBG = $('#para_one');
+
+  var ticking = false;
+  var lastScrollY = 0;
+
+  function onResize () {
+    updateElements(win.pageYOffset);
+  }
+
+  function onScroll (evt) {
+
+    if(!ticking) {
+      ticking = true;
+      requestAnimFrame(updateElements);
+      lastScrollY = win.pageYOffset;
+    }
+  }
+
+  function updateElements () {
+
+    var relativeY = lastScrollY / 1500;
+
+		prefix(blob2.style, "Transform", "translate3d(0px," +
+      pos(0, 500, relativeY, 0) + 'px, 0)');
+
+    prefix(blob3.style, "Transform", "translate3d(0px," +
+      pos(0, 300, relativeY, 0) + 'px, 0)');
+
+
+    ticking = false;
+  }
+
+  function pos(base, range, relY, offset) {
+    return base + limit(0, 1, relY - offset) * range;
+  }
+
+  function prefix(obj, prop, value) {
+    var prefs = ['webkit', 'Moz', 'o', 'ms'];
+    for (var pref in prefs) {
+      obj[prefs[pref] + prop] = value;
+    }
+  }
+
+  function limit(min, max, value) {
+    return Math.max(min, Math.min(max, value));
+  }
+
+  (function() {
+
+    updateElements(win.pageYOffset);
+
+    
+    blob2.classList.add('force-show');
+    blob3.classList.add('force-show');
+
+  })();
+
+  //win.addEventListener('resize', onResize, false);
+  win.addEventListener('scroll', onScroll, false);
+
+})(window, document);
 
 
 
