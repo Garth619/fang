@@ -179,7 +179,7 @@ jQuery(document).ready(function($){
 	  					
 	  					
 	  					
-	  					if(windowWidthbg < 414) {
+	  			if(windowWidthbg < 414) {
 			  	
 			  		$('img.co').each(function () {
 	  					
