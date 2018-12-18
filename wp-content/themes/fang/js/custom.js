@@ -144,6 +144,11 @@ jQuery(document).ready(function($){
 			  	
 			  	if(windowWidthbg < 767) {
 			  	
+			  		
+			  		
+			  		function offScreen() {
+			  		
+			  		
 			  		$('img.co').each(function () {
 	  					
 	  					
@@ -175,11 +180,23 @@ jQuery(document).ready(function($){
 	  					
 	  					}); // each 
 	  					
-	  					} // 767
+	  					
+	  					 console.log('images ready to offscreen');
+	  					
+	  					
+	  					} // offscreen
+	  					
+	  					createWaypoint('section_two', null, null, '100%', offScreen, false);
+	  					
+	  					
+	  			} // 767
 	  					
 	  					
 	  					
 	  			if(windowWidthbg < 414) {
+		  			
+		  			
+		  			function offScreen() {
 			  	
 			  		$('img.co').each(function () {
 	  					
@@ -211,6 +228,11 @@ jQuery(document).ready(function($){
 	  					
 	  					
 	  					}); // each 
+	  					
+	  					} // offscreen
+	  					
+	  					
+	  					createWaypoint('section_two', null, null, '100%', offScreen, false);
 	  					
 	  					} // 414
 		  		
