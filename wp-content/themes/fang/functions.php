@@ -384,5 +384,49 @@ function getVimeoThumb($id)
 }
  
 
+// Shortcode Internal Video
+
+function internal_video( $atts, $content = null ) { 
+	
+	$atts = shortcode_atts( array(
+       'wistia' => '',
+   ), $atts );
+	
+	
+	ob_start();?>
+	
+	
+	<div id="single_video_pa" class="single_video">
+				
+		<div class="wistia_wrapper">
+					
+			<div class="wistia_inner wistia_embed wistia_async_<?php echo $atts['wistia']; ?>  popover=true popoverContent=thumbnail"></div><!-- wistia_inner -->
+					
+				<div class="wistia_overlay_intial"></div><!-- wistia_overlay_intial -->
+					
+					<div class="wistia_overlay">
+						
+						<div class="play_button_internal">
+							
+							<div class="play_button_inner"></div><!-- play_button_inner -->
+							
+						</div><!-- play_button_internal -->
+						
+					</div><!-- wistia_overlay -->
+					
+				</div><!-- wistia_wrapper -->
+				
+			<span class="video_title wistia_embed wistia_async_<?php the_sub_field( 'wistia_id' ); ?> popover=true popoverContent=html"><?php the_sub_field( 'video_title' ); ?></span><!-- video_title -->
+				
+				</div><!-- single_video -->
+	
+		
+				<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+	
+	<?php return ob_get_clean(); }
+
+
+
+add_shortcode( 'internalvideo', 'internal_video' );
 
 
