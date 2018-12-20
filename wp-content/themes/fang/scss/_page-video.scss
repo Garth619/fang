@@ -128,6 +128,16 @@
 	}
 }
 
+body:not(.page-template-template-video) {
+ .single_video {
+		width:100%;
+		height: 400px !important;
+		.wistia_wrapper {
+			height:375px !important;
+		}
+	}
+}
+
 
 @media screen and (max-width: 1230px) {
 	

@@ -1,4 +1,4 @@
-<section id="section_one">
+<section id="section_one" class="webp_bg_compression" data-webpsecone="<?php bloginfo('template_directory');?>/images/sec_one_bg.webp" data-jpgsecone="<?php bloginfo('template_directory');?>/images/sec_one_bg_test.jpg" style="background-position:top center;">
 	
 		<div class="sec_one_inner">
 			
@@ -42,7 +42,11 @@
 					
 					<div class="play_wrapper">
 						
-						<div class="wistia_click wistia_embed wistia_async_<?php the_field( 'section_one_vimeo_id' ); ?> popover=true popoverContent=html"></div><!-- wistia_click -->
+						<div class="wistia_click">
+							
+							<a href="<?php the_field( 'section_one_video_file' ); ?>" data-lity></a>
+							
+						</div><!-- wistia_click -->
 						
 						<div class="learn_wrapper desktop">
 							
@@ -91,16 +95,31 @@
 			</div><!-- sec_one_bottom -->
 			
 		</div><!-- sec_one_inner -->
+		
+		
+		
+		<div class="updated_parallax">
+			
+			<img id="para_one" class="para_bg updated_layer" data-updated="<?php bloginfo('template_directory');?>/images/sec_one_bg.jpg"/>
+			
+			<img id="para_two" class="updated_layer" data-updated="<?php bloginfo('template_directory');?>/images/sec_one_middle.png"/>
+			
+			<img id="para_three" class="updated_layer" data-updated="<?php bloginfo('template_directory');?>/images/sec_one_fore.png"/>
+			
+		</div><!-- updated_parallax -->
+		
 	
+<!--
 		<div class="parallax">
 			
-			<div class="layer_bg layer" data-depth="0.10" data-type="parallax"></div>
+			<div class="layer_bg layer" data-bg="<?php bloginfo('template_directory');?>/images/sec_one_bg.jpg" data-depth="0.10" data-type="parallax" style="background-position:top center"></div>
 			
-			<div class="layer_1 layer" data-depth="0.20" data-type="parallax"></div>
+			<div class="layer_1 layer" data-bg="<?php bloginfo('template_directory');?>/images/sec_one_middle.png" data-depth="0.20" data-type="parallax" style="background-position:top center"></div>
 			
-			<div class="layer_2 layer" data-depth="0.6" data-type="parallax"></div>
+			<div class="layer_2 layer" data-bg="<?php bloginfo('template_directory');?>/images/sec_one_fore.png" data-depth="0.6" data-type="parallax" style="background-position:top center"></div>
 			
-		</div><!-- parallax -->
+		</div>
+-->
 	
 
 </section><!-- section_one -->

@@ -102,8 +102,8 @@ nav.open {
 
 
 .nav_col {
-	flex-basis: 22%;
-	flex-shrink: 0;
+	//flex-basis: 22%;
+	//flex-shrink: 0;
 }
 
 .nav_col.two, .nav_col.three, .nav_col.four {
@@ -156,6 +156,27 @@ nav.open {
 		}
 		&:after {
 			transform: rotate(45deg);
+		}
+	}
+}
+
+
+
+.nav_close {
+	img {
+		transform: translateX(-35px);
+		opacity: 0;
+		transition: transform 900ms cubic-bezier(.17,.66,.34,.98), opacity 400ms linear;
+	}
+}
+
+
+nav.open {
+	.nav_close {
+		img {
+			transform: translateX(0);
+			opacity: 1;
+			transition-delay: 700ms;
 		}
 	}
 }

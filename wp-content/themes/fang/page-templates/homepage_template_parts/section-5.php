@@ -19,7 +19,7 @@
 				
 						<div class="sec_five_single_inner">
 				
-							<img class="sec_five_stars" src="<?php bloginfo('template_directory');?>/images/test_icon-01.svg"/>
+							<img class="sec_five_stars" data-src="<?php bloginfo('template_directory');?>/images/test_icon-01.svg"/>
 				
 							<span class="sec_five_intro"><?php the_sub_field( 'testimonial_intro' ); ?></span><!-- sec_five_intro -->
 				

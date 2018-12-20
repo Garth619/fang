@@ -18,11 +18,20 @@ body {
 text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 line-height: 1;
 overflow-x: hidden;
+overflow-y: scroll;
 }
 
 body .gform_wrapper .gform_validation_container {
 	display: none;
 }
+
+
+
+html.fixed, body.fixed {
+	overflow: hidden;
+	height:100%;
+}
+
 
 .validation_error {
 	display: none;
@@ -32,6 +41,13 @@ body .gform_wrapper .gform_validation_container {
 body img.gform_ajax_spinner {
     display: none!important;
 }
+
+
+
+li.gform_hidden {
+	display: none !important;
+}
+
 
 
 header, section, nav, footer {

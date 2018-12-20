@@ -1,6 +1,6 @@
 <footer id="footer_trigger">
 	
-	<div id="consultation" class="footer_form">
+	<div id="consultation" class="footer_form" data-src="<?php bloginfo('template_directory');?>/images/footer_img_desktop.jpg" style="background-position: top center;background-repeat:no-repeat">
 		
 		<div class="footer_form_inner">
 		
@@ -48,11 +48,11 @@
 		
 			<div class="footer_col">
 				
-				<img class="location_svg" src="<?php bloginfo('template_directory');?>/images/footer_icon-06.svg"/>
+				<img alt="denver icon svg" class="location_svg" data-src="<?php bloginfo('template_directory');?>/images/footer_icon-06.svg"/>
 				
 				<span class="location_title"><?php the_field( 'denver_title','option'); ?></span><!-- location_title -->
 				
-				<img class="title_accent" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+				<img alt="denver title accent" class="title_accent" data-src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 				
 				<span class="address"><?php the_field( 'denver_street_address','option'); ?></span><!-- address -->
 				
@@ -62,11 +62,11 @@
 			
 			<div class="footer_col">
 				
-					<img src="<?php bloginfo('template_directory');?>/images/footer_icon-01.svg"/>
+					<img alt="boulder icon" data-src="<?php bloginfo('template_directory');?>/images/footer_icon-01.svg"/>
 					
 					<span class="location_title"><?php the_field( 'boulder_title','option'); ?></span><!-- location_title -->
 				
-					<img class="title_accent" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+					<img alt="boulder title accent" class="title_accent" data-src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 				
 					<span class="address"><?php the_field( 'boulder_street_address','option'); ?></span><!-- address -->
 				
@@ -79,9 +79,9 @@
 				
 				<div class="footer_consult_wrapper">
 					
-					<img class="six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+					<img alt="six count line" class="six_count" data-src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 					
-					<img class="three_count" src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
+					<img alt="three count line" class="three_count" data-src="<?php bloginfo('template_directory');?>/images/three_count.svg"/>
 					
 					<span>GEt YOUR FREE CASE EVALUATION</span><!-- footer_consult_title -->
 					
@@ -120,12 +120,47 @@
 		<div class="copyright_inner">
 		
 			<div class="copright_col">
-			
-				<a href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank" rel="noopener">
 				
-					<?php echo file_get_contents("wp-content/themes/fang/images/footer_icon-04.svg"); ?>
+				<?php if(get_field('google_plus_link','option')) { ?>
 				
-				</a>
+					<a href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank" rel="noopener">
+				
+						<?php echo file_get_contents("wp-content/themes/fang/images/footer_icon-04.svg"); ?>
+				
+					</a>
+				
+				<?php } ?>
+				
+				<?php if(get_field('linkedin_link','option')) { ?>
+				
+					<a href="<?php the_field( 'linkedin_link','option'); ?>" target="_blank" rel="noopener">
+				
+						<?php echo file_get_contents("wp-content/themes/fang/images/linkedin.svg"); ?>
+				
+					</a>
+				
+				<?php } ?>
+				
+				<?php if(get_field('facebook_link','option')) { ?>
+				
+					<a href="<?php the_field( 'facebook_link','option'); ?>" target="_blank" rel="noopener">
+				
+						<?php echo file_get_contents("wp-content/themes/fang/images/facebook.svg"); ?>
+				
+					</a>
+					
+				<?php } ?>
+				
+				<?php if(get_field('twitter_link','option')) { ?>
+
+					<a href="<?php the_field( 'twitter_link','option'); ?>" target="_blank" rel="noopener">
+				
+						<?php echo file_get_contents("wp-content/themes/fang/images/twitter.svg"); ?>
+				
+					</a>
+				
+				<?php } ?>
+
 			
 			</div><!-- copright_col -->
 		
@@ -148,7 +183,7 @@
 				
 				<a class="" href="//ilawyermarketing.com" target="_blank" rel="noopener" alt="ilawyermarketing">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/footer_icon-05.svg"/>
+					<img alt="ilawyermarketing logo" data-src="<?php bloginfo('template_directory');?>/images/footer_icon-05.svg"/>
 					
 				</a>
 				
@@ -161,16 +196,6 @@
 </footer>
 
 <?php wp_footer();?>
-
-<?php if(is_page_template('page-templates/template-home.php') || is_page_template('page-templates/template-video.php') ) { ?>
-
-
-<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-
-
-<?php } ?>
-
-
 
 </body>
 </html>

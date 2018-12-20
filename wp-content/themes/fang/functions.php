@@ -11,7 +11,7 @@
 function load_my_styles_scripts() {
   
     
-    wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
+     // wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 5, 'all' ); 
     
 
     // disables jquery then registers it again to go into footer
@@ -22,7 +22,7 @@ function load_my_styles_scripts() {
 
 		// custom js to fall uner jquery in footer
 		    
-    wp_register_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js' );
+    wp_register_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', '', 1 );
 
 		
 		// Localized PHP Data that needs to be passed onto my custom-min.js file, this grabs the live chat script acf and applies to my lazyload "getScript" function
@@ -49,10 +49,60 @@ function load_my_styles_scripts() {
 		    
     wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', 'jquery', '', true );
     
-
- }
+    wp_enqueue_script( 'jquery-mygravity', get_template_directory_uri() . '/js/gravityforms-min.js', 'jquery', '', true );
+    
+}
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
+ 
+ 
+ //
+ 
+ 
+ function add_defer_attribute($tag, $handle) {
+   // add script handles to the array below
+   $scripts_to_defer = array('jquery', 'jquery-addon', 'jquery-mygravity');
+   
+   foreach($scripts_to_defer as $defer_script) {
+      if ($defer_script === $handle) {
+         return str_replace(' src', ' defer="defer" src', $tag);
+      }
+   }
+   return $tag;
+}
+
+
+add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
+ 
+ 
+ 
+ // dequeue embed for lighthouse
+ 
+ 
+ function my_deregister_scripts(){
+  
+  wp_deregister_script( 'wp-embed' );
+
+	}
+
+	add_action( 'wp_footer', 'my_deregister_scripts' );
+	
+	
+	
+// dequeue gravity form files that effect critical chain page speed and defer them later in a combined file
+
+
+function deregister_scripts(){
+			
+  wp_deregister_script("gform_placeholder");
+  wp_deregister_script("gform_masked_input");
+  wp_deregister_script("gform_json");
+  wp_deregister_script("gform_gravityforms");
+  
+ }
+	
+	
+add_action("gform_enqueue_scripts", "deregister_scripts");
 
  
 
@@ -60,7 +110,8 @@ function load_my_styles_scripts() {
 -------------------------------------------------------------- */
  
  
-/*
+
+
 function internal_css_print() {
    echo '<style>';
    
@@ -71,7 +122,8 @@ function internal_css_print() {
 
 
 add_action( 'wp_head', 'internal_css_print' );
-*/
+
+
 
  
  
@@ -332,5 +384,49 @@ function getVimeoThumb($id)
 }
  
 
+// Shortcode Internal Video
+
+function internal_video( $atts, $content = null ) { 
+	
+	$atts = shortcode_atts( array(
+       'wistia' => '',
+   ), $atts );
+	
+	
+	ob_start();?>
+	
+	
+	<div id="single_video_pa" class="single_video">
+				
+		<div class="wistia_wrapper">
+					
+			<div class="wistia_inner wistia_embed wistia_async_<?php echo $atts['wistia']; ?>  popover=true popoverContent=thumbnail"></div><!-- wistia_inner -->
+					
+				<div class="wistia_overlay_intial"></div><!-- wistia_overlay_intial -->
+					
+					<div class="wistia_overlay">
+						
+						<div class="play_button_internal">
+							
+							<div class="play_button_inner"></div><!-- play_button_inner -->
+							
+						</div><!-- play_button_internal -->
+						
+					</div><!-- wistia_overlay -->
+					
+				</div><!-- wistia_wrapper -->
+				
+			<span class="video_title wistia_embed wistia_async_<?php the_sub_field( 'wistia_id' ); ?> popover=true popoverContent=html"><?php the_sub_field( 'video_title' ); ?></span><!-- video_title -->
+				
+				</div><!-- single_video -->
+	
+		
+				<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+	
+	<?php return ob_get_clean(); }
+
+
+
+add_shortcode( 'internalvideo', 'internal_video' );
 
 

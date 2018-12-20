@@ -21,15 +21,23 @@ get_header(); ?>
 			 
 					<div class="single_test">
 				
-						<img class="star" src="<?php bloginfo('template_directory');?>/images/test_icon-01.svg"/>
+						<img alt="stars icon" class="star" src="<?php bloginfo('template_directory');?>/images/test_icon-01.svg"/>
 				
 						<span class="test_title"><?php the_sub_field( 'testimonial_intro' ); ?></span><!-- test_title -->
 				
 						<span class="test_description"><?php the_sub_field( 'testimonial_description' ); ?></span><!-- test_description -->
 				
 						<img class="test_accent" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+						
+						<?php if(get_sub_field('testimonial_name')) : ?>
 				
-						<span class="test_name"><?php the_sub_field( 'testimonial_name' ); ?></span><!-- test_name -->
+							<span class="test_name"><?php the_sub_field( 'testimonial_name' ); ?></span><!-- test_name -->
+						
+							<?php else : ?> 
+							
+							<span class="test_name">anonymous</span><!-- test_name -->
+							
+						<?php endif; ?>
 				
 					</div><!-- single_test -->
 			    

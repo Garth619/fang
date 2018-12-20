@@ -39,8 +39,6 @@
 
 <?php the_field('schema_code', 'option'); ?>
 
-<?php the_field('analytics_code', 'option'); ?>
-
 </head>
 
 <body <?php body_class(); ?>>
@@ -142,7 +140,7 @@
 		
 		<div class="nav_close">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+			<img alt="sixcount lne svg" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 			
 			<div class="close"></div><!-- close -->
 			

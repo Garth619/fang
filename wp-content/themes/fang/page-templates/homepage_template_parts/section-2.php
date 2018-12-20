@@ -1,6 +1,9 @@
 <section id="section_two">
 	
-	<div class="sec_two_inner">
+	<div class="sec_two_inner webp_bg_compression">
+				
+				
+			
 		
 		<div class="sec_two_content content">
 			
@@ -26,9 +29,23 @@
 		
 		</div><!-- sec_two_topog -->
 		
+		<img class="desktop co" data-src="<?php bloginfo('template_directory');?>/images/co_desktop.png"/>
+		<img class="laptop co" data-src="<?php bloginfo('template_directory');?>/images/co_laptop.png"/>
+		<img class="tablet co" data-src="<?php bloginfo('template_directory');?>/images/co_tablet.jpg"/>
+		<img class="smalltablet co" data-src="<?php bloginfo('template_directory');?>/images/co_975.jpg"/>
+		
+		
+		
+		<img class="mobile co" data-webpcomobile="<?php bloginfo('template_directory');?>/images/co_mobile.webp" data-jpgcomobile="<?php bloginfo('template_directory');?>/images/co_mobile.jpg"/>
+		
+		
+		<img class="small co" data-webpcosmall="<?php bloginfo('template_directory');?>/images/co_414.webp" data-jpgcosmall="<?php bloginfo('template_directory');?>/images/co_414.jpg"/>
+		
 	</div><!-- sec_two_inner -->
 	
-	<div class="sec_two_bg"></div>
+	
+	
+	<div class="sec_two_bg webp_bg_compression" data-webpbgsectwo="<?php bloginfo('template_directory');?>/images/sec_one_bg.webp" data-jpgbgsectwo="<?php bloginfo('template_directory');?>/images/sec_one_bg.jpg"></div>
 	
 	
 	

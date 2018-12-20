@@ -21,7 +21,7 @@
 	
 	<?php if ( $sec_four_mobile_image ) { ?>
 		
-		<img class="ram mobile" src="<?php echo $sec_four_mobile_image['url']; ?>" alt="<?php echo $sec_four_mobile_image['alt']; ?>" />
+		<img class="ram mobile" data-src="<?php echo $sec_four_mobile_image['url']; ?>" alt="<?php echo $sec_four_mobile_image['alt']; ?>" />
 		
 	<?php } ?>
 	

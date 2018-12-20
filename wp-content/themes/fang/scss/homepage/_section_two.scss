@@ -1,13 +1,14 @@
 #section_two {
 	position: relative;
 	overflow: hidden;
+	z-index:2;
 	.sec_two_bg {
 		position: absolute;
 		top:0;
 		left:0;
 		width:100%;
 		height:100%;
-		background: url(#{$themePath}images/sec_one_bg.jpg) top center no-repeat;
+		// background: url(#{$themePath}images/sec_one_bg.jpg) top center no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
 	}
@@ -16,10 +17,23 @@
 .sec_two_inner {
 	height:1050px;
 	width:100%;
-	background: url(#{$themePath}images/co_desktop.png) top center;
+	// background: url(#{$themePath}images/co_desktop.png) top center no-repeat;
 	background-size:cover;
 	position: relative;
 	z-index: 1;
+	img.co {
+		display: none;
+		position: absolute;
+		top:0;
+		left:0;
+		object-fit:cover;
+		object-position:50% 0%;
+		width:100%;
+		height:100%;
+	}
+	img.desktop {
+		display: block;
+	}
 }
 
 
@@ -28,6 +42,8 @@
 	margin:0px auto 0;
 	padding: 303px 70px 0;
 	color:#fff;
+	position: relative;
+	z-index: 2;
 	h1 {
 		color:#fff;
 		font-size:102px;
@@ -68,9 +84,15 @@
 
 	
 	.sec_two_inner {
-		background: url(#{$themePath}images/co_laptop.png) top right;
+		//background: url(#{$themePath}images/co_laptop.png) top right;
 		background-size: cover;
 		height:990px;
+		img.desktop {
+			display: none;
+		}
+		img.laptop {
+			display: block;
+		}
 	}
 	
 	
@@ -113,9 +135,15 @@
 	}
 
 	.sec_two_inner {
-		background: url(#{$themePath}images/co_tablet.jpg) top right;
+		//background: url(#{$themePath}images/co_tablet.jpg) top right;
 		background-size: cover;
 		height:829px;
+		img.laptop {
+			display: none;
+		}
+		img.tablet {
+			display: block;
+		}
 	}
 	
 	
@@ -158,7 +186,13 @@
 	
 	
 	.sec_two_inner {
-		background: url(#{$themePath}images/co_975.jpg) top right;
+		//background: url(#{$themePath}images/co_975.jpg) top right;
+		img.tablet {
+			display: none;
+		}
+		img.smalltablet {
+			display: block;
+		}
 	}
 	
 	
@@ -170,14 +204,21 @@
 @media screen and (max-width: 767px) {
 	
 
-	
+	#section_two {
+		
+	}
 	
 	
 	.sec_two_inner {
 		height:auto;
-		padding-bottom: 43px;
-		background: url(#{$themePath}images/co_mobile.jpg) top center no-repeat;
-		
+		padding-bottom: 71px;
+		// background: url(#{$themePath}images/co_mobile.jpg) top center no-repeat;
+		img.smalltablet {
+			display: none;
+		}
+		img.mobile {
+			display: block;
+		}
 	}
 	
 	
@@ -219,8 +260,16 @@
 	
 	
 	.sec_two_inner {
+/*
 		background: url(#{$themePath}images/co_414.jpg) top center no-repeat;
 		background-size: 100%;
+*/
+		img.mobile {
+			display: none;
+		}
+		img.small {
+			display: block;
+		}
 	}
 	
 	

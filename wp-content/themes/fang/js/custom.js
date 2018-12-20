@@ -11,43 +11,284 @@ jQuery(document).ready(function($){
 	 /* Modernizr - check if browser supports webp. 
      --------------------------------------------------------------------------------------- */
     
-    // add data-webp and data-jpg to images in section one and you're gucci
+ 
     
+/*
      Modernizr.on('webp', function (result) {
-	    
-	    jQuery('#section_one img').each(function () {
+
+
+	   $('img.webp_compression').each(function () {
 	    
 				if (result) {
     
-					if (jQuery(this).attr('data-webp')) {
+					if ($(this).attr('data-webp')) {
           
-          	var img = jQuery(this).data('webp');
+          	var img = $(this).data('webp');
           
-						jQuery(this).attr('src', img);
+						$(this).attr('src', img);
         	
         	}
-      
-   			}
-  
-	 			else {
+        	
+        }
+        
+        else {
 		 			
-		 			if (jQuery(this).attr('data-jpg')) {
+		 			if ($(this).attr('data-jpg')) {
           
-          	var img = jQuery(this).data('jpg');
+          	var img = $(this).data('jpg');
           
-						jQuery(this).attr('src', img);
+						$(this).attr('src', img);
         	
         	}
     
-    		
-  	
-  			}
-  		
-  		});
-  		
-  		console.log(result);
+    		}
+        
+      });
+
+  		 
+			// console.log(result);
 	
 		});
+*/
+		
+
+			
+			function checkWidthbg() {
+				
+				var windowWidthbg = $(window).width();
+				
+				if (windowWidthbg > 767) {
+					
+						// only load section one parallax images when page load is bigger than 767 px wide (to save on lighthouse audit)
+		        
+/*
+		      	$('.layer').each(function () {
+	  		
+							if ($(this).attr('data-bg')) {
+		  		
+								var mybackground = $(this).data('bg');
+		  		
+								$(this).css('background-image', 'url(' + mybackground + ')');
+		  		
+	  					}
+	  				
+	  				});
+*/
+	  				
+	  				
+	  				$('.updated_layer').each(function () {
+	  		
+							if ($(this).attr('data-updated')) {
+		  		
+								var updatedimg = $(this).data('updated');
+		  		
+								$(this).attr('src', updatedimg);
+		  		
+	  					}
+	  				
+	  				});
+	  				
+	  		}
+	  		
+
+	  		
+	  		Modernizr.on('webp', function (result) {
+		  		
+		  		
+		  		$('.webp_bg_compression').each(function () {
+			  		
+			  		
+			  		if(windowWidthbg < 767) {
+					
+					
+							// background images
+							
+							if (result) {
+	  		
+								if ($(this).attr('data-webpsecone')) {
+		  		
+									var imgBg = $(this).data('webpsecone');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgsecone')) {
+		  		
+									var imgBg = $(this).data('jpgsecone');
+		  		
+									$(this).css('background-image', 'url(' + imgBg + ')');
+		  		
+	  						}
+		  	
+	  					}
+	  						  					
+					
+						} //767
+				
+				
+				
+						
+			  	
+			  	}); // each '.webp_bg_compression'
+			  	
+			  	
+			  	
+			  	
+			  	//images
+			  	
+			  	if(windowWidthbg < 767) {
+			  	
+			  		
+			  		
+			  		function offScreen() {
+			  		
+			  		
+			  		$('img.co').each(function () {
+	  					
+	  					
+	  					if (result) {
+	  		
+								if ($(this).attr('data-webpcomobile')) {
+		  		
+									var mobileco = $(this).data('webpcomobile');
+		  		
+									$(this).attr('src', mobileco);
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgcomobile')) {
+		  		
+									var mobileco = $(this).data('jpgcomobile');
+		  		
+									$(this).attr('src', mobileco);
+		  		
+	  						}
+		  	
+	  					}
+	  					
+	  					
+	  					}); // each 
+	  					
+	  					
+	  					 console.log('images ready to offscreen');
+	  					
+	  					
+	  					} // offscreen
+	  					
+	  					createWaypoint('section_two', null, null, '100%', offScreen, false);
+	  					
+	  					
+	  			} // 767
+	  					
+	  					
+	  					
+	  			if(windowWidthbg < 414) {
+		  			
+		  			
+		  			function offScreen() {
+			  	
+			  		$('img.co').each(function () {
+	  					
+	  					
+	  					if (result) {
+	  		
+								if ($(this).attr('data-webpcosmall')) {
+		  		
+									var mobileco = $(this).data('webpcosmall');
+		  		
+									$(this).attr('src', mobileco);
+		  		
+	  						}
+	  		
+	  					}
+	  	
+	  	
+							else {
+		  	
+								if ($(this).attr('data-jpgcosmall')) {
+		  		
+									var mobileco = $(this).data('jpgcosmall');
+		  		
+									$(this).attr('src', mobileco);
+		  		
+	  						}
+		  	
+	  					}
+	  					
+	  					
+	  					}); // each 
+	  					
+	  					} // offscreen
+	  					
+	  					
+	  					createWaypoint('section_two', null, null, '100%', offScreen, false);
+	  					
+	  					} // 414
+		  		
+		  		
+		  }); // modernizr
+	  			  		
+	  		
+			
+		}; // checkWidthbg
+			
+		
+		checkWidthbg();
+		
+		
+		
+		/* Load Images - Call function when you reach the a section with images using waypoints
+       BG image - <div data-src=""></div>   ,   Image - <img data-src="">
+      --------------------------------------------------------------------------------------- */
+
+    function loadImages() {
+      
+      // images
+      
+      jQuery('img').each(function () {
+        
+        if (jQuery(this).attr('data-src')) {
+          
+          var img = jQuery(this).data('src');
+          
+          jQuery(this).attr('src', img);
+        
+        }
+      
+      });
+
+      // background images
+      
+      jQuery('div, section').each(function () {
+       
+        if (jQuery(this).attr('data-src')) {
+          
+          var backgroundImg = jQuery(this).data('src');
+          
+          jQuery(this).css('background-image', 'url(' + backgroundImg + ')');
+        
+        }
+      
+      });
+
+      console.log('images loaded');
+    }
+
+    createWaypoint('section_two', null, null, '100%', loadImages, false);
+    
+    createWaypoint('internal_trigger', null, null, '100%', loadImages, false);
+
 
 
 		 /* Nav
@@ -84,6 +325,8 @@ jQuery(document).ready(function($){
      $('.menu_wrapper').on('click', function(e) {
 	     
 	     	$('nav').addClass('open');
+	     	
+	     	$('html, body').addClass('fixed');
        
      });
      
@@ -91,6 +334,8 @@ jQuery(document).ready(function($){
      $('.close').on('click', function(e) {
        
      	$('nav').removeClass('open');
+     	
+     	$('html, body').removeClass('fixed');
      
      });
      
@@ -129,14 +374,21 @@ jQuery(document).ready(function($){
     }
 		
 		
-		$('body').addClass('visible');
+		$('body, #internal_trigger').addClass('visible');
 
     createWaypoint('section_one', '.sticky_header', 'visible', -300, null, true);
+    
+    createWaypoint('section_two', '#section_two', 'visible', 100, null, false);
 		
 		createWaypoint('internal_trigger', '.sticky_header', 'visible', -300, null, true);
 		
+		createWaypoint('sec_three_trigger', '.sec_three_right', 'visible', 400, null, false);
 		
-		createWaypoint('sec_three_trigger', '.sec_three_right', 'visible', 300, null, true);
+		createWaypoint('section_five', '#section_five', 'visible', 200, null, true);
+		
+		createWaypoint('section_six', '#section_six', 'visible', 200, null, false);
+		
+		createWaypoint('about_img_trigger', '#about_img_trigger', 'visible', 250, null, false);
 
 
 
@@ -199,45 +451,7 @@ jQuery(document).ready(function($){
 
 
 
-    /* Load Images - Call function when you reach the a section with images using waypoints
-       BG image - <div data-src=""></div>   ,   Image - <img data-src="">
-      --------------------------------------------------------------------------------------- */
-
-    function loadImages() {
-      
-      // images
-      
-      jQuery('img').each(function () {
         
-        if (jQuery(this).attr('data-src')) {
-          
-          var img = jQuery(this).data('src');
-          
-          jQuery(this).attr('src', img);
-        
-        }
-      
-      });
-
-      // background images
-      
-      jQuery('div, section').each(function () {
-       
-        if (jQuery(this).attr('data-src')) {
-          
-          var backgroundImg = jQuery(this).data('src');
-          
-          jQuery(this).css('background-image', 'url(' + backgroundImg + ')');
-        
-        }
-      
-      });
-
-      console.log('images loaded');
-    }
-
-    // createWaypoint('section_two', null, null, '100%', loadImages, false);
-    
     
 
 
@@ -320,6 +534,7 @@ $('.sec_three_slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows:false,
+      fade:false,
       adaptiveHeight: true,
       dots:true,
      }
@@ -341,8 +556,10 @@ $('.sec_three_slider').slick({
  });
  
  
- 
- // banner class check
+ $('.sidebar_wrapper ul.menu > li.current-menu-ancestor > a').addClass('active');
+   
+
+ 	// banner class check
  
  
  	if (!$('.internal_banner')[0]){
@@ -409,6 +626,12 @@ $("ul > li.menu-item-has-children > a[href='#']").removeAttr("href");
 
 
 
+
+
+	
+/*
+
+
 window.addEventListener('scroll', function(event) {
   var depth, i, layer, layers, len, movement, topDistance, translate3d;
   topDistance = this.pageYOffset;
@@ -424,7 +647,95 @@ window.addEventListener('scroll', function(event) {
     layer.style['-o-transform'] = translate3d;
     layer.style.transform = translate3d;
   }
-});
+	});
+*/
+
+
+
+
+
+
+window.requestAnimFrame = (function(){
+  return  window.requestAnimationFrame       ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame    ||
+          window.oRequestAnimationFrame      ||
+          window.msRequestAnimationFrame     ||
+          function( callback ){
+            window.setTimeout(callback, 1000 / 60);
+          };
+})();
+
+(function(win, d) {
+
+  var $ = d.querySelector.bind(d);
+
+ 
+  var blob2 = $('#para_two');
+  var blob3 = $('#para_three');
+
+
+  //var mainBG = $('#para_one');
+
+  var ticking = false;
+  var lastScrollY = 0;
+
+  function onResize () {
+    updateElements(win.pageYOffset);
+  }
+
+  function onScroll (evt) {
+
+    if(!ticking) {
+      ticking = true;
+      requestAnimFrame(updateElements);
+      lastScrollY = win.pageYOffset;
+    }
+  }
+
+  function updateElements () {
+
+    var relativeY = lastScrollY / 1500;
+
+		prefix(blob2.style, "Transform", "translate3d(0px," +
+      pos(0, 500, relativeY, 0) + 'px, 0)');
+
+    prefix(blob3.style, "Transform", "translate3d(0px," +
+      pos(0, 300, relativeY, 0) + 'px, 0)');
+
+
+    ticking = false;
+  }
+
+  function pos(base, range, relY, offset) {
+    return base + limit(0, 1, relY - offset) * range;
+  }
+
+  function prefix(obj, prop, value) {
+    var prefs = ['webkit', 'Moz', 'o', 'ms'];
+    for (var pref in prefs) {
+      obj[prefs[pref] + prop] = value;
+    }
+  }
+
+  function limit(min, max, value) {
+    return Math.max(min, Math.min(max, value));
+  }
+
+  (function() {
+
+    updateElements(win.pageYOffset);
+
+    
+    blob2.classList.add('force-show');
+    blob3.classList.add('force-show');
+
+  })();
+
+  //win.addEventListener('resize', onResize, false);
+  win.addEventListener('scroll', onScroll, false);
+
+})(window, document);
 
 
 

@@ -23,15 +23,13 @@ get_header(); ?>
 				
 					<div class="single_cr">
 				
-						<img src="<?php bloginfo('template_directory');?>/images/content02_icon-01.svg"/>
+						<img alt="mountain svg" src="<?php bloginfo('template_directory');?>/images/content02_icon-01.svg"/>
 				
 						<span class="cr_amount"><?php the_sub_field( 'case_results_amount' ); ?></span><!-- cr_amount -->
 				
 						<span class="cr_type"><?php the_sub_field( 'case_results_type_internal' ); ?></span><!-- cr_type -->
 				
-						<span class="cr_description"><?php the_sub_field( 'case_results_description' ); ?></span><!-- cr_description -->
-				
-						<img class="cr_six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
+						<img alt="sixcount line svg" class="cr_six_count" src="<?php bloginfo('template_directory');?>/images/six_count.svg"/>
 				
 					</div><!-- single_cr -->
 			 
