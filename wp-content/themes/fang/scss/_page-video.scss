@@ -131,9 +131,11 @@
 body:not(.page-template-template-video) {
  .single_video {
 		width:100%;
-		height: 400px !important;
+		max-width:870px;
+		height: 465px !important;
+		margin-bottom:45px;
 		.wistia_wrapper {
-			height:375px !important;
+			height:465px !important;
 		}
 	}
 }
@@ -186,6 +188,25 @@ body:not(.page-template-template-video) {
 	}
 	
 	
+	
+	
+body:not(.page-template-template-video) {
+ .single_video {
+		width:100%;
+		max-width:870px;
+		height: 365px !important;
+		margin-bottom:45px;
+		.wistia_wrapper {
+			height:365px !important;
+		}
+	}
+}
+
+	
+	
+	
+	
+	
 } /* Media Query */
 
 
@@ -201,6 +222,28 @@ body:not(.page-template-template-video) {
 			margin: 20px 0 0;
 		}
 	}
+	
+	
+	
+	
+	
+		
+body:not(.page-template-template-video) {
+ .single_video {
+		width:100%;
+		max-width:870px;
+		height: 265px !important;
+		margin-bottom:45px;
+		.wistia_wrapper {
+			height:265px !important;
+		}
+	}
+}
+
+	
+	
+	
+	
 	
 	
 } /* Media Query */
