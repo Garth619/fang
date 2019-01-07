@@ -68,7 +68,7 @@
 				
 				<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
 				
-				<a class="phone" href="tel:<?php the_field( 'phone' ,'option'); ?>"><?php the_field( 'phone' ,'option'); ?></a>
+				<a class="phone" href="tel:+1<?php echo str_replace(['-', '(', ')', ' '], '', get_field('phone', 'option')); ?>"><?php the_field( 'phone' ,'option'); ?></a>
 				
 			</div><!-- free_consult -->
 			
@@ -88,7 +88,7 @@
 				
 			<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
 				
-			<a class="phone" href="tel:<?php the_field( 'phone' ,'option'); ?>"><?php the_field( 'phone' ,'option'); ?></a>
+			<a class="phone" href="tel:+1<?php echo str_replace(['-', '(', ')', ' '], '', get_field('phone', 'option')); ?>"><?php the_field( 'phone' ,'option'); ?></a>
 			
 		</div><!-- mobile_bar -->
 		
@@ -117,7 +117,7 @@
 				
 				<span class="free_consult_title">Free Consultation</span><!-- free_consult_title -->
 				
-				<a class="phone" href="tel:<?php the_field( 'phone' ,'option'); ?>"><?php the_field( 'phone' ,'option'); ?></a>
+				<a class="phone" href="tel:+1<?php echo str_replace(['-', '(', ')', ' '], '', get_field('phone', 'option')); ?>"><?php the_field( 'phone' ,'option'); ?></a>
 				
 			</div><!-- free_consult -->
 			

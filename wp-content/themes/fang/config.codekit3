@@ -70,6 +70,26 @@
 		"oAP": "/category.php",
 		"oF": 0
 		},
+	"/custom-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/custom-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/custom.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/custom-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -135,15 +155,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/AP_img_remington.jpg": {
+	"/images/ap_img_remington.jpg": {
 		"ft": 16384,
-		"iS": 116576,
+		"iS": 115638,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/ap_img_remington.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/AP_img_susan.jpg": {
